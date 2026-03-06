@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+    rel="stylesheet">
+
+  
+  <title>SleepAnalytics 背后的科学原理 - SleepAnalytics - Train Hard. Recover Smarter.</title>
+  <meta name="description" content="我们呈现的每一个指标都源自经过同行评审的睡眠研究。本页面透明地解释了相关的科学依据、计算公式以及局限性。 7 小时的碎片化睡眠不等同于 7 小时的修复性睡眠。 美国睡眠医学会 (AASM) 通过多个维度来定义睡眠质量：睡眠效率、潜伏期（入睡所需时间）、入睡后清醒时间 (WASO)...">
+  <meta name="author" content="Arno Health">
+
+  
+  
+  <meta name="keywords" content="Apple Watch 睡眠追踪原理, AASM 睡眠阶段解析, 睡眠评分公式">
+  
+
+  
+  <link rel="canonical" href="https://sleep.analyticszone.app/zh/science/">
+
+  
+  
+  <meta property="article:published_time" content="2025-01-15T10:00:00Z">
+  <meta property="article:modified_time" content="2026-03-06T14:30:00Z">
+  <meta property="article:author" content="Arno Health">
+  
+
+  
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleep.analyticszone.app/zh/science/">
+  <meta property="og:title" content="SleepAnalytics 背后的科学原理 - SleepAnalytics - Train Hard. Recover Smarter.">
+  <meta property="og:description" content="我们呈现的每一个指标都源自经过同行评审的睡眠研究。本页面透明地解释了相关的科学依据、计算公式以及局限性。 7 小时的碎片化睡眠不等同于 7 小时的修复性睡眠。 美国睡眠医学会 (AASM) 通过多个维度来定义睡眠质量：睡眠效率、潜伏期（入睡所需时间）、入睡后清醒时间 (WASO)...">
+  <meta property="og:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="SleepAnalytics">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://sleep.analyticszone.app/zh/science/">
+  <meta name="twitter:title" content="SleepAnalytics 背后的科学原理 - SleepAnalytics - Train Hard. Recover Smarter.">
+  <meta name="twitter:description" content="我们呈现的每一个指标都源自经过同行评审的睡眠研究。本页面透明地解释了相关的科学依据、计算公式以及局限性。 7 小时的碎片化睡眠不等同于 7 小时的修复性睡眠。 美国睡眠医学会 (AASM) 通过多个维度来定义睡眠质量：睡眠效率、潜伏期（入睡所需时间）、入睡后清醒时间 (WASO)...">
+  <meta name="twitter:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
+  
+  <meta name="twitter:site" content="@HealthAnalytics">
+  <meta name="twitter:creator" content="@HealthAnalytics">
+  
+
+  
+  
+  <link rel="alternate" hreflang="af"
+    href="https://sleep.analyticszone.app/af/science/">
+  
+  <link rel="alternate" hreflang="am"
+    href="https://sleep.analyticszone.app/am/science/">
+  
+  <link rel="alternate" hreflang="ar"
+    href="https://sleep.analyticszone.app/ar/science/">
+  
+  <link rel="alternate" hreflang="bg"
+    href="https://sleep.analyticszone.app/bg/science/">
+  
+  <link rel="alternate" hreflang="bn"
+    href="https://sleep.analyticszone.app/bn/science/">
+  
+  <link rel="alternate" hreflang="ca"
+    href="https://sleep.analyticszone.app/ca/science/">
+  
+  <link rel="alternate" hreflang="cs"
+    href="https://sleep.analyticszone.app/cs/science/">
+  
+  <link rel="alternate" hreflang="da"
+    href="https://sleep.analyticszone.app/da/science/">
+  
+  <link rel="alternate" hreflang="de"
+    href="https://sleep.analyticszone.app/de/science/">
+  
+  <link rel="alternate" hreflang="el"
+    href="https://sleep.analyticszone.app/el/science/">
+  
+  <link rel="alternate" hreflang="en"
+    href="https://sleep.analyticszone.app/en/science/">
+  
+  <link rel="alternate" hreflang="es"
+    href="https://sleep.analyticszone.app/es/science/">
+  
+  <link rel="alternate" hreflang="et"
+    href="https://sleep.analyticszone.app/et/science/">
+  
+  <link rel="alternate" hreflang="fa"
+    href="https://sleep.analyticszone.app/fa/science/">
+  
+  <link rel="alternate" hreflang="fi"
+    href="https://sleep.analyticszone.app/fi/science/">
+  
+  <link rel="alternate" hreflang="fr"
+    href="https://sleep.analyticszone.app/fr/science/">
+  
+  <link rel="alternate" hreflang="gu"
+    href="https://sleep.analyticszone.app/gu/science/">
+  
+  <link rel="alternate" hreflang="he"
+    href="https://sleep.analyticszone.app/he/science/">
+  
+  <link rel="alternate" hreflang="hi"
+    href="https://sleep.analyticszone.app/hi/science/">
+  
+  <link rel="alternate" hreflang="hr"
+    href="https://sleep.analyticszone.app/hr/science/">
+  
+  <link rel="alternate" hreflang="hu"
+    href="https://sleep.analyticszone.app/hu/science/">
+  
+  <link rel="alternate" hreflang="id"
+    href="https://sleep.analyticszone.app/id/science/">
+  
+  <link rel="alternate" hreflang="is"
+    href="https://sleep.analyticszone.app/is/science/">
+  
+  <link rel="alternate" hreflang="it"
+    href="https://sleep.analyticszone.app/it/science/">
+  
+  <link rel="alternate" hreflang="ja"
+    href="https://sleep.analyticszone.app/ja/science/">
+  
+  <link rel="alternate" hreflang="km"
+    href="https://sleep.analyticszone.app/km/science/">
+  
+  <link rel="alternate" hreflang="kn"
+    href="https://sleep.analyticszone.app/kn/science/">
+  
+  <link rel="alternate" hreflang="ko"
+    href="https://sleep.analyticszone.app/ko/science/">
+  
+  <link rel="alternate" hreflang="lt"
+    href="https://sleep.analyticszone.app/lt/science/">
+  
+  <link rel="alternate" hreflang="lv"
+    href="https://sleep.analyticszone.app/lv/science/">
+  
+  <link rel="alternate" hreflang="ms"
+    href="https://sleep.analyticszone.app/ms/science/">
+  
+  <link rel="alternate" hreflang="my"
+    href="https://sleep.analyticszone.app/my/science/">
+  
+  <link rel="alternate" hreflang="nb"
+    href="https://sleep.analyticszone.app/nb/science/">
+  
+  <link rel="alternate" hreflang="nl"
+    href="https://sleep.analyticszone.app/nl/science/">
+  
+  <link rel="alternate" hreflang="pl"
+    href="https://sleep.analyticszone.app/pl/science/">
+  
+  <link rel="alternate" hreflang="pt"
+    href="https://sleep.analyticszone.app/pt/science/">
+  
+  <link rel="alternate" hreflang="ro"
+    href="https://sleep.analyticszone.app/ro/science/">
+  
+  <link rel="alternate" hreflang="sk"
+    href="https://sleep.analyticszone.app/sk/science/">
+  
+  <link rel="alternate" hreflang="sl"
+    href="https://sleep.analyticszone.app/sl/science/">
+  
+  <link rel="alternate" hreflang="sr"
+    href="https://sleep.analyticszone.app/sr/science/">
+  
+  <link rel="alternate" hreflang="sv"
+    href="https://sleep.analyticszone.app/sv/science/">
+  
+  <link rel="alternate" hreflang="sw"
+    href="https://sleep.analyticszone.app/sw/science/">
+  
+  <link rel="alternate" hreflang="ta"
+    href="https://sleep.analyticszone.app/ta/science/">
+  
+  <link rel="alternate" hreflang="te"
+    href="https://sleep.analyticszone.app/te/science/">
+  
+  <link rel="alternate" hreflang="th"
+    href="https://sleep.analyticszone.app/th/science/">
+  
+  <link rel="alternate" hreflang="tl"
+    href="https://sleep.analyticszone.app/tl/science/">
+  
+  <link rel="alternate" hreflang="tr"
+    href="https://sleep.analyticszone.app/tr/science/">
+  
+  <link rel="alternate" hreflang="uk"
+    href="https://sleep.analyticszone.app/uk/science/">
+  
+  <link rel="alternate" hreflang="ur"
+    href="https://sleep.analyticszone.app/ur/science/">
+  
+  <link rel="alternate" hreflang="vi"
+    href="https://sleep.analyticszone.app/vi/science/">
+  
+  <link rel="alternate" hreflang="zh"
+    href="https://sleep.analyticszone.app/zh/science/">
+  
+  <link rel="alternate" hreflang="x-default"
+    href="https://sleep.analyticszone.app/en/science/">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/icons/apple-touch-icon.png">
+  <link rel="manifest" href="../../manifest.json">
+  <meta name="theme-color" content="#2563EB">
+  <meta name="robots" content="index, follow">
+
+  
+  
+
+  
+  <style>
+/* Critical CSS - Above the fold styles for fast LCP */
+:root {
+  --color-primary: #0066CC;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8f9fa;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Skip link - Accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-primary);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 1000;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Header - Critical for LCP */
+.site-header {
+  background: var(--color-bg);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.site-logo img, .site-logo svg {
+  width: 32px;
+  height: 32px;
+}
+
+/* Navigation */
+.main-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .main-nav a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    transition: color 0.2s;
+  }
+  .main-nav a:hover {
+    color: var(--color-primary);
+  }
+}
+
+/* Mobile menu button */
+.menu-toggle {
+  display: flex;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Main content */
+main.main-content {
+  flex: 1;
+}
+
+/* Hero section - Critical for LCP */
+.hero {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 4rem 2rem;
+  }
+}
+
+.hero h1 {
+  font-size: clamp(1.75rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.hero .lead, .hero p {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: var(--color-text-muted);
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+}
+
+/* Buttons - Critical for CTA */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0052a3;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+/* Utility classes */
+.hidden { display: none !important; }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Images - prevent CLS with aspect-ratio */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+img[width][height] {
+  aspect-ratio: attr(width) / attr(height);
+}
+
+.lazy-image {
+  background: var(--color-bg-alt);
+  transition: opacity 0.3s;
+}
+
+.lazy-image:not(.loaded) {
+  opacity: 0;
+}
+
+.lazy-image.loaded {
+  opacity: 1;
+}
+
+/* App badges - fixed dimensions to prevent CLS */
+.app-badge img {
+  width: 140px;
+  height: 42px;
+}
+
+/* Logo - fixed dimensions */
+.site-logo img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>
+
+  
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+  
+  <link rel="stylesheet" href="../../assets/css/main.min.css?v=c35cd6408b27">
+
+  
+  
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SleepAnalytics",
+  "url": "https://sleep.analyticszone.app",
+  "logo": "https://sleep.analyticszone.app/assets/images/logo.png",
+  "description": "The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.",
+  
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Customer Support",
+    "email": "analyticszone@onmedic.org"
+  },
+  
+  "sameAs": [
+    
+    
+      
+    
+    
+    
+    
+    "https://twitter.com/HealthAnalytics"
+    
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SleepAnalytics",
+  "url": "https://sleep.analyticszone.app",
+  "description": "The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.",
+  "inLanguage": "zh"
+}
+</script>
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://sleep.analyticszone.app/zh/"
+    },
+    
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "指标库",
+      "item": "https://sleep.analyticszone.app/zh/science/"
+    }
+    
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "SleepAnalytics 背后的科学原理 - SleepAnalytics - Train Hard. Recover Smarter.",
+  "description": "我们呈现的每一个指标都源自经过同行评审的睡眠研究。本页面透明地解释了相关的科学依据、计算公式以及局限性。 7 小时的碎片化睡眠不等同于 7 小时的修复性睡眠。 美国睡眠医学会 (AASM) 通过多个维度来定义睡眠质量：睡眠效率、潜伏期（入睡所需时间）、入睡后清醒时间 (WASO)...",
+  "url": "https://sleep.analyticszone.app/zh/science/",
+  "inLanguage": "zh",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "SleepAnalytics",
+    "url": "https://sleep.analyticszone.app"
+  },
+  "datePublished": "2025-01-15",
+  "dateModified": "2026-03-06",
+  "keywords": ["Apple Watch 睡眠追踪原理", "AASM 睡眠阶段解析", "睡眠评分公式"],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Apple Watch 睡眠追踪原理"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "AASM 睡眠阶段解析"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "睡眠评分公式"
+    }
+  ]
+}
+</script>
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "SleepAnalytics 背后的科学原理 - SleepAnalytics - Train Hard. Recover Smarter.",
+  "description": "我们呈现的每一个指标都源自经过同行评审的睡眠研究。本页面透明地解释了相关的科学依据、计算公式以及局限性。 7 小时的碎片化睡眠不等同于 7 小时的修复性睡眠。 美国睡眠医学会 (AASM) 通过多个维度来定义睡眠质量：睡眠效率、潜伏期（入睡所需时间）、入睡后清醒时间 (WASO)...",
+  "author": {
+    "@type": "Person",
+    "name": "Arno Health"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SleepAnalytics",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sleep.analyticszone.app/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-01-15",
+  "dateModified": "2026-03-06",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sleep.analyticszone.app/zh/science/"
+  }
+}
+</script>
+
+
+
+
+
+  
+  
+
+  
+  <script>
+    (function () {
+      let theme = localStorage.getItem('theme');
+      // Older builds could persist a per-subdomain `theme=light` value without a UI
+      // to keep it consistent across apps. Treat it as stale and fall back to the OS.
+      if (theme === 'light') {
+        try { localStorage.removeItem('theme'); } catch (e) { /* ignore */ }
+        theme = null;
+      }
+
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark-mode');
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  
+  <a href="#main-content" class="skip-link">跳转到内容</a>
+
+  
+  <header class="site-header">
+    <div class="container">
+        <div class="header-inner">
+            
+            <a href="/zh/" class="site-logo">
+                <picture>
+                    <source srcset="../../assets/images/logo-dark.png" type="image/png"
+                        media="(prefers-color-scheme: dark)">
+                    <img src="../../assets/images/logo.png" alt="SleepAnalytics - Train Hard. Recover Smarter." width="56" height="56">
+                </picture>
+                <span class="logo-text">SleepAnalytics</span>
+            </a>
+
+            
+            <nav class="nav-primary" id="nav-primary" role="navigation" aria-label="Main navigation">
+                <div class="nav-group-left">
+                    <ul>
+                        
+                        <li>
+                            
+                            <a href="/zh/features/" 
+                                aria-current="">
+                                功能
+                            </a>
+                            
+                            </li>
+                            
+                        <li>
+                            
+                            <a href="/zh/science/" class="active" 
+                                aria-current="page">
+                                指标库
+                            </a>
+                            
+                            </li>
+                            
+                        <li>
+                            
+                            <a href="/zh/blog/" 
+                                aria-current="">
+                                Blog
+                            </a>
+                            
+                            </li>
+                            
+                        <li>
+                            
+                            <a href="/zh/faq/" 
+                                aria-current="">
+                                FAQ
+                            </a>
+                            
+                            </li>
+                            
+                        <li>
+                            
+                            <a href="/zh/about/" 
+                                aria-current="">
+                                关于我们
+                            </a>
+                            
+                            </li>
+                            
+                    </ul>
+
+                    
+                    <div class="search-container">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input type="search" id="site-search" class="search-input" aria-expanded="false"
+                            aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" spellcheck="false" />
+                        <div id="search-results" class="search-results hidden" role="region" aria-live="polite"></div>
+                    </div>
+
+                    
+                    <select class="language-selector" id="language-select" aria-label="选择语言">
+                        
+                        <option value="af" >
+                            Afrikaans
+                        </option>
+                        
+                        <option value="am" >
+                            አማርኛ
+                        </option>
+                        
+                        <option value="ar" >
+                            العربية
+                        </option>
+                        
+                        <option value="bg" >
+                            Български
+                        </option>
+                        
+                        <option value="bn" >
+                            বাংলা
+                        </option>
+                        
+                        <option value="ca" >
+                            Català
+                        </option>
+                        
+                        <option value="cs" >
+                            Čeština
+                        </option>
+                        
+                        <option value="da" >
+                            Dansk
+                        </option>
+                        
+                        <option value="de" >
+                            Deutsch
+                        </option>
+                        
+                        <option value="el" >
+                            Ελληνικά
+                        </option>
+                        
+                        <option value="en" >
+                            English
+                        </option>
+                        
+                        <option value="es" >
+                            Español
+                        </option>
+                        
+                        <option value="et" >
+                            Eesti
+                        </option>
+                        
+                        <option value="fa" >
+                            فارسی
+                        </option>
+                        
+                        <option value="fi" >
+                            Suomi
+                        </option>
+                        
+                        <option value="fr" >
+                            Français
+                        </option>
+                        
+                        <option value="gu" >
+                            ગુજરાતી
+                        </option>
+                        
+                        <option value="he" >
+                            עברית
+                        </option>
+                        
+                        <option value="hi" >
+                            हिन्दी
+                        </option>
+                        
+                        <option value="hr" >
+                            Hrvatski
+                        </option>
+                        
+                        <option value="hu" >
+                            Magyar
+                        </option>
+                        
+                        <option value="id" >
+                            Bahasa Indonesia
+                        </option>
+                        
+                        <option value="is" >
+                            Íslenska
+                        </option>
+                        
+                        <option value="it" >
+                            Italiano
+                        </option>
+                        
+                        <option value="ja" >
+                            日本語
+                        </option>
+                        
+                        <option value="km" >
+                            Khmer
+                        </option>
+                        
+                        <option value="kn" >
+                            ಕನ್ನಡ
+                        </option>
+                        
+                        <option value="ko" >
+                            한국어
+                        </option>
+                        
+                        <option value="lt" >
+                            Lietuvių
+                        </option>
+                        
+                        <option value="lv" >
+                            Latviešu
+                        </option>
+                        
+                        <option value="ms" >
+                            Bahasa Melayu
+                        </option>
+                        
+                        <option value="my" >
+                            မြန်မာဘာသာ
+                        </option>
+                        
+                        <option value="nb" >
+                            Norsk
+                        </option>
+                        
+                        <option value="nl" >
+                            Nederlands
+                        </option>
+                        
+                        <option value="pl" >
+                            Polski
+                        </option>
+                        
+                        <option value="pt" >
+                            Português
+                        </option>
+                        
+                        <option value="ro" >
+                            Română
+                        </option>
+                        
+                        <option value="sk" >
+                            Slovenčina
+                        </option>
+                        
+                        <option value="sl" >
+                            Slovenščina
+                        </option>
+                        
+                        <option value="sr" >
+                            Srpski
+                        </option>
+                        
+                        <option value="sv" >
+                            Svenska
+                        </option>
+                        
+                        <option value="sw" >
+                            Kiswahili
+                        </option>
+                        
+                        <option value="ta" >
+                            தமிழ்
+                        </option>
+                        
+                        <option value="te" >
+                            తెలుగు
+                        </option>
+                        
+                        <option value="th" >
+                            ไทย
+                        </option>
+                        
+                        <option value="tl" >
+                            Tagalog
+                        </option>
+                        
+                        <option value="tr" >
+                            Türkçe
+                        </option>
+                        
+                        <option value="uk" >
+                            Українська
+                        </option>
+                        
+                        <option value="ur" >
+                            اردو
+                        </option>
+                        
+                        <option value="vi" >
+                            Tiếng Việt
+                        </option>
+                        
+                        <option value="zh" selected>
+                            中文
+                        </option>
+                        
+                    </select>
+                </div>
+
+                <div class="nav-group-right">
+                    
+
+
+                    
+                    <div class="header-app-buttons">
+                        
+                        
+
+                        
+                        
+                    </div>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+                    <div class="suite-menu-container">
+                        <button class="suite-menu-toggle" id="suite-menu-toggle" aria-label="See other apps"
+                            aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                        </button>
+                        <div class="suite-dropdown hidden" id="suite-dropdown">
+                            <div class="suite-dropdown-header">Other AnalyticsZone Apps</div>
+                            <div class="suite-apps-grid">
+                                
+                                <a href="https://analyticszone.app" class="suite-app-link">AnalyticsZone</a>
+                                
+                                <a href="https://run.analyticszone.app" class="suite-app-link">Run Analytics</a>
+                                
+                                <a href="https://swim.analyticszone.app" class="suite-app-link">Swim Analytics</a>
+                                
+                                <a href="https://bike.analyticszone.app" class="suite-app-link">Bike Analytics</a>
+                                
+                                <a href="https://walk.analyticszone.app" class="suite-app-link">Walk Analytics</a>
+                                
+                                <a href="https://cardio.analyticszone.app" class="suite-app-link">Cardio Analytics</a>
+                                
+                                <a href="https://health.analyticszone.app" class="suite-app-link">Health Analytics</a>
+                                
+                                <a href="https://swimtrainer.analyticszone.app" class="suite-app-link">Swim Trainer</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>
+
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="切换菜单"
+                aria-expanded="false" aria-controls="nav-primary">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+  
+  
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <div class="container">
+        <ol>
+            
+            <li>
+                
+                <a href="/zh/">首页</a>
+                
+            </li>
+            
+            <li>
+                
+                <span aria-current="page">指标库</span>
+                
+            </li>
+            
+        </ol>
+    </div>
+</nav>
+
+
+  
+  <main id="main-content" class="main-content">
+    
+    <section class="page-hero">
+    <div class="container">
+        <h1>SleepAnalytics 背后的科学原理</h1>
+        <p class="lead">我们呈现的每一个指标都源自经过同行评审的睡眠研究。本页面透明地解释了相关的科学依据、计算公式以及局限性。</p>
+    </div>
+</section>
+
+<section class="section section-light">
+    <div class="container">
+        <div class="text-center mb-xl">
+            <h2>为什么睡眠质量比时长更重要</h2>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <p><strong>7 小时的碎片化睡眠不等同于 7 小时的修复性睡眠。</strong></p>
+                <p class="mt-md">美国睡眠医学会 (AASM) 通过多个维度来定义睡眠质量：睡眠效率、潜伏期（入睡所需时间）、入睡后清醒时间 (WASO)
+                    以及各个阶段的分布——而不仅仅是时长。美国国家睡眠基金会 (NSF) 在 2015 年制定的指南中虽然建立了基于年龄的时长建议，但也明确指出质量指标同样重要。</p>
+                <div class="callout callout-info mt-md">
+                    <strong>核心洞察：</strong> 时长仅能解释人们在起床后感到“休息好了”程度的约 30%。其余 70% 的感知来自于睡眠效率、连续性以及各阶段的分布情况 (Ohayon et al.
+                    2017)。
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="text-center mb-xl">
+            <h2>Apple Watch 如何检测睡眠阶段</h2>
+        </div>
+        <div class="grid grid-2">
+            <div class="card">
+                <h3 class="card-title">多传感器融合</h3>
+                <div class="card-content">
+                    <p>Apple Watch 同时利用三个数据流：</p>
+                    <ul>
+                        <li><strong>加速计：</strong> 检测微细动作以及与呼吸相关的运动。</li>
+                        <li><strong>光学心率传感器 (PPG)：</strong> 记录整晚的心率和心率变异性 (HRV)。</li>
+                        <li><strong>机器学习：</strong> 基于多导睡眠图 (PSG) 验证数据训练的神经网络。</li>
+                    </ul>
+                    <p class="mt-md">最终实现四阶段分类：核心睡眠 (N1+N2)、深度睡眠 (N3)、快速眼动睡眠 (REM) 以及清醒。</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="card-title">准确性</h3>
+                <div class="card-content">
+                    <p>Apple Watch 的睡眠分期功能已通过独立验证。以下是来自 Apple 数据集的关键数据：</p>
+                    <ul>
+                        <li>平均 kappa 值：0.63（与 PSG 具有一般到中度的一致性）。</li>
+                        <li>睡眠灵敏度：97.9%（能准确识别睡眠状态）。</li>
+                        <li>清醒特异性：~75%。</li>
+                    </ul>
+                    <div class="callout callout-warning mt-md">
+                        <strong>重要提示：</strong> 睡眠阶段分析仅适用于 Apple Watch Series 4 及后续型号。应用会清楚标明哪些指标需要特定的硬件支持。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-xl">
+            <h3>AASM 阶段映射</h3>
+            <div style="overflow-x:auto; margin-top:1rem;">
+                <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
+                    <thead>
+                        <tr style="border-bottom:2px solid #ddd;">
+                            <th style="text-align:left; padding:10px;">临床阶段</th>
+                            <th style="text-align:center; padding:10px;">占总睡眠时间百分比</th>
+                            <th style="text-align:center; padding:10px;">Apple Watch 标签</th>
+                            <th style="text-align:left; padding:10px;">为什么重要</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid #eee;">
+                            <td style="padding:10px;">N1 (浅睡过渡期)</td>
+                            <td style="text-align:center;">2–5%</td>
+                            <td style="text-align:center;">核心睡眠</td>
+                            <td style="padding:10px;">极易被干扰；简短的过渡状态。</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #eee;">
+                            <td style="padding:10px;">N2 (稳定的浅睡期)</td>
+                            <td style="text-align:center;">45–55%</td>
+                            <td style="text-align:center;">核心睡眠</td>
+                            <td style="padding:10px;">包含 K-复合波和睡眠纺锤波；有助于记忆巩固。</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #eee;">
+                            <td style="padding:10px;">N3 (深睡 / 慢波睡眠)</td>
+                            <td style="text-align:center;">10–20%</td>
+                            <td style="text-align:center;">深度睡眠</td>
+                            <td style="padding:10px;">生长激素释放、身体恢复、胶质淋巴系统排毒。</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:10px;">REM (快速眼动期)</td>
+                            <td style="text-align:center;">20–25%</td>
+                            <td style="text-align:center;">REM 睡眠</td>
+                            <td style="padding:10px;">记忆巩固、情绪调节、激发创造力。</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-light">
+    <div class="container">
+        <div class="text-center mb-xl">
+            <h2>我们的睡眠评分——完整公式</h2>
+            <p class="lead">我们认为您应该清楚地了解睡眠评分是如何计算出来的。</p>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <p>下列 8 个组件的总分为 100 分。每个组件均采用已发布的临床阈值，而非不透明的算法权重。</p>
+                <div style="overflow-x:auto; margin-top:1rem;">
+                    <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
+                        <thead>
+                            <tr style="border-bottom:2px solid #ddd;">
+                                <th style="text-align:left; padding:10px;">组件</th>
+                                <th style="text-align:center; padding:10px;">最高得分</th>
+                                <th style="text-align:left; padding:10px;">阈值 / 计算方式</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom:1px solid #eee;">
+                                <td style="padding:10px;">睡眠时长</td>
+                                <td style="text-align:center;">25</td>
+                                <td style="padding:10px;">参考 NSF 根据年龄调整的建议时长（±30 分钟以内获得部分分数）。</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                                <td style="padding:10px;">睡眠效率</td>
+                                <td style="text-align:center;">20</td>
+                                <td style="padding:10px;">线性计算：75%→0 分，95%→20 分。</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                                <td style="padding:10px;">睡眠潜伏期</td>
+                                <td style="text-align:center;">10</td>
+                                <td style="padding:10px;">&lt;10 分钟→10, 10–20→7, 20–30→4, &gt;30→0</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                                <td style="padding:10px;">WASO</td>
+                                <td style="text-align:center;">10</td>
+                                <td style="padding:10px;">&lt;10 分钟→10, 10–20→7, 20–40→4, &gt;40→0</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                                <td style="padding:10px;">深度睡眠 %</td>
+                                <td style="text-align:center;">10</td>
+                                <td style="padding:10px;">15–20% 为理想值；低于或高于该范围会按比例扣分。</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                                <td style="padding:10px;">REM 睡眠 %</td>
+                                <td style="text-align:center;">10</td>
+                                <td style="padding:10px;">20–25% 为理想值；低于或高于该范围会按比例扣分。</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                                <td style="padding:10px;">HRV 趋势</td>
+                                <td style="text-align:center;">10</td>
+                                <td style="padding:10px;">对比个人 30 天滚动基准（±10% 以内获得部分分数）。</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10px;">睡眠规律性</td>
+                                <td style="text-align:center;">5</td>
+                                <td style="padding:10px;">SRI 指标偏离 75 分目标值的程度。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-sm text-secondary mt-md"><strong>参考依据：</strong> 匹兹堡睡眠质量指数 (Buysse et al. 1989) 以及 NSF
+                    临床阈值 (Ohayon et al. 2017)。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="text-center mb-xl">
+            <h2>NSF 基于年龄的睡眠建议</h2>
+        </div>
+        <div style="overflow-x:auto;">
+            <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
+                <thead>
+                    <tr style="border-bottom:2px solid #ddd;">
+                        <th style="text-align:left; padding:10px;">年龄组</th>
+                        <th style="text-align:center; padding:10px;">建议时长</th>
+                        <th style="text-align:left; padding:10px;">备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom:1px solid #eee;">
+                        <td style="padding:10px;">青少年 (14–17)</td>
+                        <td style="text-align:center;">8–10 小时</td>
+                        <td style="padding:10px;"></td>
+                    </tr>
+                    <tr style="border-bottom:1px solid #eee;">
+                        <td style="padding:10px;">年青人 (18–25)</td>
+                        <td style="text-align:center;">7–9 小时</td>
+                        <td style="padding:10px;"></td>
+                    </tr>
+                    <tr style="border-bottom:1px solid #eee;">
+                        <td style="padding:10px;">成人 (26–64)</td>
+                        <td style="text-align:center;">7–9 小时</td>
+                        <td style="padding:10px;">大多数应用用户处于此年龄段。</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:10px;">老年人 (65+)</td>
+                        <td style="text-align:center;">7–8 小时</td>
+                        <td style="padding:10px;">睡眠结构随年龄变化；深度睡眠减少属于正常现象。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="text-sm text-secondary mt-md">SleepAnalytics 使用您在应用中配置的年龄段来校准时长评分。您可以在“设置” → “个人资料”中进行修改。</p>
+    </div>
+</section>
+
+<section class="section section-light">
+    <div class="container">
+        <div class="text-center mb-xl">
+            <h2>睡眠规律指数 (SRI)</h2>
+        </div>
+        <div class="grid grid-2">
+            <div class="card">
+                <div class="card-content">
+                    <p>SRI 由 Phillips 等人 (2017) 提出，用于衡量日复一日睡眠/醒来时间的一致性。对于每一对连续的天数，它都会计算您在全天每一分钟处于相同睡眠状态（睡着或醒着）的概率。</p>
+                    <p class="mt-md">SRI 为 100 意味着每天的睡眠模式完全相同。SRI 为 0 则意味着睡眠时间完全随机。</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="callout callout-warning">
+                        <strong>Windred et al. (eLife, 2024)</strong> — 一项针对 88,975 名英国生物样本库 (UK Biobank)
+                        参与者的研究发现，在不考虑睡眠时长的情况下，SRI 低于 41 的人比 SRI ≥75 的人<strong>全因死亡风险高出 53%</strong>。
+                    </div>
+                    <p class="mt-md">人群 SRI 中位线约为 60。训练计划规律的运动员通常能达到 65–80 分。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="callout callout-warning">
+            <strong>医学免责声明：</strong> SleepAnalytics
+            不是医疗设备，不用于诊断、治疗、治愈或预防任何疾病。所提供的指标和见解仅供参考和个人保健使用。如有任何睡眠问题或疑似睡眠障碍，请咨询医疗专业人士。
+        </div>
+    </div>
+</section>
+    
+
+    
+    
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container">
+        
+        <div class="footer-top">
+            <div class="footer-brand-section">
+                
+                <h2>SleepAnalytics</h2>
+                <p>The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.</p>
+                
+            </div>
+
+            
+            <div class="footer-download">
+                <h3 class="footer-heading">Download</h3>
+                <div class="footer-badges">
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <div class="footer-languages">
+            <h3 class="footer-heading">Available in</h3>
+            <div class="lang-grid">
+                
+                <a href="/af/" class="lang-link"
+                    hreflang="af" >
+                    Afrikaans
+                </a>
+                
+                <a href="/am/" class="lang-link"
+                    hreflang="am" >
+                    አማርኛ
+                </a>
+                
+                <a href="/ar/" class="lang-link"
+                    hreflang="ar" dir="rtl" >
+                    العربية
+                </a>
+                
+                <a href="/bg/" class="lang-link"
+                    hreflang="bg" >
+                    Български
+                </a>
+                
+                <a href="/bn/" class="lang-link"
+                    hreflang="bn" >
+                    বাংলা
+                </a>
+                
+                <a href="/ca/" class="lang-link"
+                    hreflang="ca" >
+                    Català
+                </a>
+                
+                <a href="/cs/" class="lang-link"
+                    hreflang="cs" >
+                    Čeština
+                </a>
+                
+                <a href="/da/" class="lang-link"
+                    hreflang="da" >
+                    Dansk
+                </a>
+                
+                <a href="/de/" class="lang-link"
+                    hreflang="de" >
+                    Deutsch
+                </a>
+                
+                <a href="/el/" class="lang-link"
+                    hreflang="el" >
+                    Ελληνικά
+                </a>
+                
+                <a href="/en/" class="lang-link"
+                    hreflang="en" >
+                    English
+                </a>
+                
+                <a href="/es/" class="lang-link"
+                    hreflang="es" >
+                    Español
+                </a>
+                
+                <a href="/et/" class="lang-link"
+                    hreflang="et" >
+                    Eesti
+                </a>
+                
+                <a href="/fa/" class="lang-link"
+                    hreflang="fa" dir="rtl" >
+                    فارسی
+                </a>
+                
+                <a href="/fi/" class="lang-link"
+                    hreflang="fi" >
+                    Suomi
+                </a>
+                
+                <a href="/fr/" class="lang-link"
+                    hreflang="fr" >
+                    Français
+                </a>
+                
+                <a href="/gu/" class="lang-link"
+                    hreflang="gu" >
+                    ગુજરાતી
+                </a>
+                
+                <a href="/he/" class="lang-link"
+                    hreflang="he" dir="rtl" >
+                    עברית
+                </a>
+                
+                <a href="/hi/" class="lang-link"
+                    hreflang="hi" >
+                    हिन्दी
+                </a>
+                
+                <a href="/hr/" class="lang-link"
+                    hreflang="hr" >
+                    Hrvatski
+                </a>
+                
+                <a href="/hu/" class="lang-link"
+                    hreflang="hu" >
+                    Magyar
+                </a>
+                
+                <a href="/id/" class="lang-link"
+                    hreflang="id" >
+                    Bahasa Indonesia
+                </a>
+                
+                <a href="/is/" class="lang-link"
+                    hreflang="is" >
+                    Íslenska
+                </a>
+                
+                <a href="/it/" class="lang-link"
+                    hreflang="it" >
+                    Italiano
+                </a>
+                
+                <a href="/ja/" class="lang-link"
+                    hreflang="ja" >
+                    日本語
+                </a>
+                
+                <a href="/km/" class="lang-link"
+                    hreflang="km" >
+                    Khmer
+                </a>
+                
+                <a href="/kn/" class="lang-link"
+                    hreflang="kn" >
+                    ಕನ್ನಡ
+                </a>
+                
+                <a href="/ko/" class="lang-link"
+                    hreflang="ko" >
+                    한국어
+                </a>
+                
+                <a href="/lt/" class="lang-link"
+                    hreflang="lt" >
+                    Lietuvių
+                </a>
+                
+                <a href="/lv/" class="lang-link"
+                    hreflang="lv" >
+                    Latviešu
+                </a>
+                
+                <a href="/ms/" class="lang-link"
+                    hreflang="ms" >
+                    Bahasa Melayu
+                </a>
+                
+                <a href="/my/" class="lang-link"
+                    hreflang="my" >
+                    မြန်မာဘာသာ
+                </a>
+                
+                <a href="/nb/" class="lang-link"
+                    hreflang="nb" >
+                    Norsk
+                </a>
+                
+                <a href="/nl/" class="lang-link"
+                    hreflang="nl" >
+                    Nederlands
+                </a>
+                
+                <a href="/pl/" class="lang-link"
+                    hreflang="pl" >
+                    Polski
+                </a>
+                
+                <a href="/pt/" class="lang-link"
+                    hreflang="pt" >
+                    Português
+                </a>
+                
+                <a href="/ro/" class="lang-link"
+                    hreflang="ro" >
+                    Română
+                </a>
+                
+                <a href="/sk/" class="lang-link"
+                    hreflang="sk" >
+                    Slovenčina
+                </a>
+                
+                <a href="/sl/" class="lang-link"
+                    hreflang="sl" >
+                    Slovenščina
+                </a>
+                
+                <a href="/sr/" class="lang-link"
+                    hreflang="sr" >
+                    Srpski
+                </a>
+                
+                <a href="/sv/" class="lang-link"
+                    hreflang="sv" >
+                    Svenska
+                </a>
+                
+                <a href="/sw/" class="lang-link"
+                    hreflang="sw" >
+                    Kiswahili
+                </a>
+                
+                <a href="/ta/" class="lang-link"
+                    hreflang="ta" >
+                    தமிழ்
+                </a>
+                
+                <a href="/te/" class="lang-link"
+                    hreflang="te" >
+                    తెలుగు
+                </a>
+                
+                <a href="/th/" class="lang-link"
+                    hreflang="th" >
+                    ไทย
+                </a>
+                
+                <a href="/tl/" class="lang-link"
+                    hreflang="tl" >
+                    Tagalog
+                </a>
+                
+                <a href="/tr/" class="lang-link"
+                    hreflang="tr" >
+                    Türkçe
+                </a>
+                
+                <a href="/uk/" class="lang-link"
+                    hreflang="uk" >
+                    Українська
+                </a>
+                
+                <a href="/ur/" class="lang-link"
+                    hreflang="ur" dir="rtl" >
+                    اردو
+                </a>
+                
+                <a href="/vi/" class="lang-link"
+                    hreflang="vi" >
+                    Tiếng Việt
+                </a>
+                
+                <a href="/zh/" class="lang-link active"
+                    hreflang="zh" >
+                    中文
+                </a>
+                
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2026 SleepAnalytics. 版权所有
+            </p>
+            <ul class="footer-legal">
+                <li><a href="/zh/privacy/">隐私</a></li>
+                <li><a href="/zh/terms/">条款</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+  
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <div class="cookie-banner-content">
+        <div>
+            <p>本网站使用 cookie 以改善您的体验。</p>
+            <a href="/zh/privacy/" class="text-sm">了解更多</a>
+        </div>
+        <div class="cookie-banner-actions">
+            <button id="cookie-decline" class="btn btn-secondary btn-small">拒绝</button>
+            <button id="cookie-accept" class="btn btn-primary btn-small">接受</button>
+        </div>
+    </div>
+</div>
+
+  
+  <script src="../../assets/js/core.min.js?v=c35cd6408b27" defer></script>
+  <script src="../../assets/js/search.min.js?v=c35cd6408b27" defer></script>
+  
+
+  
+  
+  <script src="../../assets/js/analytics.min.js" data-ga-id="G-B48SMJ6J33" defer></script>
+  
+
+  
+  <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../../sw.js') }</script>
+</body>
+
+</html>

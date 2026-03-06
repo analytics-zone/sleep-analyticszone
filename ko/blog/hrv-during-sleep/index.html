@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+    rel="stylesheet">
+
+  
+  <title>수면 중 HRV: 자율신경 회복 상태 읽기 - SleepAnalytics - Train Hard. Recover...</title>
+  <meta name="description" content="수면 단계에 따라 심박 변이도는 어떻게 변할까요? 그리고 밤사이 HRV 수치가 낮은 것이 실제로 무엇을 의미하는지 알아보세요. 수면 중 심박 변이도(HRV)는 신체 회복력을 보여주는 가장 민감한 생체 지표 중 하나입니다. 여러분이 몸 상태가 좋지 않다고 느끼기 전, 가장 먼저 이상 신호를 보내는...">
+  <meta name="author" content="Arno Health">
+
+  
+  
+  <meta name="keywords" content="수면, 중, HRV, 자율신경, 회복, 상태, 읽기, SleepAnalytics, Train, Hard">
+  
+
+  
+  <link rel="canonical" href="https://sleep.analyticszone.app/ko/blog/hrv-during-sleep/">
+
+  
+  
+  <meta property="article:published_time" content="2025-01-15T10:00:00Z">
+  <meta property="article:modified_time" content="2026-03-06T14:30:00Z">
+  <meta property="article:author" content="Arno Health">
+  
+
+  
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleep.analyticszone.app/ko/blog/hrv-during-sleep/">
+  <meta property="og:title" content="수면 중 HRV: 자율신경 회복 상태 읽기 - SleepAnalytics - Train Hard. Recover...">
+  <meta property="og:description" content="수면 단계에 따라 심박 변이도는 어떻게 변할까요? 그리고 밤사이 HRV 수치가 낮은 것이 실제로 무엇을 의미하는지 알아보세요. 수면 중 심박 변이도(HRV)는 신체 회복력을 보여주는 가장 민감한 생체 지표 중 하나입니다. 여러분이 몸 상태가 좋지 않다고 느끼기 전, 가장 먼저 이상 신호를 보내는...">
+  <meta property="og:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="SleepAnalytics">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://sleep.analyticszone.app/ko/blog/hrv-during-sleep/">
+  <meta name="twitter:title" content="수면 중 HRV: 자율신경 회복 상태 읽기 - SleepAnalytics - Train Hard. Recover...">
+  <meta name="twitter:description" content="수면 단계에 따라 심박 변이도는 어떻게 변할까요? 그리고 밤사이 HRV 수치가 낮은 것이 실제로 무엇을 의미하는지 알아보세요. 수면 중 심박 변이도(HRV)는 신체 회복력을 보여주는 가장 민감한 생체 지표 중 하나입니다. 여러분이 몸 상태가 좋지 않다고 느끼기 전, 가장 먼저 이상 신호를 보내는...">
+  <meta name="twitter:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
+  
+  <meta name="twitter:site" content="@HealthAnalytics">
+  <meta name="twitter:creator" content="@HealthAnalytics">
+  
+
+  
+  
+  <link rel="alternate" hreflang="af"
+    href="https://sleep.analyticszone.app/af/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="am"
+    href="https://sleep.analyticszone.app/am/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="ar"
+    href="https://sleep.analyticszone.app/ar/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="bg"
+    href="https://sleep.analyticszone.app/bg/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="bn"
+    href="https://sleep.analyticszone.app/bn/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="ca"
+    href="https://sleep.analyticszone.app/ca/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="cs"
+    href="https://sleep.analyticszone.app/cs/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="da"
+    href="https://sleep.analyticszone.app/da/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="de"
+    href="https://sleep.analyticszone.app/de/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="el"
+    href="https://sleep.analyticszone.app/el/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="en"
+    href="https://sleep.analyticszone.app/en/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="es"
+    href="https://sleep.analyticszone.app/es/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="et"
+    href="https://sleep.analyticszone.app/et/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="fa"
+    href="https://sleep.analyticszone.app/fa/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="fi"
+    href="https://sleep.analyticszone.app/fi/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="fr"
+    href="https://sleep.analyticszone.app/fr/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="gu"
+    href="https://sleep.analyticszone.app/gu/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="he"
+    href="https://sleep.analyticszone.app/he/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="hi"
+    href="https://sleep.analyticszone.app/hi/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="hr"
+    href="https://sleep.analyticszone.app/hr/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="hu"
+    href="https://sleep.analyticszone.app/hu/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="id"
+    href="https://sleep.analyticszone.app/id/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="is"
+    href="https://sleep.analyticszone.app/is/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="it"
+    href="https://sleep.analyticszone.app/it/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="ja"
+    href="https://sleep.analyticszone.app/ja/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="km"
+    href="https://sleep.analyticszone.app/km/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="kn"
+    href="https://sleep.analyticszone.app/kn/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="ko"
+    href="https://sleep.analyticszone.app/ko/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="lt"
+    href="https://sleep.analyticszone.app/lt/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="lv"
+    href="https://sleep.analyticszone.app/lv/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="ms"
+    href="https://sleep.analyticszone.app/ms/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="my"
+    href="https://sleep.analyticszone.app/my/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="nb"
+    href="https://sleep.analyticszone.app/nb/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="nl"
+    href="https://sleep.analyticszone.app/nl/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="pl"
+    href="https://sleep.analyticszone.app/pl/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="pt"
+    href="https://sleep.analyticszone.app/pt/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="ro"
+    href="https://sleep.analyticszone.app/ro/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="sk"
+    href="https://sleep.analyticszone.app/sk/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="sl"
+    href="https://sleep.analyticszone.app/sl/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="sr"
+    href="https://sleep.analyticszone.app/sr/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="sv"
+    href="https://sleep.analyticszone.app/sv/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="sw"
+    href="https://sleep.analyticszone.app/sw/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="ta"
+    href="https://sleep.analyticszone.app/ta/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="te"
+    href="https://sleep.analyticszone.app/te/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="th"
+    href="https://sleep.analyticszone.app/th/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="tl"
+    href="https://sleep.analyticszone.app/tl/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="tr"
+    href="https://sleep.analyticszone.app/tr/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="uk"
+    href="https://sleep.analyticszone.app/uk/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="ur"
+    href="https://sleep.analyticszone.app/ur/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="vi"
+    href="https://sleep.analyticszone.app/vi/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="zh"
+    href="https://sleep.analyticszone.app/zh/blog/hrv-during-sleep/">
+  
+  <link rel="alternate" hreflang="x-default"
+    href="https://sleep.analyticszone.app/en/blog/hrv-during-sleep/">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/images/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/images/icons/apple-touch-icon.png">
+  <link rel="manifest" href="../../../manifest.json">
+  <meta name="theme-color" content="#2563EB">
+  <meta name="robots" content="index, follow">
+
+  
+  
+
+  
+  <style>
+/* Critical CSS - Above the fold styles for fast LCP */
+:root {
+  --color-primary: #0066CC;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8f9fa;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Skip link - Accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-primary);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 1000;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Header - Critical for LCP */
+.site-header {
+  background: var(--color-bg);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.site-logo img, .site-logo svg {
+  width: 32px;
+  height: 32px;
+}
+
+/* Navigation */
+.main-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .main-nav a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    transition: color 0.2s;
+  }
+  .main-nav a:hover {
+    color: var(--color-primary);
+  }
+}
+
+/* Mobile menu button */
+.menu-toggle {
+  display: flex;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Main content */
+main.main-content {
+  flex: 1;
+}
+
+/* Hero section - Critical for LCP */
+.hero {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 4rem 2rem;
+  }
+}
+
+.hero h1 {
+  font-size: clamp(1.75rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.hero .lead, .hero p {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: var(--color-text-muted);
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+}
+
+/* Buttons - Critical for CTA */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0052a3;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+/* Utility classes */
+.hidden { display: none !important; }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Images - prevent CLS with aspect-ratio */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+img[width][height] {
+  aspect-ratio: attr(width) / attr(height);
+}
+
+.lazy-image {
+  background: var(--color-bg-alt);
+  transition: opacity 0.3s;
+}
+
+.lazy-image:not(.loaded) {
+  opacity: 0;
+}
+
+.lazy-image.loaded {
+  opacity: 1;
+}
+
+/* App badges - fixed dimensions to prevent CLS */
+.app-badge img {
+  width: 140px;
+  height: 42px;
+}
+
+/* Logo - fixed dimensions */
+.site-logo img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>
+
+  
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+  
+  <link rel="stylesheet" href="../../../assets/css/main.min.css?v=c35cd6408b27">
+
+  
+  
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SleepAnalytics",
+  "url": "https://sleep.analyticszone.app",
+  "logo": "https://sleep.analyticszone.app/assets/images/logo.png",
+  "description": "The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.",
+  
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Customer Support",
+    "email": "analyticszone@onmedic.org"
+  },
+  
+  "sameAs": [
+    
+    
+      
+    
+    
+    
+    
+    "https://twitter.com/HealthAnalytics"
+    
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SleepAnalytics",
+  "url": "https://sleep.analyticszone.app",
+  "description": "The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.",
+  "inLanguage": "ko"
+}
+</script>
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "수면 중 HRV: 자율신경 회복 상태 읽기 - SleepAnalytics - Train Hard. Recover...",
+  "description": "수면 단계에 따라 심박 변이도는 어떻게 변할까요? 그리고 밤사이 HRV 수치가 낮은 것이 실제로 무엇을 의미하는지 알아보세요. 수면 중 심박 변이도(HRV)는 신체 회복력을 보여주는 가장 민감한 생체 지표 중 하나입니다. 여러분이 몸 상태가 좋지 않다고 느끼기 전, 가장 먼저 이상 신호를 보내는...",
+  "url": "https://sleep.analyticszone.app/ko/blog/hrv-during-sleep/",
+  "inLanguage": "ko",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "SleepAnalytics",
+    "url": "https://sleep.analyticszone.app"
+  },
+  "datePublished": "2025-01-15",
+  "dateModified": "2026-03-06",
+  "keywords": ["수면", "중", "HRV", "자율신경", "회복", "상태", "읽기", "SleepAnalytics", "Train", "Hard"],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "수면"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "중"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "HRV"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "자율신경"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "회복"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "상태"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "읽기"
+    }, 
+  
+    {
+      "@type": "Thing",
+      "name": "SleepAnalytics"
+    }
+  ]
+}
+</script>
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "수면 중 HRV: 자율신경 회복 상태 읽기 - SleepAnalytics - Train Hard. Recover...",
+  "description": "수면 단계에 따라 심박 변이도는 어떻게 변할까요? 그리고 밤사이 HRV 수치가 낮은 것이 실제로 무엇을 의미하는지 알아보세요. 수면 중 심박 변이도(HRV)는 신체 회복력을 보여주는 가장 민감한 생체 지표 중 하나입니다. 여러분이 몸 상태가 좋지 않다고 느끼기 전, 가장 먼저 이상 신호를 보내는...",
+  "author": {
+    "@type": "Person",
+    "name": "Arno Health"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SleepAnalytics",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sleep.analyticszone.app/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-01-15",
+  "dateModified": "2026-03-06",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sleep.analyticszone.app/ko/blog/hrv-during-sleep/"
+  }
+}
+</script>
+
+
+
+
+
+  
+  
+
+  
+  <script>
+    (function () {
+      let theme = localStorage.getItem('theme');
+      // Older builds could persist a per-subdomain `theme=light` value without a UI
+      // to keep it consistent across apps. Treat it as stale and fall back to the OS.
+      if (theme === 'light') {
+        try { localStorage.removeItem('theme'); } catch (e) { /* ignore */ }
+        theme = null;
+      }
+
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark-mode');
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  
+  <a href="#main-content" class="skip-link">콘텐츠로 바로가기</a>
+
+  
+  <header class="site-header">
+    <div class="container">
+        <div class="header-inner">
+            
+            <a href="/ko/" class="site-logo">
+                <picture>
+                    <source srcset="../../../assets/images/logo-dark.png" type="image/png"
+                        media="(prefers-color-scheme: dark)">
+                    <img src="../../../assets/images/logo.png" alt="SleepAnalytics - Train Hard. Recover Smarter." width="56" height="56">
+                </picture>
+                <span class="logo-text">SleepAnalytics</span>
+            </a>
+
+            
+            <nav class="nav-primary" id="nav-primary" role="navigation" aria-label="Main navigation">
+                <div class="nav-group-left">
+                    <ul>
+                        
+                        <li>
+                            
+                            <a href="/ko/features/" 
+                                aria-current="">
+                                기능
+                            </a>
+                            
+                            </li>
+                            
+                        <li>
+                            
+                            <a href="/ko/science/" 
+                                aria-current="">
+                                지표 라이브러리
+                            </a>
+                            
+                            </li>
+                            
+                        <li>
+                            
+                            <a href="/ko/blog/" 
+                                aria-current="">
+                                Blog
+                            </a>
+                            
+                            </li>
+                            
+                        <li>
+                            
+                            <a href="/ko/faq/" 
+                                aria-current="">
+                                FAQ
+                            </a>
+                            
+                            </li>
+                            
+                        <li>
+                            
+                            <a href="/ko/about/" 
+                                aria-current="">
+                                회사 소개
+                            </a>
+                            
+                            </li>
+                            
+                    </ul>
+
+                    
+                    <div class="search-container">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input type="search" id="site-search" class="search-input" aria-expanded="false"
+                            aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" spellcheck="false" />
+                        <div id="search-results" class="search-results hidden" role="region" aria-live="polite"></div>
+                    </div>
+
+                    
+                    <select class="language-selector" id="language-select" aria-label="언어 선택">
+                        
+                        <option value="af" >
+                            Afrikaans
+                        </option>
+                        
+                        <option value="am" >
+                            አማርኛ
+                        </option>
+                        
+                        <option value="ar" >
+                            العربية
+                        </option>
+                        
+                        <option value="bg" >
+                            Български
+                        </option>
+                        
+                        <option value="bn" >
+                            বাংলা
+                        </option>
+                        
+                        <option value="ca" >
+                            Català
+                        </option>
+                        
+                        <option value="cs" >
+                            Čeština
+                        </option>
+                        
+                        <option value="da" >
+                            Dansk
+                        </option>
+                        
+                        <option value="de" >
+                            Deutsch
+                        </option>
+                        
+                        <option value="el" >
+                            Ελληνικά
+                        </option>
+                        
+                        <option value="en" >
+                            English
+                        </option>
+                        
+                        <option value="es" >
+                            Español
+                        </option>
+                        
+                        <option value="et" >
+                            Eesti
+                        </option>
+                        
+                        <option value="fa" >
+                            فارسی
+                        </option>
+                        
+                        <option value="fi" >
+                            Suomi
+                        </option>
+                        
+                        <option value="fr" >
+                            Français
+                        </option>
+                        
+                        <option value="gu" >
+                            ગુજરાતી
+                        </option>
+                        
+                        <option value="he" >
+                            עברית
+                        </option>
+                        
+                        <option value="hi" >
+                            हिन्दी
+                        </option>
+                        
+                        <option value="hr" >
+                            Hrvatski
+                        </option>
+                        
+                        <option value="hu" >
+                            Magyar
+                        </option>
+                        
+                        <option value="id" >
+                            Bahasa Indonesia
+                        </option>
+                        
+                        <option value="is" >
+                            Íslenska
+                        </option>
+                        
+                        <option value="it" >
+                            Italiano
+                        </option>
+                        
+                        <option value="ja" >
+                            日本語
+                        </option>
+                        
+                        <option value="km" >
+                            Khmer
+                        </option>
+                        
+                        <option value="kn" >
+                            ಕನ್ನಡ
+                        </option>
+                        
+                        <option value="ko" selected>
+                            한국어
+                        </option>
+                        
+                        <option value="lt" >
+                            Lietuvių
+                        </option>
+                        
+                        <option value="lv" >
+                            Latviešu
+                        </option>
+                        
+                        <option value="ms" >
+                            Bahasa Melayu
+                        </option>
+                        
+                        <option value="my" >
+                            မြန်မာဘာသာ
+                        </option>
+                        
+                        <option value="nb" >
+                            Norsk
+                        </option>
+                        
+                        <option value="nl" >
+                            Nederlands
+                        </option>
+                        
+                        <option value="pl" >
+                            Polski
+                        </option>
+                        
+                        <option value="pt" >
+                            Português
+                        </option>
+                        
+                        <option value="ro" >
+                            Română
+                        </option>
+                        
+                        <option value="sk" >
+                            Slovenčina
+                        </option>
+                        
+                        <option value="sl" >
+                            Slovenščina
+                        </option>
+                        
+                        <option value="sr" >
+                            Srpski
+                        </option>
+                        
+                        <option value="sv" >
+                            Svenska
+                        </option>
+                        
+                        <option value="sw" >
+                            Kiswahili
+                        </option>
+                        
+                        <option value="ta" >
+                            தமிழ்
+                        </option>
+                        
+                        <option value="te" >
+                            తెలుగు
+                        </option>
+                        
+                        <option value="th" >
+                            ไทย
+                        </option>
+                        
+                        <option value="tl" >
+                            Tagalog
+                        </option>
+                        
+                        <option value="tr" >
+                            Türkçe
+                        </option>
+                        
+                        <option value="uk" >
+                            Українська
+                        </option>
+                        
+                        <option value="ur" >
+                            اردو
+                        </option>
+                        
+                        <option value="vi" >
+                            Tiếng Việt
+                        </option>
+                        
+                        <option value="zh" >
+                            中文
+                        </option>
+                        
+                    </select>
+                </div>
+
+                <div class="nav-group-right">
+                    
+
+
+                    
+                    <div class="header-app-buttons">
+                        
+                        
+
+                        
+                        
+                    </div>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+                    <div class="suite-menu-container">
+                        <button class="suite-menu-toggle" id="suite-menu-toggle" aria-label="See other apps"
+                            aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                        </button>
+                        <div class="suite-dropdown hidden" id="suite-dropdown">
+                            <div class="suite-dropdown-header">Other AnalyticsZone Apps</div>
+                            <div class="suite-apps-grid">
+                                
+                                <a href="https://analyticszone.app" class="suite-app-link">AnalyticsZone</a>
+                                
+                                <a href="https://run.analyticszone.app" class="suite-app-link">Run Analytics</a>
+                                
+                                <a href="https://swim.analyticszone.app" class="suite-app-link">Swim Analytics</a>
+                                
+                                <a href="https://bike.analyticszone.app" class="suite-app-link">Bike Analytics</a>
+                                
+                                <a href="https://walk.analyticszone.app" class="suite-app-link">Walk Analytics</a>
+                                
+                                <a href="https://cardio.analyticszone.app" class="suite-app-link">Cardio Analytics</a>
+                                
+                                <a href="https://health.analyticszone.app" class="suite-app-link">Health Analytics</a>
+                                
+                                <a href="https://swimtrainer.analyticszone.app" class="suite-app-link">Swim Trainer</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>
+
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="메뉴 토글"
+                aria-expanded="false" aria-controls="nav-primary">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+  
+  
+
+
+  
+  <main id="main-content" class="main-content">
+    
+    <section class="page-hero">
+    <div class="container">
+        <h1>수면 중 HRV: 자율신경 회복 상태 읽기</h1>
+        <p class="lead">수면 단계에 따라 심박 변이도는 어떻게 변할까요? 그리고 밤사이 HRV 수치가 낮은 것이 실제로 무엇을 의미하는지 알아보세요.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container container-narrow">
+        <p class="lead">수면 중 심박 변이도(HRV)는 신체 회복력을 보여주는 가장 민감한 생체 지표 중 하나입니다. 여러분이 몸 상태가 좋지 않다고 느끼기 전, 가장 먼저 이상 신호를 보내는
+            측정치이기도 하죠.</p>
+
+        <h2 class="mt-xl">HRV 기초 지식</h2>
+        <p>HRV는 연속적인 심박 사이의 시간 간격 변화를 의미합니다. 직관에 어긋날 수 있지만, 변이도가 클수록 좋습니다. 이는 자율신경계가 건강하고 민첩하게 반응하고 있다는 증거이기 때문입니다. 웨어러블
+            기기에서 가장 흔히 쓰이는 지표인 rMSSD(연속 차이의 제곱평균제곱근)는 부교감 신경 활동을 반영합니다.</p>
+
+        <h2 class="mt-xl">수면 단계별 HRV의 변화</h2>
+        <p>HRV는 하룻밤 내내 일정하지 않으며 수면 단계의 구조를 따릅니다:</p>
+        <ul>
+            <li><strong>N1 (얕은 수면):</strong> 과도기적 단계로, 깨어 있을 때의 기준치보다 낮아집니다.</li>
+            <li><strong>N2 (안정적인 얕은 수면):</strong> 부교감 신경이 우세해지면서 HRV가 상승합니다.</li>
+            <li><strong>N3 (깊은 수면):</strong> 밤사이 HRV가 가장 높은 단계로, 부교감 신경 회복이 정점에 도달합니다.</li>
+            <li><strong>렘(REM) 수면:</strong> 자율신경계의 급격한 활동으로 인해 불규칙하고 변동이 심하며, 종종 N3보다 낮아집니다.</li>
+        </ul>
+
+        <h2 class="mt-xl">나의 30일 기준치가 중요한 이유</h2>
+        <p>단 하룻밤의 HRV 수치만으로는 의미 있는 정보를 얻기 어렵습니다. 중요한 것은 자신의 개인적인 30일 평균 수치와 비교하는 것입니다. 성인의 절대적인 HRV 수치는 개인마다 차이가 매우 크기
+            때문에(rMSSD 기준 약 15~100ms), 집단 평균은 참고용일 뿐입니다.</p>
+        <div class="callout callout-tip mt-md">SleepAnalytics는 수면 점수 계산 시 집단 평균이 아닌 당신만의 30일 기준치를 사용합니다. 절대적인 수치가 남들 보기에
+            '정상'이더라도 당신의 기준치보다 15% 낮다면 그것은 당신에게 매우 유의미한 신호입니다.</div>
+
+        <h2 class="mt-xl">밤사이 HRV가 낮게 나타나는 신호</h2>
+        <p>기준치보다 15% 이상 낮게 측정된 HRV는 보통 다음과 같은 원인과 관련이 있습니다:</p>
+        <ul>
+            <li>오버트레이닝 또는 전날의 활동량 대비 수면 부족</li>
+            <li>질병의 초기 단계 (HRV는 열이나 증상이 나타나기 전에 먼저 떨어집니다)</li>
+            <li>심한 심리적 스트레스</li>
+            <li>취침 전 4시간 이내의 음주</li>
+            <li>시차 적응 문제 또는 급격한 수면 일정 변경</li>
+        </ul>
+
+        <h2 class="mt-xl">연령대별 집단 통계 (참고용)</h2>
+        <p>rMSSD 값은 대개 나이가 들수록 감소하는 경향이 있습니다. 성인의 일반적인 범위는 다음과 같습니다:</p>
+        <ul>
+            <li>20~30대: ~40~80ms</li>
+            <li>30~40대: ~35~65ms</li>
+            <li>40~50대: ~30~55ms</li>
+            <li>50대 이상: ~25~45ms</li>
+        </ul>
+        <p>운동선수들은 전 연령대에서 활동량이 적은 사람보다 높은 HRV를 보이는 경향이 있습니다. 다시 한번 강조하지만, 이는 인구 통계일 뿐이며 당신의 개인적인 기준치가 건강 상태를 판단하는 데 훨씬 더
+            귀중한 정보입니다.</p>
+
+        <div class="text-center mt-xl">
+            <a href="" class="btn btn-primary btn-large">나의 밤사이 HRV 기준치 추적하기</a>
+        </div>
+    </div>
+</section>
+
+<section class="page-hero">
+    <div class="container">
+        <a href="" class="btn btn-primary">SleepAnalytics 다운로드</a>
+        <a href="index.html" class="btn btn-text" style="margin-left:1rem;">← 블로그로 돌아가기</a>
+    </div>
+</section>
+    
+
+    
+    
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container">
+        
+        <div class="footer-top">
+            <div class="footer-brand-section">
+                
+                <h2>SleepAnalytics</h2>
+                <p>The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.</p>
+                
+            </div>
+
+            
+            <div class="footer-download">
+                <h3 class="footer-heading">Download</h3>
+                <div class="footer-badges">
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <div class="footer-languages">
+            <h3 class="footer-heading">Available in</h3>
+            <div class="lang-grid">
+                
+                <a href="/af/" class="lang-link"
+                    hreflang="af" >
+                    Afrikaans
+                </a>
+                
+                <a href="/am/" class="lang-link"
+                    hreflang="am" >
+                    አማርኛ
+                </a>
+                
+                <a href="/ar/" class="lang-link"
+                    hreflang="ar" dir="rtl" >
+                    العربية
+                </a>
+                
+                <a href="/bg/" class="lang-link"
+                    hreflang="bg" >
+                    Български
+                </a>
+                
+                <a href="/bn/" class="lang-link"
+                    hreflang="bn" >
+                    বাংলা
+                </a>
+                
+                <a href="/ca/" class="lang-link"
+                    hreflang="ca" >
+                    Català
+                </a>
+                
+                <a href="/cs/" class="lang-link"
+                    hreflang="cs" >
+                    Čeština
+                </a>
+                
+                <a href="/da/" class="lang-link"
+                    hreflang="da" >
+                    Dansk
+                </a>
+                
+                <a href="/de/" class="lang-link"
+                    hreflang="de" >
+                    Deutsch
+                </a>
+                
+                <a href="/el/" class="lang-link"
+                    hreflang="el" >
+                    Ελληνικά
+                </a>
+                
+                <a href="/en/" class="lang-link"
+                    hreflang="en" >
+                    English
+                </a>
+                
+                <a href="/es/" class="lang-link"
+                    hreflang="es" >
+                    Español
+                </a>
+                
+                <a href="/et/" class="lang-link"
+                    hreflang="et" >
+                    Eesti
+                </a>
+                
+                <a href="/fa/" class="lang-link"
+                    hreflang="fa" dir="rtl" >
+                    فارسی
+                </a>
+                
+                <a href="/fi/" class="lang-link"
+                    hreflang="fi" >
+                    Suomi
+                </a>
+                
+                <a href="/fr/" class="lang-link"
+                    hreflang="fr" >
+                    Français
+                </a>
+                
+                <a href="/gu/" class="lang-link"
+                    hreflang="gu" >
+                    ગુજરાતી
+                </a>
+                
+                <a href="/he/" class="lang-link"
+                    hreflang="he" dir="rtl" >
+                    עברית
+                </a>
+                
+                <a href="/hi/" class="lang-link"
+                    hreflang="hi" >
+                    हिन्दी
+                </a>
+                
+                <a href="/hr/" class="lang-link"
+                    hreflang="hr" >
+                    Hrvatski
+                </a>
+                
+                <a href="/hu/" class="lang-link"
+                    hreflang="hu" >
+                    Magyar
+                </a>
+                
+                <a href="/id/" class="lang-link"
+                    hreflang="id" >
+                    Bahasa Indonesia
+                </a>
+                
+                <a href="/is/" class="lang-link"
+                    hreflang="is" >
+                    Íslenska
+                </a>
+                
+                <a href="/it/" class="lang-link"
+                    hreflang="it" >
+                    Italiano
+                </a>
+                
+                <a href="/ja/" class="lang-link"
+                    hreflang="ja" >
+                    日本語
+                </a>
+                
+                <a href="/km/" class="lang-link"
+                    hreflang="km" >
+                    Khmer
+                </a>
+                
+                <a href="/kn/" class="lang-link"
+                    hreflang="kn" >
+                    ಕನ್ನಡ
+                </a>
+                
+                <a href="/ko/" class="lang-link active"
+                    hreflang="ko" >
+                    한국어
+                </a>
+                
+                <a href="/lt/" class="lang-link"
+                    hreflang="lt" >
+                    Lietuvių
+                </a>
+                
+                <a href="/lv/" class="lang-link"
+                    hreflang="lv" >
+                    Latviešu
+                </a>
+                
+                <a href="/ms/" class="lang-link"
+                    hreflang="ms" >
+                    Bahasa Melayu
+                </a>
+                
+                <a href="/my/" class="lang-link"
+                    hreflang="my" >
+                    မြန်မာဘာသာ
+                </a>
+                
+                <a href="/nb/" class="lang-link"
+                    hreflang="nb" >
+                    Norsk
+                </a>
+                
+                <a href="/nl/" class="lang-link"
+                    hreflang="nl" >
+                    Nederlands
+                </a>
+                
+                <a href="/pl/" class="lang-link"
+                    hreflang="pl" >
+                    Polski
+                </a>
+                
+                <a href="/pt/" class="lang-link"
+                    hreflang="pt" >
+                    Português
+                </a>
+                
+                <a href="/ro/" class="lang-link"
+                    hreflang="ro" >
+                    Română
+                </a>
+                
+                <a href="/sk/" class="lang-link"
+                    hreflang="sk" >
+                    Slovenčina
+                </a>
+                
+                <a href="/sl/" class="lang-link"
+                    hreflang="sl" >
+                    Slovenščina
+                </a>
+                
+                <a href="/sr/" class="lang-link"
+                    hreflang="sr" >
+                    Srpski
+                </a>
+                
+                <a href="/sv/" class="lang-link"
+                    hreflang="sv" >
+                    Svenska
+                </a>
+                
+                <a href="/sw/" class="lang-link"
+                    hreflang="sw" >
+                    Kiswahili
+                </a>
+                
+                <a href="/ta/" class="lang-link"
+                    hreflang="ta" >
+                    தமிழ்
+                </a>
+                
+                <a href="/te/" class="lang-link"
+                    hreflang="te" >
+                    తెలుగు
+                </a>
+                
+                <a href="/th/" class="lang-link"
+                    hreflang="th" >
+                    ไทย
+                </a>
+                
+                <a href="/tl/" class="lang-link"
+                    hreflang="tl" >
+                    Tagalog
+                </a>
+                
+                <a href="/tr/" class="lang-link"
+                    hreflang="tr" >
+                    Türkçe
+                </a>
+                
+                <a href="/uk/" class="lang-link"
+                    hreflang="uk" >
+                    Українська
+                </a>
+                
+                <a href="/ur/" class="lang-link"
+                    hreflang="ur" dir="rtl" >
+                    اردو
+                </a>
+                
+                <a href="/vi/" class="lang-link"
+                    hreflang="vi" >
+                    Tiếng Việt
+                </a>
+                
+                <a href="/zh/" class="lang-link"
+                    hreflang="zh" >
+                    中文
+                </a>
+                
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2026 SleepAnalytics. 모든 권리 보유
+            </p>
+            <ul class="footer-legal">
+                <li><a href="/ko/privacy/">개인정보 보호</a></li>
+                <li><a href="/ko/terms/">이용 약관</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+  
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <div class="cookie-banner-content">
+        <div>
+            <p>본 웹사이트는 사용자 경험을 개선하기 위해 쿠키를 사용합니다.</p>
+            <a href="/ko/privacy/" class="text-sm">자세히 알아보기</a>
+        </div>
+        <div class="cookie-banner-actions">
+            <button id="cookie-decline" class="btn btn-secondary btn-small">거절</button>
+            <button id="cookie-accept" class="btn btn-primary btn-small">수락</button>
+        </div>
+    </div>
+</div>
+
+  
+  <script src="../../../assets/js/core.min.js?v=c35cd6408b27" defer></script>
+  <script src="../../../assets/js/search.min.js?v=c35cd6408b27" defer></script>
+  
+
+  
+  
+  <script src="../../../assets/js/analytics.min.js" data-ga-id="G-B48SMJ6J33" defer></script>
+  
+
+  
+  <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../../../sw.js') }</script>
+</body>
+
+</html>
