@@ -165,6 +165,9 @@
   <link rel="alternate" hreflang="pt"
     href="https://sleep.analyticszone.app/pt/science/">
   
+  <link rel="alternate" hreflang="ru"
+    href="https://sleep.analyticszone.app/ru/science/">
+  
   <link rel="alternate" hreflang="ro"
     href="https://sleep.analyticszone.app/ro/science/">
   
@@ -491,7 +494,7 @@ img[width][height] {
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
   
-  <link rel="stylesheet" href="../../assets/css/main.min.css?v=215c52441671">
+  <link rel="stylesheet" href="../../assets/css/main.min.css?v=9be921e9">
 
   
   
@@ -895,6 +898,10 @@ img[width][height] {
                             Română
                         </option>
                         
+                        <option value="ru" >
+                            Русский
+                        </option>
+                        
                         <option value="sk" >
                             Slovenčina
                         </option>
@@ -1085,9 +1092,10 @@ img[width][height] {
     
     <section class="page-hero">
     <div class="container">
-        <h1>La ciencia detrás de SleepAnalytics</h1>
-        <p class="lead">Cada métrica que mostramos deriva de la investigación del sueño revisada por expertos. Esta
-            página explica la ciencia, las fórmulas y las limitaciones — de manera transparente.</p>
+        <h1>La Ciencia detrás de SleepAnalytics</h1>
+        <p class="lead">Cada métrica que mostramos se deriva de investigaciones sobre el sueño revisadas por expertos.
+            Esta página
+            explica la ciencia, las fórmulas y las limitaciones de forma transparente.</p>
     </div>
 </section>
 
@@ -1100,15 +1108,21 @@ img[width][height] {
             <div class="card-content">
                 <p><strong>7 horas de sueño fragmentado no son lo mismo que 7 horas de sueño reparador.</strong></p>
                 <p class="mt-md">La Academia Americana de Medicina del Sueño (AASM) define la calidad del sueño a través
-                    de múltiples dimensiones: eficiencia del sueño, latencia (tiempo para dormirse), WASO (tiempo
-                    despierto después de dormirse) y distribución de las fases — no solo la duración. Las guías de la
-                    National Sleep Foundation de 2015 establecieron recomendaciones de duración basadas en la edad, pero
-                    notaron explícitamente que las métricas de calidad son igualmente importantes.
+                    de múltiples
+                    dimensiones: Eficiencia del sueño, Latencia (tiempo en quedarse dormido), Despertar tras el inicio
+                    del sueño
+                    (WASO) y distribución de etapas — no solo la duración. Las directrices de 2015 de la National Sleep
+                    Foundation
+                    establecieron recomendaciones de duración basadas en la edad, pero señalaron explícitamente que las
+                    métricas de
+                    calidad son igualmente importantes.
                 </p>
                 <div class="callout callout-info mt-md">
-                    <strong>Dato clave:</strong> La duración explica solo alrededor del 30% de la variancia de cómo de
-                    descansada se siente la gente. El 70% restante proviene de la eficiencia, la continuidad y la
-                    distribución de las fases (Ohayon et al. 2017).
+                    <strong>Dato clave:</strong> La duración explica solo alrededor del 30% de la varianza en qué tan
+                    descansada se
+                    siente la gente. El 70% restante proviene de la eficiencia, la continuidad y la distribución de las
+                    etapas
+                    (Ohayon et al. 2017).
                 </div>
             </div>
         </div>
@@ -1118,83 +1132,82 @@ img[width][height] {
 <section class="section">
     <div class="container">
         <div class="text-center mb-xl">
-            <h2>Cómo detecta las fases del sueño el Apple Watch</h2>
+            <h2>Cómo el Apple Watch detecta las etapas del sueño</h2>
         </div>
         <div class="grid grid-2">
             <div class="card">
-                <h3 class="card-title">Fusión de sensores</h3>
+                <h3 class="card-title">Fusión de Sensores</h3>
                 <div class="card-content">
-                    <p>El Apple Watch utiliza tres flujos de datos simultáneamente:</p>
+                    <p>Apple Watch utiliza tres flujos de datos simultáneamente:</p>
                     <ul>
-                        <li><strong>Acelerómetro:</strong> Detecta micro-movimientos y movimientos asociados a la
-                            respiración</li>
-                        <li><strong>PPG óptico:</strong> Frecuencia cardíaca y variabilidad de la frecuencia cardíaca
-                            durante la noche
-                        </li>
-                        <li><strong>Aprendizaje automático:</strong> Una red neuronal entrenada con datos de validación
-                            de polisomnografía (PSG)</li>
+                        <li><strong>Acelerómetro:</strong> Detecta micromovimientos y el movimiento asociado a la
+                            respiración.</li>
+                        <li><strong>PPG Óptico:</strong> Frecuencia cardíaca y variabilidad de la frecuencia cardíaca
+                            durante la noche.</li>
+                        <li><strong>Aprendizaje Automático:</strong> Una red neuronal entrenada con datos de validación
+                            de polisomnografía (PSG).</li>
                     </ul>
-                    <p class="mt-md">El resultado es una clasificación de 4 fases: Esencial (N1+N2), Profundo (N3), REM
-                        y Despierto.</p>
+                    <p class="mt-md">El resultado es una clasificación de 4 etapas: Ligero (N1+N2), Profundo (N3), REM y
+                        Despierto.</p>
                 </div>
             </div>
             <div class="card">
                 <h3 class="card-title">Precisión</h3>
                 <div class="card-content">
-                    <p>Las fases del sueño del Apple Watch han sido validadas de forma independiente. Datos clave del
-                        conjunto de datos de Apple:
-                    </p>
+                    <p>La clasificación de etapas del sueño del Apple Watch ha sido validada de forma independiente.
+                        Cifras clave de
+                        la base de datos de Apple:</p>
                     <ul>
-                        <li>Mediana del coeficiente kappa: 0,63 (acuerdo de justo a moderado con la PSG)</li>
-                        <li>Sensibilidad del sueño: 97,9% (identifica correctamente el sueño)</li>
-                        <li>Especificidad de la vigilia: ~75%</li>
+                        <li>Kappa medio: 0.63 (acuerdo de aceptable a moderado con PSG).</li>
+                        <li>Sensibilidad del sueño: 97.9% (identifica correctamente el sueño).</li>
+                        <li>Especificidad del despertar: ~75%.</li>
                     </ul>
                     <div class="callout callout-warning mt-md">
-                        <strong>Importante:</strong> Las fases del sueño solo están disponibles en el Apple Watch Serie
-                        4 y posteriores. La app marca claramente qué métricas requieren hardware específico.
+                        <strong>Importante:</strong> Las etapas del sueño solo están disponibles en el Apple Watch
+                        Series 4 y
+                        posteriores. La aplicación marca claramente qué métricas requieren un hardware específico.
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="mt-xl">
-            <h3>Mapeo de fases según la AASM</h3>
+            <h3>Mapeo de Etapas AASM</h3>
             <div style="overflow-x:auto; margin-top:1rem;">
                 <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
                     <thead>
                         <tr style="border-bottom:2px solid #ddd;">
-                            <th style="text-align:left; padding:10px;">Fase clínica</th>
-                            <th style="text-align:center; padding:10px;">% del TST</th>
+                            <th style="text-align:left; padding:10px;">Etapa Clínica</th>
+                            <th style="text-align:center; padding:10px;">% de TST (Tiempo de Sueño Total)</th>
                             <th style="text-align:center; padding:10px;">Etiqueta Apple Watch</th>
-                            <th style="text-align:left; padding:10px;">Por qué es importante</th>
+                            <th style="text-align:left; padding:10px;">Por qué importa</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr style="border-bottom:1px solid #eee;">
                             <td style="padding:10px;">N1 (transición ligera)</td>
                             <td style="text-align:center;">2–5%</td>
-                            <td style="text-align:center;">Esencial</td>
-                            <td style="padding:10px;">Fácil de interrumpir; estado de transición breve</td>
+                            <td style="text-align:center;">Ligero</td>
+                            <td style="padding:10px;">Fácilmente perturbable; estado de transición breve.</td>
                         </tr>
                         <tr style="border-bottom:1px solid #eee;">
                             <td style="padding:10px;">N2 (ligero estable)</td>
                             <td style="text-align:center;">45–55%</td>
-                            <td style="text-align:center;">Esencial</td>
-                            <td style="padding:10px;">Complejos K y husos del sueño; consolidación de la memoria</td>
+                            <td style="text-align:center;">Ligero</td>
+                            <td style="padding:10px;">Complejos K y husos del sueño; consolidación de la memoria.</td>
                         </tr>
                         <tr style="border-bottom:1px solid #eee;">
                             <td style="padding:10px;">N3 (profundo / ondas lentas)</td>
                             <td style="text-align:center;">10–20%</td>
                             <td style="text-align:center;">Profundo</td>
-                            <td style="padding:10px;">Liberación de la hormona del crecimiento, recuperación física,
-                                limpieza glinfática
-                            </td>
+                            <td style="padding:10px;">Liberación de hormona del crecimiento, recuperación física,
+                                limpieza linfática.</td>
                         </tr>
                         <tr>
                             <td style="padding:10px;">REM</td>
                             <td style="text-align:center;">20–25%</td>
                             <td style="text-align:center;">REM</td>
-                            <td style="padding:10px;">Consolidación de la memoria, regulación emocional, creatividad
+                            <td style="padding:10px;">Consolidación de la memoria, regulación emocional, creatividad.
                             </td>
                         </tr>
                     </tbody>
@@ -1207,19 +1220,20 @@ img[width][height] {
 <section class="section section-light">
     <div class="container">
         <div class="text-center mb-xl">
-            <h2>Nuestra puntuación del sueño — Fórmula completa</h2>
-            <p class="lead">Creemos que deberías entender exactamente cómo se calcula tu puntuación del sueño.</p>
+            <h2>Nuestra Puntuación del Sueño — Fórmula Completa</h2>
+            <p class="lead">Creemos que debes entender exactamente cómo se calcula tu puntuación de sueño.</p>
         </div>
         <div class="card">
             <div class="card-content">
-                <p>Los 8 componentes siguientes suman un máximo de 100. Cada componente utiliza umbrales clínicos
-                    publicados — sin pesos propietarios.</p>
+                <p>Los 8 componentes de abajo suman un máximo de 100. Cada componente utiliza umbrales clínicos
+                    publicados, no
+                    pesos propietarios.</p>
                 <div style="overflow-x:auto; margin-top:1rem;">
                     <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
                         <thead>
                             <tr style="border-bottom:2px solid #ddd;">
                                 <th style="text-align:left; padding:10px;">Componente</th>
-                                <th style="text-align:center; padding:10px;">Puntos máximos</th>
+                                <th style="text-align:center; padding:10px;">Puntos Máximos</th>
                                 <th style="text-align:left; padding:10px;">Umbral / Fórmula</th>
                             </tr>
                         </thead>
@@ -1227,54 +1241,51 @@ img[width][height] {
                             <tr style="border-bottom:1px solid #eee;">
                                 <td style="padding:10px;">Duración</td>
                                 <td style="text-align:center;">25</td>
-                                <td style="padding:10px;">Recomendación NSF ajustada por edad (±30 min gana puntuación
-                                    parcial)
-                                </td>
+                                <td style="padding:10px;">Recomendación NSF ajustada por edad (±30 min otorga puntaje
+                                    parcial).</td>
                             </tr>
                             <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Eficiencia del sueño</td>
+                                <td style="padding:10px;">Eficiencia del Sueño</td>
                                 <td style="text-align:center;">20</td>
-                                <td style="padding:10px;">Lineal: 75%→0 pts, 95%→20 pts</td>
+                                <td style="padding:10px;">Lineal: 75%→0 pts, 95%→20 pts.</td>
                             </tr>
                             <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Latencia del sueño</td>
+                                <td style="padding:10px;">Latencia del Sueño</td>
                                 <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–30→4, &gt;30→0</td>
+                                <td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–30→4, &gt;30→0.</td>
                             </tr>
                             <tr style="border-bottom:1px solid #eee;">
                                 <td style="padding:10px;">WASO</td>
                                 <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–40→4, &gt;40→0</td>
+                                <td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–40→4, &gt;40→0.</td>
                             </tr>
                             <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Sueño Profundo %</td>
+                                <td style="padding:10px;">% Sueño Profundo</td>
                                 <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">15–20% óptimo; por debajo o por encima reduce la puntuación
-                                    proporcionalmente
-                                </td>
+                                <td style="padding:10px;">15–20% óptimo; por debajo o por encima reduce el puntaje
+                                    proporcionalmente.</td>
                             </tr>
                             <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">REM %</td>
+                                <td style="padding:10px;">% REM</td>
                                 <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">20–25% óptimo; por debajo o por encima reduce la puntuación
-                                    proporcionalmente
-                                </td>
+                                <td style="padding:10px;">20–25% óptimo; por debajo o por encima reduce el puntaje
+                                    proporcionalmente.</td>
                             </tr>
                             <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Tendencia de la HRV</td>
+                                <td style="padding:10px;">Tendencia HRV</td>
                                 <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">vs. base personal móvil de 30 días (±10% gana puntuación
-                                    parcial)</td>
+                                <td style="padding:10px;">vs base personal móvil de 30 días (±10% otorga puntaje
+                                    parcial).</td>
                             </tr>
                             <tr>
-                                <td style="padding:10px;">Regularidad del sueño</td>
+                                <td style="padding:10px;">Regularidad del Sueño</td>
                                 <td style="text-align:center;">5</td>
-                                <td style="padding:10px;">Desviación del SRI respecto al objetivo de 75 puntos</td>
+                                <td style="padding:10px;">Desviación del SRI respecto a un objetivo de 75 puntos.</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <p class="text-sm text-secondary mt-md"><strong>Inspirado en:</strong> Pittsburgh Sleep Quality Index
+                <p class="text-sm text-secondary mt-md"><strong>Inspirado por:</strong> Pittsburgh Sleep Quality Index
                     (Buysse et al. 1989) y umbrales clínicos de la NSF (Ohayon et al. 2017).</p>
             </div>
         </div>
@@ -1284,14 +1295,14 @@ img[width][height] {
 <section class="section">
     <div class="container">
         <div class="text-center mb-xl">
-            <h2>Recomendaciones de sueño de la NSF por edad</h2>
+            <h2>Recomendaciones de sueño basadas en la edad de la NSF</h2>
         </div>
         <div style="overflow-x:auto;">
             <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
                 <thead>
                     <tr style="border-bottom:2px solid #ddd;">
                         <th style="text-align:left; padding:10px;">Grupo de edad</th>
-                        <th style="text-align:center; padding:10px;">Horas recomendadas</th>
+                        <th style="text-align:center; padding:10px;">Horas Recomendadas</th>
                         <th style="text-align:left; padding:10px;">Notas</th>
                     </tr>
                 </thead>
@@ -1302,26 +1313,26 @@ img[width][height] {
                         <td style="padding:10px;"></td>
                     </tr>
                     <tr style="border-bottom:1px solid #eee;">
-                        <td style="padding:10px;">Adultos jóvenes (18–25)</td>
+                        <td style="padding:10px;">Adultos Jóvenes (18–25)</td>
                         <td style="text-align:center;">7–9 h</td>
                         <td style="padding:10px;"></td>
                     </tr>
                     <tr style="border-bottom:1px solid #eee;">
                         <td style="padding:10px;">Adultos (26–64)</td>
                         <td style="text-align:center;">7–9 h</td>
-                        <td style="padding:10px;">La mayoría de usuarios de la app entran aquí</td>
+                        <td style="padding:10px;">La mayoría de usuarios de la aplicación están aquí.</td>
                     </tr>
                     <tr>
-                        <td style="padding:10px;">Adultos mayores (65+)</td>
+                        <td style="padding:10px;">Adultos Mayores (65+)</td>
                         <td style="text-align:center;">7–8 h</td>
-                        <td style="padding:10px;">La arquitectura cambia con la edad; menos sueño profundo es normal
-                        </td>
+                        <td style="padding:10px;">La estructura cambia con la edad; menos sueño profundo es normal.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <p class="text-sm text-secondary mt-md">SleepAnalytics utiliza tu grupo de edad configurado para calibrar tu
-            puntuación de duración. Configúralo en Ajustes → Perfil.</p>
+            puntuación
+            de duración. Configúralo en Ajustes → Perfil.</p>
     </div>
 </section>
 
@@ -1333,23 +1344,30 @@ img[width][height] {
         <div class="grid grid-2">
             <div class="card">
                 <div class="card-content">
-                    <p>El SRI, desarrollado por Phillips et al. (2017), mide la constancia del horario de sueño y
-                        vigilia día a día. Para cada par de días consecutivos, calcula la probabilidad de que estés en
-                        el mismo estado (dormido o despierto) a cada minuto del día.</p>
+                    <p>El SRI, desarrollado por Phillips et al. (2017), mide la consistencia de tus horarios de sueño y
+                        vigilia
+                        día a día. Para cada par de días consecutivos, calcula la probabilidad de que estés en el mismo
+                        estado de
+                        sueño (dormido o despierto) en cada minuto del día.</p>
                     <p class="mt-md">Un SRI de 100 significa patrones de sueño completamente idénticos cada día. Un SRI
-                        de 0 significa horarios completamente aleatorios.</p>
+                        de 0
+                        significa horarios completamente aleatorios.</p>
                 </div>
             </div>
             <div class="card">
                 <div class="card-content">
                     <div class="callout callout-warning">
-                        <strong>Windred et al. (eLife, 2024)</strong> — Un estudio con 88.975 participantes del UK
-                        Biobank encontró que aquellos con un SRI inferior a 41 tenían un <strong>riesgo de mortalidad
-                            por cualquier causa un 53% más alto</strong> en comparación con los que tenían un SRI ≥75,
-                        independientemente de la duración del sueño.
+                        <strong>Windred et al. (eLife, 2024)</strong> — Un estudio de 88,975 participantes del Biobanco
+                        del
+                        Reino Unido encontró que aquellos con un SRI por debajo de 41 tenían un <strong>53% más de
+                            riesgo de
+                            mortalidad por todas las causas</strong> en comparación con aquellos con un SRI ≥75,
+                        independientemente
+                        de la duración del sueño.
                     </div>
-                    <p class="mt-md">Mediana del SRI en la población: ~60. Atletas con horarios de entrenamiento
-                        constantes suelen puntuar entre 65 y 80.</p>
+                    <p class="mt-md">Mediana del SRI de la población: ~60. Los atletas con horarios de entrenamiento
+                        consistentes
+                        suelen obtener puntajes de 65–80.</p>
                 </div>
             </div>
         </div>
@@ -1360,9 +1378,11 @@ img[width][height] {
     <div class="container">
         <div class="callout callout-warning">
             <strong>Aviso Médico:</strong> SleepAnalytics no es un dispositivo médico y no está destinado a
-            diagnosticar, tratar, curar o prevenir ninguna enfermedad. Las métricas e información proporcionadas son
-            solo para fines informativos y de bienestar. Consulta a un profesional de la salud para cualquier
-            preocupación sobre el sueño o sospecha de trastornos del sueño.
+            diagnosticar,
+            tratar, curar o prevenir ninguna enfermedad. Las métricas e información proporcionadas son solo con fines de
+            bienestar e informativos. Consulta a un proveedor de atención médica para cualquier preocupación sobre el
+            sueño o
+            sospecha de trastornos del sueño.
         </div>
     </div>
 </section>
@@ -1580,6 +1600,11 @@ img[width][height] {
                     Português
                 </a>
                 
+                <a href="/ru/" class="lang-link"
+                    hreflang="ru" >
+                    Русский
+                </a>
+                
                 <a href="/ro/" class="lang-link"
                     hreflang="ro" >
                     Română
@@ -1688,8 +1713,8 @@ img[width][height] {
 </div>
 
   
-  <script src="../../assets/js/core.min.js?v=215c52441671" defer></script>
-  <script src="../../assets/js/search.min.js?v=215c52441671" defer></script>
+  <script src="../../assets/js/core.min.js?v=9be921e9" defer></script>
+  <script src="../../assets/js/search.min.js?v=9be921e9" defer></script>
   
 
   
