@@ -494,7 +494,7 @@ img[width][height] {
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
   
-  <link rel="stylesheet" href="../../assets/css/main.min.css?v=f6c25c69">
+  <link rel="stylesheet" href="../../assets/css/main.min.css?v=9aa02b80">
 
   
   
@@ -1091,274 +1091,255 @@ img[width][height] {
   <main id="main-content" class="main-content">
     
     <section class="page-hero">
-    <div class="container">
-        <h1>The Science Behind SleepAnalytics</h1>
-        <p class="lead">Every metric we surface is derived from peer-reviewed sleep research. This page explains the
-            science, the formulas, and the limitations — transparently.</p>
-    </div>
+<div class="container">
+<h1>Die Wetenskap Agter SleepAnalytics</h1>
+<p class="lead">Elke maatstaf wat ons na vore kom, is afgelei van eweknie-geëvalueerde slaapnavorsing. Hierdie bladsy verduidelik die
+            wetenskap, die formules en die beperkings - deursigtig.</p>
+</div>
 </section>
-
 <section class="section section-light">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>Why Sleep Quality Matters Beyond Duration</h2>
-        </div>
-        <div class="card">
-            <div class="card-content">
-                <p><strong>7 hours of fragmented sleep is not the same as 7 hours of restorative sleep.</strong></p>
-                <p class="mt-md">The American Academy of Sleep Medicine (AASM) defines sleep quality through multiple
-                    dimensions: Sleep Efficiency, Latency (time to fall asleep), Wake After Sleep Onset (WASO), and
-                    stage distribution — not just duration. The National Sleep Foundation's 2015 guidelines established
-                    age-based duration recommendations, but explicitly noted that quality metrics are equally important.
-                </p>
-                <div class="callout callout-info mt-md">
-                    <strong>Key insight:</strong> Duration explains only about 30% of the variance in how rested people
-                    feel. The remaining 70% comes from efficiency, continuity, and stage distribution (Ohayon et al.
-                    2017).
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<div class="text-center mb-xl">
+<h2>Waarom slaapkwaliteit langer as duur belangrik is</h2>
+</div>
+<div class="card">
+<div class="card-content">
+<p><strong>7 uur se gefragmenteerde slaap is nie dieselfde as 7 uur se herstellende slaap nie.</strong></p>
+<p class="mt-md">Die American Academy of Sleep Medicine (AASM) definieer slaapkwaliteit deur veelvuldige
+                    dimensies: Slaapdoeltreffendheid, Latency (tyd om aan die slaap te raak), Wake After Sleep Aanvang (WASO), en
+                    stadiumverspreiding — nie net duur nie. Die Nasionale Slaapstigting se 2015-riglyne vasgestel
+                    ouderdomsgebaseerde duur aanbevelings, maar uitdruklik opgemerk dat kwaliteit maatstawwe ewe belangrik is.</p>
+<div class="callout callout-info mt-md">
+<strong>Sleutel insig:</strong>Duur verduidelik slegs sowat 30% van die variansie in hoe uitgerus mense
+                    voel. Die oorblywende 70% kom van doeltreffendheid, kontinuïteit en verhoogverspreiding (Ohayon et al.
+                    2017).</div>
+</div>
+</div>
+</div>
 </section>
-
 <section class="section">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>How Apple Watch Detects Sleep Stages</h2>
-        </div>
-        <div class="grid grid-2">
-            <div class="card">
-                <h3 class="card-title">Sensor Fusion</h3>
-                <div class="card-content">
-                    <p>Apple Watch uses three data streams simultaneously:</p>
-                    <ul>
-                        <li><strong>Accelerometer:</strong> Detects micro-movements and breathing-associated motion</li>
-                        <li><strong>Optical PPG:</strong> Heart rate and heart rate variability throughout the night
-                        </li>
-                        <li><strong>Machine Learning:</strong> A neural network trained on polysomnography (PSG)
-                            validation data</li>
-                    </ul>
-                    <p class="mt-md">The result is 4-stage classification: Core (N1+N2), Deep (N3), REM, and Awake.</p>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="card-title">Accuracy</h3>
-                <div class="card-content">
-                    <p>Apple Watch's sleep staging has been independently validated. Key figures from Apple's dataset:
-                    </p>
-                    <ul>
-                        <li>Mean kappa: 0.63 (fair-to-moderate agreement with PSG)</li>
-                        <li>Sleep sensitivity: 97.9% (correctly identifies sleep)</li>
-                        <li>Wake specificity: ~75%</li>
-                    </ul>
-                    <div class="callout callout-warning mt-md">
-                        <strong>Important:</strong> Sleep stages are only available on Apple Watch Series 4 and later.
-                        The app clearly marks which metrics require specific hardware.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-xl">
-            <h3>AASM Stage Mapping</h3>
-            <div style="overflow-x:auto; margin-top:1rem;">
-                <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
-                    <thead>
-                        <tr style="border-bottom:2px solid #ddd;">
-                            <th style="text-align:left; padding:10px;">Clinical Stage</th>
-                            <th style="text-align:center; padding:10px;">% of TST</th>
-                            <th style="text-align:center; padding:10px;">Apple Watch Label</th>
-                            <th style="text-align:left; padding:10px;">Why It Matters</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="border-bottom:1px solid #eee;">
-                            <td style="padding:10px;">N1 (light transition)</td>
-                            <td style="text-align:center;">2–5%</td>
-                            <td style="text-align:center;">Core</td>
-                            <td style="padding:10px;">Easily disrupted; brief transition state</td>
-                        </tr>
-                        <tr style="border-bottom:1px solid #eee;">
-                            <td style="padding:10px;">N2 (light stable)</td>
-                            <td style="text-align:center;">45–55%</td>
-                            <td style="text-align:center;">Core</td>
-                            <td style="padding:10px;">K-complexes and sleep spindles; memory consolidation</td>
-                        </tr>
-                        <tr style="border-bottom:1px solid #eee;">
-                            <td style="padding:10px;">N3 (deep / slow-wave)</td>
-                            <td style="text-align:center;">10–20%</td>
-                            <td style="text-align:center;">Deep</td>
-                            <td style="padding:10px;">Growth hormone release, physical recovery, glymphatic clearance
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding:10px;">REM</td>
-                            <td style="text-align:center;">20–25%</td>
-                            <td style="text-align:center;">REM</td>
-                            <td style="padding:10px;">Memory consolidation, emotional regulation, creativity</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<div class="text-center mb-xl">
+<h2>Hoe Apple Watch slaapstadia opspoor</h2>
+</div>
+<div class="grid grid-2">
+<div class="card">
+<h3 class="card-title">Sensor Fusion</h3>
+<div class="card-content">
+<p>Apple Watch gebruik drie datastrome gelyktydig:</p>
+<ul>
+<li><strong>Versnellingsmeter:</strong>Bespeur mikro-bewegings en asemhaling-geassosieerde beweging</li>
+<li><strong>Optiese PPG:</strong>Hartklop en hartklopveranderlikheid deur die nag</li>
+<li><strong>Masjienleer:</strong>'n Neurale netwerk opgelei op polisomnografie (PSG)
+                            valideringsdata</li>
+</ul>
+<p class="mt-md">Die resultaat is 4-stadium klassifikasie: Kern (N1+N2), Diep (N3), REM en Ontwaak.</p>
+</div>
+</div>
+<div class="card">
+<h3 class="card-title">Akkuraatheid</h3>
+<div class="card-content">
+<p>Apple Watch se slaapstadium is onafhanklik bekragtig. Sleutelsyfers uit Apple se datastel:</p>
+<ul>
+<li>Gemiddelde kappa: 0,63 (billike-tot-matige ooreenkoms met PSG)</li>
+<li>Slaapsensitiwiteit: 97,9% (identifiseer slaap korrek)</li>
+<li>Wakker spesifisiteit: ~75%</li>
+</ul>
+<div class="callout callout-warning mt-md">
+<strong>Belangrik:</strong>Slaapstadia is slegs beskikbaar op Apple Watch Series 4 en later.
+                        Die toepassing merk duidelik watter maatstawwe spesifieke hardeware benodig.</div>
+</div>
+</div>
+</div>
+<div class="mt-xl">
+<h3>AASM-stadiumkartering</h3>
+<div style="overflow-x:auto; margin-top:1rem;">
+<table style="width:100%; border-collapse:collapse; font-size:0.9em;">
+<thead>
+<tr style="border-bottom:2px solid #ddd;">
+<th style="text-align:left; padding:10px;">Kliniese stadium</th>
+<th style="text-align:center; padding:10px;">% van TST</th>
+<th style="text-align:center; padding:10px;">Apple Watch-etiket</th>
+<th style="text-align:left; padding:10px;">Waarom dit saak maak</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">N1 (ligte oorgang)</td>
+<td style="text-align:center;">2–5%</td>
+<td style="text-align:center;">Kern</td>
+<td style="padding:10px;">Maklik ontwrig; kort oorgangstoestand</td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">N2 (lig stabiel)</td>
+<td style="text-align:center;">45–55%</td>
+<td style="text-align:center;">Kern</td>
+<td style="padding:10px;">K-komplekse en slaapspille; geheue konsolidasie</td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">N3 (diep / stadige golf)</td>
+<td style="text-align:center;">10–20%</td>
+<td style="text-align:center;">Diep</td>
+<td style="padding:10px;">Groeihormoon vrystelling, fisiese herstel, glymfatiese opruiming</td>
+</tr>
+<tr>
+<td style="padding:10px;">REM</td>
+<td style="text-align:center;">20–25%</td>
+<td style="text-align:center;">REM</td>
+<td style="padding:10px;">Geheuekonsolidasie, emosionele regulering, kreatiwiteit</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 </section>
-
 <section class="section section-light">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>Our Sleep Score — Full Formula</h2>
-            <p class="lead">We believe you should understand exactly how your sleep score is calculated.</p>
-        </div>
-        <div class="card">
-            <div class="card-content">
-                <p>The 8 components below add up to a maximum of 100. Each component uses published clinical thresholds
-                    — not proprietary weights.</p>
-                <div style="overflow-x:auto; margin-top:1rem;">
-                    <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
-                        <thead>
-                            <tr style="border-bottom:2px solid #ddd;">
-                                <th style="text-align:left; padding:10px;">Component</th>
-                                <th style="text-align:center; padding:10px;">Max Points</th>
-                                <th style="text-align:left; padding:10px;">Threshold / Formula</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Duration</td>
-                                <td style="text-align:center;">25</td>
-                                <td style="padding:10px;">NSF age-adjusted recommendation (±30 min earns partial score)
-                                </td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Sleep Efficiency</td>
-                                <td style="text-align:center;">20</td>
-                                <td style="padding:10px;">Linear: 75%→0 pts, 95%→20 pts</td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Sleep Latency</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–30→4, &gt;30→0</td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">WASO</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–40→4, &gt;40→0</td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Deep Sleep %</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">15–20% optimal; below or above reduces score proportionally
-                                </td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">REM %</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">20–25% optimal; below or above reduces score proportionally
-                                </td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">HRV Trend</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">vs. personal 30-day rolling baseline (±10% earns partial
-                                    score)</td>
-                            </tr>
-                            <tr>
-                                <td style="padding:10px;">Sleep Regularity</td>
-                                <td style="text-align:center;">5</td>
-                                <td style="padding:10px;">SRI deviation from a 75-point target</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <p class="text-sm text-secondary mt-md"><strong>Inspired by:</strong> Pittsburgh Sleep Quality Index
-                    (Buysse et al. 1989) and NSF clinical thresholds (Ohayon et al. 2017).</p>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<div class="text-center mb-xl">
+<h2>Ons slaaptelling — Volledige formule</h2>
+<p class="lead">Ons glo jy moet presies verstaan ​​hoe jou slaaptelling bereken word.</p>
+</div>
+<div class="card">
+<div class="card-content">
+<p>Die 8 komponente hieronder tel 'n maksimum van 100 op. Elke komponent gebruik gepubliseerde kliniese drempels
+                    - nie eie gewigte nie.</p>
+<div style="overflow-x:auto; margin-top:1rem;">
+<table style="width:100%; border-collapse:collapse; font-size:0.9em;">
+<thead>
+<tr style="border-bottom:2px solid #ddd;">
+<th style="text-align:left; padding:10px;">Komponent</th>
+<th style="text-align:center; padding:10px;">Maksimum punte</th>
+<th style="text-align:left; padding:10px;">Drempel / Formule</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">Tydsduur</td>
+<td style="text-align:center;">25</td>
+<td style="padding:10px;">NSF-ouderdomsaangepaste aanbeveling (±30 min verdien gedeeltelike telling)</td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">Slaapdoeltreffendheid</td>
+<td style="text-align:center;">20</td>
+<td style="padding:10px;">Lineêr: 75%→0 punte, 95%→20 punte</td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">Slaapvertraging</td>
+<td style="text-align:center;">10</td>
+<td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–30→4, &gt;30→0</td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">WASO</td>
+<td style="text-align:center;">10</td>
+<td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–40→4, &gt;40→0</td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">Diep slaap %</td>
+<td style="text-align:center;">10</td>
+<td style="padding:10px;">15–20% optimaal; onder of bo verminder telling proporsioneel</td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">REM %</td>
+<td style="text-align:center;">10</td>
+<td style="padding:10px;">20–25% optimaal; onder of bo verminder telling proporsioneel</td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">HRV-tendens</td>
+<td style="text-align:center;">10</td>
+<td style="padding:10px;">teenoor persoonlike 30-dae deurlopende basislyn (±10% verdien gedeeltelik
+                                    telling)</td>
+</tr>
+<tr>
+<td style="padding:10px;">Slaap Gereeldheid</td>
+<td style="text-align:center;">5</td>
+<td style="padding:10px;">SRI-afwyking van 'n 75-punt-teiken</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="text-sm text-secondary mt-md"><strong>Geïnspireer deur:</strong>Pittsburgh Slaap Kwaliteit Indeks
+                    (Buysse et al. 1989) en NSF kliniese drempels (Ohayon et al. 2017).</p>
+</div>
+</div>
+</div>
 </section>
-
 <section class="section">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>NSF Age-Based Sleep Recommendations</h2>
-        </div>
-        <div style="overflow-x:auto;">
-            <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
-                <thead>
-                    <tr style="border-bottom:2px solid #ddd;">
-                        <th style="text-align:left; padding:10px;">Age Group</th>
-                        <th style="text-align:center; padding:10px;">Recommended Hours</th>
-                        <th style="text-align:left; padding:10px;">Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="border-bottom:1px solid #eee;">
-                        <td style="padding:10px;">Teenagers (14–17)</td>
-                        <td style="text-align:center;">8–10 h</td>
-                        <td style="padding:10px;"></td>
-                    </tr>
-                    <tr style="border-bottom:1px solid #eee;">
-                        <td style="padding:10px;">Young Adults (18–25)</td>
-                        <td style="text-align:center;">7–9 h</td>
-                        <td style="padding:10px;"></td>
-                    </tr>
-                    <tr style="border-bottom:1px solid #eee;">
-                        <td style="padding:10px;">Adults (26–64)</td>
-                        <td style="text-align:center;">7–9 h</td>
-                        <td style="padding:10px;">Most App users fall here</td>
-                    </tr>
-                    <tr>
-                        <td style="padding:10px;">Older Adults (65+)</td>
-                        <td style="text-align:center;">7–8 h</td>
-                        <td style="padding:10px;">Architecture changes with age; less deep sleep is normal</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <p class="text-sm text-secondary mt-md">SleepAnalytics uses your configured age group to calibrate your duration
-            score. Set it in Settings → Profile.</p>
-    </div>
+<div class="container">
+<div class="text-center mb-xl">
+<h2>NSF Ouderdomsgebaseerde slaapaanbevelings</h2>
+</div>
+<div style="overflow-x:auto;">
+<table style="width:100%; border-collapse:collapse; font-size:0.9em;">
+<thead>
+<tr style="border-bottom:2px solid #ddd;">
+<th style="text-align:left; padding:10px;">Ouderdomsgroep</th>
+<th style="text-align:center; padding:10px;">Aanbevole ure</th>
+<th style="text-align:left; padding:10px;">Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">Tieners (14–17)</td>
+<td style="text-align:center;">8–10 uur</td>
+<td style="padding:10px;"></td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">Jong volwassenes (18–25)</td>
+<td style="text-align:center;">7–9 uur</td>
+<td style="padding:10px;"></td>
+</tr>
+<tr style="border-bottom:1px solid #eee;">
+<td style="padding:10px;">Volwassenes (26–64)</td>
+<td style="text-align:center;">7–9 uur</td>
+<td style="padding:10px;">Die meeste toepassinggebruikers val hier</td>
+</tr>
+<tr>
+<td style="padding:10px;">Ouer volwassenes (65+)</td>
+<td style="text-align:center;">7-8 uur</td>
+<td style="padding:10px;">Argitektuur verander met ouderdom; minder diep slaap is normaal</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="text-sm text-secondary mt-md">SleepAnalytics gebruik jou gekonfigureerde ouderdomsgroep om jou tydsduur te kalibreer
+            telling. Stel dit in Instellings → Profiel.</p>
+</div>
 </section>
-
 <section class="section section-light">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>The Sleep Regularity Index (SRI)</h2>
-        </div>
-        <div class="grid grid-2">
-            <div class="card">
-                <div class="card-content">
-                    <p>The SRI, developed by Phillips et al. (2017), measures how consistent your sleep-wake timing is
-                        day to day. For each pair of consecutive days, it calculates the probability that you are in the
-                        same sleep state (asleep or awake) at every minute of the day.</p>
-                    <p class="mt-md">An SRI of 100 means completely identical sleep patterns every day. An SRI of 0
-                        means completely random timing.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <div class="callout callout-warning">
-                        <strong>Windred et al. (eLife, 2024)</strong> — A study of 88,975 UK Biobank participants found
-                        that those with an SRI below 41 had a <strong>53% higher all-cause mortality risk</strong>
-                        compared to those with SRI ≥75, independent of sleep duration.
-                    </div>
-                    <p class="mt-md">Population median SRI: ~60. Athletes with consistent training schedules typically
-                        score 65–80.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<div class="text-center mb-xl">
+<h2>Die slaapreëlmatigheidsindeks (SRI)</h2>
+</div>
+<div class="grid grid-2">
+<div class="card">
+<div class="card-content">
+<p>Die SRI, ontwikkel deur Phillips et al. (2017), meet hoe konsekwent jou slaap-wakker tydsberekening is
+                        dag tot dag. Vir elke paar opeenvolgende dae, dit bereken die waarskynlikheid dat jy in die
+                        dieselfde slaaptoestand (slaap of wakker) op elke minuut van die dag.</p>
+<p class="mt-md">’n SRI van 100 beteken elke dag heeltemal identiese slaappatrone. 'n SRI van 0
+                        beteken heeltemal willekeurige tydsberekening.</p>
+</div>
+</div>
+<div class="card">
+<div class="card-content">
+<div class="callout callout-warning">
+<strong>Windred et al. (eLife, 2024)</strong>- 'n Studie van 88 975 Britse Biobank-deelnemers het bevind
+                        dat diegene met 'n SRI onder 41 'n<strong>gehad het 53% hoër sterfterisiko deur alle oorsake</strong>in vergelyking met dié met SRI ≥75, onafhanklik van slaapduur.</div>
+<p class="mt-md">Bevolking mediaan SRI: ~60. Atlete met konsekwente oefenskedules tipies
+                        telling 65–80.</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-
 <section class="section">
-    <div class="container">
-        <div class="callout callout-warning">
-            <strong>Medical Disclaimer:</strong> SleepAnalytics is not a medical device and is not intended to diagnose,
-            treat, cure, or prevent any disease. The metrics and insights provided are for informational and wellness
-            purposes only. Consult a healthcare provider for any sleep concerns or suspected sleep disorders.
-        </div>
-    </div>
+<div class="container">
+<div class="callout callout-warning">
+<strong>Mediese vrywaring:</strong>SleepAnalytics is nie 'n mediese toestel nie en is nie bedoel om te diagnoseer,
+            enige siekte behandel, genees of voorkom. Die maatstawwe en insigte wat verskaf word, is vir inligting en welstand
+            slegs doeleindes. Raadpleeg 'n gesondheidsorgverskaffer vir enige slaapprobleme of vermoedelike slaapversteurings.</div>
+</div>
 </section>
     
 
@@ -1687,8 +1668,8 @@ img[width][height] {
 </div>
 
   
-  <script src="../../assets/js/core.min.js?v=f6c25c69" defer></script>
-  <script src="../../assets/js/search.min.js?v=f6c25c69" defer></script>
+  <script src="../../assets/js/core.min.js?v=9aa02b80" defer></script>
+  <script src="../../assets/js/search.min.js?v=9aa02b80" defer></script>
   
 
   

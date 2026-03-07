@@ -494,7 +494,7 @@ img[width][height] {
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
   
-  <link rel="stylesheet" href="../../../assets/css/main.min.css?v=f6c25c69">
+  <link rel="stylesheet" href="../../../assets/css/main.min.css?v=9aa02b80">
 
   
   
@@ -1073,67 +1073,58 @@ img[width][height] {
     
     <section class="page-hero">
 <div class="container">
-<h1>Garmin and Sleep Analytics on iPhone: Getting the Most From Apple Health Sync</h1>
-<p class="lead">Step-by-step guide for Garmin users — what data syncs, what doesn't, and how to maximize SleepAnalytics with your watch.</p>
+<h1>Garmin ja Sleep Analytics rakenduses iPhone: Apple Health sünkroonimisest maksimumi saamine</h1>
+<p class="lead">Samm-sammuline juhend Garmini kasutajatele – millised andmed sünkroonitakse, millised mitte ja kuidas SleepAnalytics oma kellaga maksimeerida.</p>
 </div>
 </section>
-
 <section class="section">
 <div class="container container-narrow">
-<p class="lead">Garmin makes excellent wearables. Apple Health makes excellent data infrastructure. SleepAnalytics bridges them — but you need to know how the sync works to get the most out of it.</p>
-
-<h2 class="mt-xl">How Garmin Syncs to Apple Health</h2>
-<p>Garmin Connect for iPhone can sync sleep and activity data to Apple Health. You enable this once in the Garmin Connect app, and it handles the sync automatically thereafter. However, the sync is selective — not all Garmin data fields are sent to Apple Health.</p>
-
-<h2 class="mt-xl">What Garmin Sends to Apple Health</h2>
+<p class="lead">Garmin teeb suurepäraseid kantavaid esemeid. Apple Health loob suurepärase andmeinfrastruktuuri. SleepAnalytics ühendab need, kuid sellest maksimumi saamiseks peate teadma, kuidas sünkroonimine toimib.</p>
+<h2 class="mt-xl">Kuidas Garmin sünkroonib Apple Health-ga</h2>
+<p>Garmin Connect for iPhone saab une- ja aktiivsusandmeid Apple Health-ga sünkroonida. Lubate selle Garmin Connecti rakenduses üks kord ja see tegeleb seejärel sünkroonimisega automaatselt. Sünkroonimine on aga selektiivne — kõiki Garmini andmevälju ei saadeta seadmesse Apple Health.</p>
+<h2 class="mt-xl">Mida Garmin saadab Apple Health-le</h2>
 <ul>
-<li>✅ <strong>Sleep duration</strong> — total sleep time and time in bed</li>
-<li>✅ <strong>Sleep/Wake stages</strong> — basic on newer Garmin models that detect sleep architecture</li>
-<li>✅ <strong>Heart rate during sleep</strong> — HR data throughout the night</li>
-<li>✅ <strong>Workout data</strong> — exercises recorded on your watch</li>
-<li>⚠️ <strong>HRV</strong> — limited; Garmin's overnight HRV sync to Apple Health varies by model</li>
-<li>❌ <strong>Body Battery</strong> — Garmin proprietary metric, not exported to Apple Health</li>
-<li>❌ <strong>SpO2 (Pulse Ox)</strong> — typically not sent to Apple Health</li>
+<li>✅<strong>Une kestus</strong>— kogu uneaeg ja voodis veedetud aeg</li>
+<li>✅<strong>Une-/ärkveloleku etapid</strong>— põhiline uuematel Garmini mudelitel, mis tuvastavad une arhitektuuri</li>
+<li>✅<strong>Pulss une ajal</strong>— personaliandmed kogu öö jooksul</li>
+<li>✅<strong>Treeningu andmed</strong>— teie kellale salvestatud harjutused</li>
+<li>⚠️<strong>HRV</strong>— piiratud; Garmini öine HRV sünkroonimine Apple Health-ga erineb mudeliti</li>
+<li>❌<strong>Kere aku</strong>— Garmini patenteeritud mõõdik, mida ei ekspordita Apple Health-i</li>
+<li>❌<strong>SpO2 (impulssoks)</strong>— tavaliselt ei saadeta Apple Health-ile</li>
 </ul>
-
-<h2 class="mt-xl">Step-by-Step Setup</h2>
+<h2 class="mt-xl">Samm-sammuline seadistamine</h2>
 <ol>
-<li>Install Garmin Connect on your iPhone (if not already installed)</li>
-<li>Open Garmin Connect → tap <strong>☰ Menu</strong> (top left)</li>
-<li>Go to <strong>Settings → Connected Apps</strong></li>
-<li>Find <strong>Apple Health</strong> and tap <strong>Connect</strong></li>
-<li>Grant the permissions Garmin requests in the Health app dialog</li>
-<li>For best results: enable sleep tracking on your Garmin watch (watch Settings → Sleep)</li>
-<li>Download and open SleepAnalytics → grant HealthKit permissions when prompted</li>
+<li>Installige Garmin Connect oma iPhone-i (kui see pole veel installitud)</li>
+<li>Avage Garmin Connect → toksake<strong>☰ Menüü</strong>(üleval vasakul)</li>
+<li>Mine lehele<strong>Seaded → Ühendatud rakendused</strong></li>
+<li>Leia<strong>Apple Health</strong>ja koputage<strong>Ühendage</strong></li>
+<li>Andke Garmini taotletud load terviserakenduse dialoogis</li>
+<li>Parimate tulemuste saamiseks lubage oma Garmini kellas une jälgimine (vaata Seaded → Unerežiim)</li>
+<li>Laadige alla ja avage SleepAnalytics → andke küsimisel HealthKiti load</li>
 </ol>
-
-<div class="callout callout-info mt-md">Garmin to Apple Health sync typically runs once per day when you open Garmin Connect. For fresh data each morning, open Garmin Connect before SleepAnalytics.</div>
-
-<h2 class="mt-xl">What Features Work With Garmin</h2>
+<div class="callout callout-info mt-md">Garmin to Apple Health sünkroonimine käivitub tavaliselt üks kord päevas, kui avate Garmin Connecti. Igal hommikul värskete andmete saamiseks avage Garmin Connect enne SleepAnalytics.</div>
+<h2 class="mt-xl">Millised funktsioonid Garminiga töötavad</h2>
 <ul>
-<li>✅ Sleep Score (duration, efficiency, WASO, latency components)</li>
-<li>✅ Sleep Regularity Index</li>
-<li>✅ Social Jet Lag indicator</li>
-<li>✅ Sleep Debt tracker</li>
-<li>✅ Exercise-Sleep Correlation (using Garmin workout data)</li>
-<li>⚠️ HRV Trend component (if your Garmin model syncs HRV to Apple Health)</li>
-<li>❌ Detailed hypnogram (requires Apple Watch-quality stage data; basic sleep/wake only for most Garmin models)</li>
-<li>❌ Deep Sleep % and REM % components (requires Apple Watch stage data)</li>
+<li>✅ Uneskoor (kestus, tõhusus, WASO, latentsuskomponendid)</li>
+<li>✅ Une regulaarsuse indeks</li>
+<li>✅ Social Jet Lag indikaator</li>
+<li>✅ Unevõla jälgija</li>
+<li>✅ Treeningu ja une korrelatsioon (kasutades Garmini treeningu andmeid)</li>
+<li>⚠️ HRV Trend komponent (kui teie Garmini mudel sünkroonib HRV-d Apple Health-ga)</li>
+<li>❌ Üksikasjalik hüpnogramm (nõuab Apple Watchi kvaliteediga faasiandmeid; põhiline une-/ärkvelolekurežiim ainult enamiku Garmini mudelite puhul)</li>
+<li>❌ Deep Sleep % ja REM % komponendid (nõuab Apple Watchi etapi andmeid)</li>
 </ul>
-
-<h2 class="mt-xl">Maximizing Your Garmin + SleepAnalytics Setup</h2>
-<p>Even with partial stage data, Garmin users get significant value from SleepAnalytics — particularly the exercise-sleep correlation (using your Garmin workout history), sleep regularity tracking, and the timing-based components of the sleep score. As Garmin expands its Apple Health data export over time, SleepAnalytics will automatically leverage the additional data.</p>
-
+<h2 class="mt-xl">Garmin + SleepAnalyticsi seadistuse maksimeerimine</h2>
+<p>Isegi osaliste etapiandmete korral saavad Garmini kasutajad SleepAnalyticsist olulist väärtust – eelkõige treeningu ja une korrelatsiooni (kasutades teie Garmini treeningute ajalugu), une regulaarsuse jälgimist ja uneskoori ajastuspõhiseid komponente. Kuna Garmin laiendab oma Apple Health andmete eksporti aja jooksul, kasutab SleepAnalytics automaatselt täiendavaid andmeid.</p>
 <div class="text-center mt-xl">
-<a href="" class="btn btn-primary btn-large">Start With Your Garmin Data</a>
+<a class="btn btn-primary btn-large" href="">Alustage oma Garmini andmetega</a>
 </div>
 </div>
 </section>
-
 <section class="page-hero">
 <div class="container">
-<a href="{ site.app.app_store_url }" class="btn btn-primary">Download SleepAnalytics</a>
-<a href="index.html" class="btn btn-text" style="margin-left:1rem;">← Back to Blog</a>
+<a class="btn btn-primary" href="{ site.app.app_store_url }">Laadige alla SleepAnalytics</a>
+<a class="btn btn-text" href="index.html" style="margin-left:1rem;">← Tagasi blogisse</a>
 </div>
 </section>
     
@@ -1463,8 +1454,8 @@ img[width][height] {
 </div>
 
   
-  <script src="../../../assets/js/core.min.js?v=f6c25c69" defer></script>
-  <script src="../../../assets/js/search.min.js?v=f6c25c69" defer></script>
+  <script src="../../../assets/js/core.min.js?v=9aa02b80" defer></script>
+  <script src="../../../assets/js/search.min.js?v=9aa02b80" defer></script>
   
 
   
