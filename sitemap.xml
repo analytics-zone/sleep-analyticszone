@@ -4,7 +4,7 @@
     <loc>https://sleep.analyticszone.app/af/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/"/>
@@ -41,7 +41,7 @@
     <loc>https://sleep.analyticszone.app/af/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/about/"/>
@@ -78,7 +78,7 @@
     <loc>https://sleep.analyticszone.app/af/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/bibliography/"/>
@@ -115,7 +115,7 @@
     <loc>https://sleep.analyticszone.app/af/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/blog/"/>
@@ -152,7 +152,7 @@
     <loc>https://sleep.analyticszone.app/af/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/faq/"/>
@@ -189,7 +189,7 @@
     <loc>https://sleep.analyticszone.app/af/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/features/"/>
@@ -226,7 +226,7 @@
     <loc>https://sleep.analyticszone.app/af/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/medical-disclaimer/"/>
@@ -260,47 +260,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/af/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/af/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/science/"/>
@@ -332,43 +295,6 @@
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/af/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/ar/</loc>
@@ -633,7 +559,7 @@
     <loc>https://sleep.analyticszone.app/ar/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
@@ -707,7 +633,7 @@
     <loc>https://sleep.analyticszone.app/ar/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
@@ -744,7 +670,7 @@
     <loc>https://sleep.analyticszone.app/bn/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/"/>
@@ -781,7 +707,7 @@
     <loc>https://sleep.analyticszone.app/bn/about/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/about/"/>
@@ -818,7 +744,7 @@
     <loc>https://sleep.analyticszone.app/bn/bibliography/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/bibliography/"/>
@@ -855,7 +781,7 @@
     <loc>https://sleep.analyticszone.app/bn/blog/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/blog/"/>
@@ -892,7 +818,7 @@
     <loc>https://sleep.analyticszone.app/bn/faq/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/faq/"/>
@@ -929,7 +855,7 @@
     <loc>https://sleep.analyticszone.app/bn/features/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/features/"/>
@@ -966,7 +892,7 @@
     <loc>https://sleep.analyticszone.app/bn/medical-disclaimer/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/medical-disclaimer/"/>
@@ -1000,47 +926,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/bn/privacy/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/bn/science/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/science/"/>
@@ -1074,47 +963,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/bn/terms/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/ca/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -1151,7 +1003,7 @@
     <loc>https://sleep.analyticszone.app/ca/about/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -1188,7 +1040,7 @@
     <loc>https://sleep.analyticszone.app/ca/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -1225,7 +1077,7 @@
     <loc>https://sleep.analyticszone.app/ca/blog/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -1262,7 +1114,7 @@
     <loc>https://sleep.analyticszone.app/ca/faq/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -1299,7 +1151,7 @@
     <loc>https://sleep.analyticszone.app/ca/features/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -1336,7 +1188,7 @@
     <loc>https://sleep.analyticszone.app/ca/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -1370,47 +1222,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/ca/privacy/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/ca/science/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -1444,47 +1259,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/ca/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/cs/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -1521,7 +1299,7 @@
     <loc>https://sleep.analyticszone.app/cs/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -1558,7 +1336,7 @@
     <loc>https://sleep.analyticszone.app/cs/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -1595,7 +1373,7 @@
     <loc>https://sleep.analyticszone.app/cs/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -1632,7 +1410,7 @@
     <loc>https://sleep.analyticszone.app/cs/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -1669,7 +1447,7 @@
     <loc>https://sleep.analyticszone.app/cs/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -1706,7 +1484,7 @@
     <loc>https://sleep.analyticszone.app/cs/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -1740,47 +1518,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/cs/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/cs/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -1814,47 +1555,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/cs/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/da/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -1891,7 +1595,7 @@
     <loc>https://sleep.analyticszone.app/da/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -1928,7 +1632,7 @@
     <loc>https://sleep.analyticszone.app/da/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -1965,7 +1669,7 @@
     <loc>https://sleep.analyticszone.app/da/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -2002,7 +1706,7 @@
     <loc>https://sleep.analyticszone.app/da/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -2039,7 +1743,7 @@
     <loc>https://sleep.analyticszone.app/da/features/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -2076,7 +1780,7 @@
     <loc>https://sleep.analyticszone.app/da/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -2110,47 +1814,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/da/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/da/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -2182,43 +1849,6 @@
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/da/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/de/</loc>
@@ -2483,7 +2113,7 @@
     <loc>https://sleep.analyticszone.app/de/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -2557,7 +2187,7 @@
     <loc>https://sleep.analyticszone.app/de/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -2594,7 +2224,7 @@
     <loc>https://sleep.analyticszone.app/el/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -2631,7 +2261,7 @@
     <loc>https://sleep.analyticszone.app/el/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -2668,7 +2298,7 @@
     <loc>https://sleep.analyticszone.app/el/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -2705,7 +2335,7 @@
     <loc>https://sleep.analyticszone.app/el/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -2742,7 +2372,7 @@
     <loc>https://sleep.analyticszone.app/el/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -2779,7 +2409,7 @@
     <loc>https://sleep.analyticszone.app/el/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -2816,7 +2446,7 @@
     <loc>https://sleep.analyticszone.app/el/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -2850,47 +2480,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/el/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/el/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -2922,43 +2515,6 @@
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/el/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/en/</loc>
@@ -3223,7 +2779,7 @@
     <loc>https://sleep.analyticszone.app/en/privacy/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -3297,7 +2853,7 @@
     <loc>https://sleep.analyticszone.app/en/terms/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -3593,7 +3149,7 @@
     <loc>https://sleep.analyticszone.app/es/privacy/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -3667,7 +3223,7 @@
     <loc>https://sleep.analyticszone.app/es/terms/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -3704,7 +3260,7 @@
     <loc>https://sleep.analyticszone.app/et/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -3741,7 +3297,7 @@
     <loc>https://sleep.analyticszone.app/et/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -3778,7 +3334,7 @@
     <loc>https://sleep.analyticszone.app/et/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -3815,7 +3371,7 @@
     <loc>https://sleep.analyticszone.app/et/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -3852,7 +3408,7 @@
     <loc>https://sleep.analyticszone.app/et/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -3889,7 +3445,7 @@
     <loc>https://sleep.analyticszone.app/et/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -3926,7 +3482,7 @@
     <loc>https://sleep.analyticszone.app/et/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -3960,47 +3516,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/et/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/et/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -4034,47 +3553,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/et/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/fi/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -4111,7 +3593,7 @@
     <loc>https://sleep.analyticszone.app/fi/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -4148,7 +3630,7 @@
     <loc>https://sleep.analyticszone.app/fi/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -4185,7 +3667,7 @@
     <loc>https://sleep.analyticszone.app/fi/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -4222,7 +3704,7 @@
     <loc>https://sleep.analyticszone.app/fi/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -4259,7 +3741,7 @@
     <loc>https://sleep.analyticszone.app/fi/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -4296,7 +3778,7 @@
     <loc>https://sleep.analyticszone.app/fi/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -4330,47 +3812,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/fi/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/fi/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -4402,43 +3847,6 @@
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/fi/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/fr/</loc>
@@ -4703,7 +4111,7 @@
     <loc>https://sleep.analyticszone.app/fr/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -4777,7 +4185,7 @@
     <loc>https://sleep.analyticszone.app/fr/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -5073,7 +4481,7 @@
     <loc>https://sleep.analyticszone.app/hi/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -5147,7 +4555,7 @@
     <loc>https://sleep.analyticszone.app/hi/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -5184,7 +4592,7 @@
     <loc>https://sleep.analyticszone.app/hu/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -5221,7 +4629,7 @@
     <loc>https://sleep.analyticszone.app/hu/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -5258,7 +4666,7 @@
     <loc>https://sleep.analyticszone.app/hu/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -5295,7 +4703,7 @@
     <loc>https://sleep.analyticszone.app/hu/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -5332,7 +4740,7 @@
     <loc>https://sleep.analyticszone.app/hu/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -5369,7 +4777,7 @@
     <loc>https://sleep.analyticszone.app/hu/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -5406,7 +4814,7 @@
     <loc>https://sleep.analyticszone.app/hu/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -5440,47 +4848,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/hu/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/hu/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -5512,43 +4883,6 @@
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/hu/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/id/</loc>
@@ -5813,7 +5147,7 @@
     <loc>https://sleep.analyticszone.app/id/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -5887,7 +5221,7 @@
     <loc>https://sleep.analyticszone.app/id/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -6183,7 +5517,7 @@
     <loc>https://sleep.analyticszone.app/it/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -6257,7 +5591,7 @@
     <loc>https://sleep.analyticszone.app/it/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -6553,7 +5887,7 @@
     <loc>https://sleep.analyticszone.app/ja/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -6627,7 +5961,7 @@
     <loc>https://sleep.analyticszone.app/ja/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -6664,7 +5998,7 @@
     <loc>https://sleep.analyticszone.app/km/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -6701,7 +6035,7 @@
     <loc>https://sleep.analyticszone.app/km/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -6738,7 +6072,7 @@
     <loc>https://sleep.analyticszone.app/km/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -6775,7 +6109,7 @@
     <loc>https://sleep.analyticszone.app/km/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -6812,7 +6146,7 @@
     <loc>https://sleep.analyticszone.app/km/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -6849,7 +6183,7 @@
     <loc>https://sleep.analyticszone.app/km/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -6886,7 +6220,7 @@
     <loc>https://sleep.analyticszone.app/km/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -6920,47 +6254,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/km/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/km/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -6992,43 +6289,6 @@
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/km/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/ko/</loc>
@@ -7293,7 +6553,7 @@
     <loc>https://sleep.analyticszone.app/ko/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -7367,7 +6627,7 @@
     <loc>https://sleep.analyticszone.app/ko/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -7404,7 +6664,7 @@
     <loc>https://sleep.analyticszone.app/nb/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -7441,7 +6701,7 @@
     <loc>https://sleep.analyticszone.app/nb/about/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -7478,7 +6738,7 @@
     <loc>https://sleep.analyticszone.app/nb/bibliography/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -7515,7 +6775,7 @@
     <loc>https://sleep.analyticszone.app/nb/blog/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -7552,7 +6812,7 @@
     <loc>https://sleep.analyticszone.app/nb/faq/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -7589,7 +6849,7 @@
     <loc>https://sleep.analyticszone.app/nb/features/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -7626,7 +6886,7 @@
     <loc>https://sleep.analyticszone.app/nb/medical-disclaimer/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -7660,47 +6920,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/nb/privacy/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/nb/science/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -7732,43 +6955,6 @@
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/nb/terms/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/nl/</loc>
@@ -8033,7 +7219,7 @@
     <loc>https://sleep.analyticszone.app/nl/privacy/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -8107,7 +7293,7 @@
     <loc>https://sleep.analyticszone.app/nl/terms/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -8403,7 +7589,7 @@
     <loc>https://sleep.analyticszone.app/pl/privacy/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -8477,7 +7663,7 @@
     <loc>https://sleep.analyticszone.app/pl/terms/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -8773,7 +7959,7 @@
     <loc>https://sleep.analyticszone.app/pt/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -8847,7 +8033,7 @@
     <loc>https://sleep.analyticszone.app/pt/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -9143,7 +8329,7 @@
     <loc>https://sleep.analyticszone.app/ru/privacy/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -9217,7 +8403,7 @@
     <loc>https://sleep.analyticszone.app/ru/terms/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -9254,7 +8440,7 @@
     <loc>https://sleep.analyticszone.app/ro/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -9291,7 +8477,7 @@
     <loc>https://sleep.analyticszone.app/ro/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -9328,7 +8514,7 @@
     <loc>https://sleep.analyticszone.app/ro/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -9365,7 +8551,7 @@
     <loc>https://sleep.analyticszone.app/ro/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -9402,7 +8588,7 @@
     <loc>https://sleep.analyticszone.app/ro/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -9439,7 +8625,7 @@
     <loc>https://sleep.analyticszone.app/ro/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -9476,7 +8662,7 @@
     <loc>https://sleep.analyticszone.app/ro/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -9510,47 +8696,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/ro/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/ro/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -9582,43 +8731,6 @@
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/ro/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/sv/</loc>
@@ -9883,7 +8995,7 @@
     <loc>https://sleep.analyticszone.app/sv/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -9957,7 +9069,7 @@
     <loc>https://sleep.analyticszone.app/sv/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -10253,7 +9365,7 @@
     <loc>https://sleep.analyticszone.app/tr/privacy/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -10327,7 +9439,7 @@
     <loc>https://sleep.analyticszone.app/tr/terms/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
@@ -10364,7 +9476,7 @@
     <loc>https://sleep.analyticszone.app/uk/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -10401,7 +9513,7 @@
     <loc>https://sleep.analyticszone.app/uk/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -10438,7 +9550,7 @@
     <loc>https://sleep.analyticszone.app/uk/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -10475,7 +9587,7 @@
     <loc>https://sleep.analyticszone.app/uk/blog/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -10512,7 +9624,7 @@
     <loc>https://sleep.analyticszone.app/uk/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -10549,7 +9661,7 @@
     <loc>https://sleep.analyticszone.app/uk/features/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -10586,7 +9698,7 @@
     <loc>https://sleep.analyticszone.app/uk/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -10620,47 +9732,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/uk/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/uk/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -10694,47 +9769,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/uk/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/ur/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -10771,7 +9809,7 @@
     <loc>https://sleep.analyticszone.app/ur/about/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -10808,7 +9846,7 @@
     <loc>https://sleep.analyticszone.app/ur/bibliography/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -10845,7 +9883,7 @@
     <loc>https://sleep.analyticszone.app/ur/blog/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -10882,7 +9920,7 @@
     <loc>https://sleep.analyticszone.app/ur/faq/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -10919,7 +9957,7 @@
     <loc>https://sleep.analyticszone.app/ur/features/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -10956,7 +9994,7 @@
     <loc>https://sleep.analyticszone.app/ur/medical-disclaimer/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -10990,47 +10028,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/ur/privacy/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/ur/science/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -11064,47 +10065,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/ur/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://sleep.analyticszone.app/vi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/vi/</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/"/>
@@ -11141,7 +10105,7 @@
     <loc>https://sleep.analyticszone.app/vi/about/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/about/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/about/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/about/"/>
@@ -11178,7 +10142,7 @@
     <loc>https://sleep.analyticszone.app/vi/bibliography/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/bibliography/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/bibliography/"/>
@@ -11215,7 +10179,7 @@
     <loc>https://sleep.analyticszone.app/vi/blog/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/blog/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/blog/"/>
@@ -11252,7 +10216,7 @@
     <loc>https://sleep.analyticszone.app/vi/faq/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/faq/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/faq/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/faq/"/>
@@ -11289,7 +10253,7 @@
     <loc>https://sleep.analyticszone.app/vi/features/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/features/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/features/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/features/"/>
@@ -11326,7 +10290,7 @@
     <loc>https://sleep.analyticszone.app/vi/medical-disclaimer/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/medical-disclaimer/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/medical-disclaimer/"/>
@@ -11360,47 +10324,10 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/medical-disclaimer/"/>
   </url>
   <url>
-    <loc>https://sleep.analyticszone.app/vi/privacy/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/privacy/"/>
-  </url>
-  <url>
     <loc>https://sleep.analyticszone.app/vi/science/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/science/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/science/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/science/"/>
@@ -11432,43 +10359,6 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/science/"/>
     <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/science/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/science/"/>
-  </url>
-  <url>
-    <loc>https://sleep.analyticszone.app/vi/terms/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://sleep.analyticszone.app/ca/terms/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://sleep.analyticszone.app/cs/terms/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sleep.analyticszone.app/da/terms/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sleep.analyticszone.app/de/terms/"/>
-    <xhtml:link rel="alternate" hreflang="el" href="https://sleep.analyticszone.app/el/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sleep.analyticszone.app/en/terms/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sleep.analyticszone.app/es/terms/"/>
-    <xhtml:link rel="alternate" hreflang="et" href="https://sleep.analyticszone.app/et/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sleep.analyticszone.app/fi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sleep.analyticszone.app/fr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://sleep.analyticszone.app/hi/terms/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://sleep.analyticszone.app/hu/terms/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://sleep.analyticszone.app/id/terms/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sleep.analyticszone.app/it/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://sleep.analyticszone.app/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="km" href="https://sleep.analyticszone.app/km/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://sleep.analyticszone.app/ko/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://sleep.analyticszone.app/nb/terms/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://sleep.analyticszone.app/nl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sleep.analyticszone.app/pl/terms/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://sleep.analyticszone.app/pt/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://sleep.analyticszone.app/ru/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://sleep.analyticszone.app/ro/terms/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://sleep.analyticszone.app/sv/terms/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://sleep.analyticszone.app/tr/terms/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sleep.analyticszone.app/uk/terms/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://sleep.analyticszone.app/ur/terms/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://sleep.analyticszone.app/zh/terms/"/>
   </url>
   <url>
     <loc>https://sleep.analyticszone.app/zh/</loc>
@@ -11733,7 +10623,7 @@
     <loc>https://sleep.analyticszone.app/zh/privacy/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/privacy/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/privacy/"/>
@@ -11807,7 +10697,7 @@
     <loc>https://sleep.analyticszone.app/zh/terms/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="af" href="https://sleep.analyticszone.app/af/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://sleep.analyticszone.app/ar/terms/"/>
     <xhtml:link rel="alternate" hreflang="bn" href="https://sleep.analyticszone.app/bn/terms/"/>
