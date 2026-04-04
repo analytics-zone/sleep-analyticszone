@@ -1,316 +1,38 @@
-<!DOCTYPE html>
-<html lang="zh" dir="ltr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
-    rel="stylesheet">
-
-  
-  <title>解读你的睡眠分数：每一个数字背后的含义 - SleepAnalytics - Train Hard. Recover</title>
-  <meta name="description" content="关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。 你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？">
-  <meta name="author" content="Arno Health">
-
-  
-  
-  <meta name="keywords" content="理解, 你的, 睡觉, 分数, 什么, 每一个, 数字, 方法, A, 完全的">
-  
-
-  
-  <link rel="canonical" href="https://sleep.analyticszone.app/zh/blog/sleep-score-explained/">
-
-  
-  
-  <meta property="article:published_time" content="2025-01-15T10:00:00Z">
-  <meta property="article:modified_time" content="2026-03-11T14:30:00Z">
-  <meta property="article:author" content="Arno Health">
-  
-
-  
-  
-
-  
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://sleep.analyticszone.app/zh/blog/sleep-score-explained/">
-  <meta property="og:title" content="解读你的睡眠分数：每一个数字背后的含义 - SleepAnalytics - Train Hard. Recover">
-  <meta property="og:description" content="关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。 你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？">
-  <meta property="og:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
-  <meta property="og:locale" content="zh_CN">
-  <meta property="og:site_name" content="SleepAnalytics">
-
-  
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://sleep.analyticszone.app/zh/blog/sleep-score-explained/">
-  <meta name="twitter:title" content="解读你的睡眠分数：每一个数字背后的含义 - SleepAnalytics - Train Hard. Recover">
-  <meta name="twitter:description" content="关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。 你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？">
-  <meta name="twitter:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
-  
-  <meta name="twitter:site" content="@HealthAnalytics">
-  <meta name="twitter:creator" content="@HealthAnalytics">
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <link rel="alternate" hreflang="af"
-    href="https://sleep.analyticszone.app/af/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="ar"
-    href="https://sleep.analyticszone.app/ar/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="bn"
-    href="https://sleep.analyticszone.app/bn/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="ca"
-    href="https://sleep.analyticszone.app/ca/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="cs"
-    href="https://sleep.analyticszone.app/cs/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="da"
-    href="https://sleep.analyticszone.app/da/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="de"
-    href="https://sleep.analyticszone.app/de/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="el"
-    href="https://sleep.analyticszone.app/el/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="en"
-    href="https://sleep.analyticszone.app/en/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="es"
-    href="https://sleep.analyticszone.app/es/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="et"
-    href="https://sleep.analyticszone.app/et/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="fi"
-    href="https://sleep.analyticszone.app/fi/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="fr"
-    href="https://sleep.analyticszone.app/fr/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="hi"
-    href="https://sleep.analyticszone.app/hi/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="hu"
-    href="https://sleep.analyticszone.app/hu/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="id"
-    href="https://sleep.analyticszone.app/id/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="it"
-    href="https://sleep.analyticszone.app/it/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="ja"
-    href="https://sleep.analyticszone.app/ja/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="km"
-    href="https://sleep.analyticszone.app/km/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="ko"
-    href="https://sleep.analyticszone.app/ko/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="nb"
-    href="https://sleep.analyticszone.app/nb/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="nl"
-    href="https://sleep.analyticszone.app/nl/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="pl"
-    href="https://sleep.analyticszone.app/pl/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="pt"
-    href="https://sleep.analyticszone.app/pt/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="ru"
-    href="https://sleep.analyticszone.app/ru/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="ro"
-    href="https://sleep.analyticszone.app/ro/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="sv"
-    href="https://sleep.analyticszone.app/sv/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="tr"
-    href="https://sleep.analyticszone.app/tr/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="uk"
-    href="https://sleep.analyticszone.app/uk/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="ur"
-    href="https://sleep.analyticszone.app/ur/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="vi"
-    href="https://sleep.analyticszone.app/vi/blog/sleep-score-explained/">
-  
-  <link rel="alternate" hreflang="zh"
-    href="https://sleep.analyticszone.app/zh/blog/sleep-score-explained/">
-  
-  
-  <link rel="alternate" hreflang="x-default"
-    href="https://sleep.analyticszone.app/en/blog/sleep-score-explained/">
-  
-
-  
-  <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/images/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/images/icons/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/images/icons/apple-touch-icon.png">
-  <link rel="manifest" href="../../../manifest.json">
-  <meta name="theme-color" content="#2563EB">
-  
-  
-  <meta name="robots" content="index, follow">
-  
-
-  
-  
-  
-  <meta name="apple-itunes-app" content="app-id=6760132777">
-  
-
-  
-  <style>
+<!DOCTYPE html><html lang="zh" dir="ltr"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+    rel="stylesheet"><title>解读你的睡眠分数：每一个数字背后的含义 - SleepAnalytics - Train Hard. Recover</title><meta name="description" content="关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。 你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？"><meta name="author" content="Arno Health"><meta name="keywords" content="理解, 你的, 睡觉, 分数, 什么, 每一个, 数字, 方法, A, 完全的"><link rel="canonical" href="https://sleep.analyticszone.app/zh/blog/sleep-score-explained/"><meta property="article:published_time" content="2025-01-15T10:00:00Z"><meta property="article:modified_time" content="2026-03-11T14:30:00Z"><meta property="article:author" content="Arno Health"><meta property="og:type" content="article"><meta property="og:url" content="https://sleep.analyticszone.app/zh/blog/sleep-score-explained/"><meta property="og:title" content="解读你的睡眠分数：每一个数字背后的含义 - SleepAnalytics - Train Hard. Recover"><meta property="og:description" content="关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。 你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？"><meta property="og:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg"><meta property="og:locale" content="zh_CN"><meta property="og:site_name" content="SleepAnalytics"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:url" content="https://sleep.analyticszone.app/zh/blog/sleep-score-explained/"><meta name="twitter:title" content="解读你的睡眠分数：每一个数字背后的含义 - SleepAnalytics - Train Hard. Recover"><meta name="twitter:description" content="关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。 你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？"><meta name="twitter:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg"><meta name="twitter:site" content="@HealthAnalytics"><meta name="twitter:creator" content="@HealthAnalytics"><link rel="alternate" hreflang="af"
+    href="https://sleep.analyticszone.app/af/blog/sleep-score-explained/"><link rel="alternate" hreflang="ar"
+    href="https://sleep.analyticszone.app/ar/blog/sleep-score-explained/"><link rel="alternate" hreflang="bn"
+    href="https://sleep.analyticszone.app/bn/blog/sleep-score-explained/"><link rel="alternate" hreflang="ca"
+    href="https://sleep.analyticszone.app/ca/blog/sleep-score-explained/"><link rel="alternate" hreflang="cs"
+    href="https://sleep.analyticszone.app/cs/blog/sleep-score-explained/"><link rel="alternate" hreflang="da"
+    href="https://sleep.analyticszone.app/da/blog/sleep-score-explained/"><link rel="alternate" hreflang="de"
+    href="https://sleep.analyticszone.app/de/blog/sleep-score-explained/"><link rel="alternate" hreflang="el"
+    href="https://sleep.analyticszone.app/el/blog/sleep-score-explained/"><link rel="alternate" hreflang="en"
+    href="https://sleep.analyticszone.app/en/blog/sleep-score-explained/"><link rel="alternate" hreflang="es"
+    href="https://sleep.analyticszone.app/es/blog/sleep-score-explained/"><link rel="alternate" hreflang="et"
+    href="https://sleep.analyticszone.app/et/blog/sleep-score-explained/"><link rel="alternate" hreflang="fi"
+    href="https://sleep.analyticszone.app/fi/blog/sleep-score-explained/"><link rel="alternate" hreflang="fr"
+    href="https://sleep.analyticszone.app/fr/blog/sleep-score-explained/"><link rel="alternate" hreflang="hi"
+    href="https://sleep.analyticszone.app/hi/blog/sleep-score-explained/"><link rel="alternate" hreflang="hu"
+    href="https://sleep.analyticszone.app/hu/blog/sleep-score-explained/"><link rel="alternate" hreflang="id"
+    href="https://sleep.analyticszone.app/id/blog/sleep-score-explained/"><link rel="alternate" hreflang="it"
+    href="https://sleep.analyticszone.app/it/blog/sleep-score-explained/"><link rel="alternate" hreflang="ja"
+    href="https://sleep.analyticszone.app/ja/blog/sleep-score-explained/"><link rel="alternate" hreflang="km"
+    href="https://sleep.analyticszone.app/km/blog/sleep-score-explained/"><link rel="alternate" hreflang="ko"
+    href="https://sleep.analyticszone.app/ko/blog/sleep-score-explained/"><link rel="alternate" hreflang="nb"
+    href="https://sleep.analyticszone.app/nb/blog/sleep-score-explained/"><link rel="alternate" hreflang="nl"
+    href="https://sleep.analyticszone.app/nl/blog/sleep-score-explained/"><link rel="alternate" hreflang="pl"
+    href="https://sleep.analyticszone.app/pl/blog/sleep-score-explained/"><link rel="alternate" hreflang="pt"
+    href="https://sleep.analyticszone.app/pt/blog/sleep-score-explained/"><link rel="alternate" hreflang="ru"
+    href="https://sleep.analyticszone.app/ru/blog/sleep-score-explained/"><link rel="alternate" hreflang="ro"
+    href="https://sleep.analyticszone.app/ro/blog/sleep-score-explained/"><link rel="alternate" hreflang="sv"
+    href="https://sleep.analyticszone.app/sv/blog/sleep-score-explained/"><link rel="alternate" hreflang="tr"
+    href="https://sleep.analyticszone.app/tr/blog/sleep-score-explained/"><link rel="alternate" hreflang="uk"
+    href="https://sleep.analyticszone.app/uk/blog/sleep-score-explained/"><link rel="alternate" hreflang="ur"
+    href="https://sleep.analyticszone.app/ur/blog/sleep-score-explained/"><link rel="alternate" hreflang="vi"
+    href="https://sleep.analyticszone.app/vi/blog/sleep-score-explained/"><link rel="alternate" hreflang="zh"
+    href="https://sleep.analyticszone.app/zh/blog/sleep-score-explained/"><link rel="alternate" hreflang="x-default"
+    href="https://sleep.analyticszone.app/en/blog/sleep-score-explained/"><link rel="icon" type="image/png" sizes="32x32" href="../../../assets/images/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="../../../assets/images/icons/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="../../../assets/images/icons/apple-touch-icon.png"><link rel="manifest" href="../../../manifest.json"><meta name="theme-color" content="#2563EB"><meta name="robots" content="index, follow"><meta name="apple-itunes-app" content="app-id=6760132777"><style>
 /* Critical CSS - Above the fold styles for fast LCP */
 :root {
   --color-primary: #0066CC;
@@ -569,20 +291,7 @@ img[width][height] {
     transition-duration: 0.01ms !important;
   }
 }
-</style>
-
-  
-  <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-
-  
-  <link rel="stylesheet" href="../../../assets/css/main.min.css?v=63baa90b9f45">
-
-  
-  
-
-
-<script type="application/ld+json">
+</style><link rel="preconnect" href="https://www.googletagmanager.com"><link rel="dns-prefetch" href="https://www.googletagmanager.com"><link rel="stylesheet" href="../../../assets/css/main.min.css?v=aa8b7978"><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -613,10 +322,7 @@ img[width][height] {
     
   ]
 }
-</script>
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -625,11 +331,7 @@ img[width][height] {
   "description": "The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.",
   "inLanguage": "zh"
 }
-</script>
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -644,14 +346,7 @@ img[width][height] {
   },
   "downloadUrl": "https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777"
 }
-</script>
-
-
-
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -709,14 +404,7 @@ img[width][height] {
     }
   ]
 }
-</script>
-
-
-
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -741,17 +429,7 @@ img[width][height] {
     "@id": "https://sleep.analyticszone.app/zh/blog/sleep-score-explained/"
   }
 }
-</script>
-
-
-
-
-
-  
-  
-
-  
-  <script>
+</script><script>
     (function () {
       let theme = localStorage.getItem('theme');
       // Older builds could persist a per-subdomain `theme=light` value without a UI
@@ -765,733 +443,206 @@ img[width][height] {
         document.documentElement.classList.add('dark-mode');
       }
     })();
-  </script>
-</head>
-
-<body>
-  
-  <a href="#main-content" class="skip-link">跳转到内容</a>
-
-  
-  <header class="site-header">
-    <div class="container">
-        <div class="header-inner">
-            
-            <a href="/zh/" class="site-logo">
-                <picture>
-                    <source srcset="../../../assets/images/logo-dark.png" type="image/png"
-                        media="(prefers-color-scheme: dark)">
-                    <img src="../../../assets/images/logo.png" alt="SleepAnalytics - Train Hard. Recover Smarter." width="56" height="56">
-                </picture>
-                <span class="logo-text">SleepAnalytics</span>
-            </a>
-
-            
-            <nav class="nav-primary" id="nav-primary" role="navigation" aria-label="Main navigation">
-                <div class="nav-group-left">
-                    <ul>
-                        
-                        <li>
-                            
-                            <a href="/zh/features/" 
+  </script></head><body><a href="#main-content" class="skip-link">跳转到内容</a><header class="site-header"><div class="container"><div class="header-inner"><a href="/zh/" class="site-logo"><picture><source srcset="../../../assets/images/logo-dark.png" type="image/png"
+                        media="(prefers-color-scheme: dark)"><img src="../../../assets/images/logo.png" alt="SleepAnalytics - Train Hard. Recover Smarter." width="56" height="56"></picture><span class="logo-text">SleepAnalytics</span></a><nav class="nav-primary" id="nav-primary" role="navigation" aria-label="Main navigation"><div class="nav-group-left"><ul><li><a href="/zh/features/" 
                                 aria-current="">
                                 功能
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/zh/science/" 
+                            </a></li><li><a href="/zh/science/" 
                                 aria-current="">
                                 指标库
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/zh/blog/" 
+                            </a></li><li><a href="/zh/blog/" 
                                 aria-current="">
                                 博客
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/zh/faq/" 
+                            </a></li><li><a href="/zh/faq/" 
                                 aria-current="">
                                 常问问题
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/zh/about/" 
+                            </a></li><li><a href="/zh/about/" 
                                 aria-current="">
                                 关于我们
-                            </a>
-                            
-                            </li>
-                            
-                    </ul>
-
-                    
-                    <div class="search-container">
-                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                            </a></li></ul><div class="search-container"><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <path d="m21 21-4.35-4.35"></path>
-                        </svg>
-                        <input type="search" id="site-search" class="search-input" aria-expanded="false"
-                            aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" spellcheck="false" />
-                        <div id="search-results" class="search-results hidden" role="region" aria-live="polite"></div>
-                    </div>
-
-                    
-                    <select class="language-selector" id="language-select" aria-label="选择语言">
-                        
-                        <option value="af" >
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg><input type="search" id="site-search" class="search-input" aria-expanded="false"
+                            aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" spellcheck="false" /><div id="search-results" class="search-results hidden" role="region" aria-live="polite"></div></div><select class="language-selector" id="language-select" aria-label="选择语言"><option value="af" >
                             Afrikaans
-                        </option>
-                        
-                        <option value="ar" >
+                        </option><option value="ar" >
                             العربية
-                        </option>
-                        
-                        <option value="bn" >
+                        </option><option value="bn" >
                             বাংলা
-                        </option>
-                        
-                        <option value="ca" >
+                        </option><option value="ca" >
                             Català
-                        </option>
-                        
-                        <option value="cs" >
+                        </option><option value="cs" >
                             Čeština
-                        </option>
-                        
-                        <option value="da" >
+                        </option><option value="da" >
                             Dansk
-                        </option>
-                        
-                        <option value="de" >
+                        </option><option value="de" >
                             Deutsch
-                        </option>
-                        
-                        <option value="el" >
+                        </option><option value="el" >
                             Ελληνικά
-                        </option>
-                        
-                        <option value="en" >
+                        </option><option value="en" >
                             English
-                        </option>
-                        
-                        <option value="es" >
+                        </option><option value="es" >
                             Español
-                        </option>
-                        
-                        <option value="et" >
+                        </option><option value="et" >
                             Eesti
-                        </option>
-                        
-                        <option value="fi" >
+                        </option><option value="fi" >
                             Suomi
-                        </option>
-                        
-                        <option value="fr" >
+                        </option><option value="fr" >
                             Français
-                        </option>
-                        
-                        <option value="hi" >
+                        </option><option value="hi" >
                             हिन्दी
-                        </option>
-                        
-                        <option value="hu" >
+                        </option><option value="hu" >
                             Magyar
-                        </option>
-                        
-                        <option value="id" >
+                        </option><option value="id" >
                             Bahasa Indonesia
-                        </option>
-                        
-                        <option value="it" >
+                        </option><option value="it" >
                             Italiano
-                        </option>
-                        
-                        <option value="ja" >
+                        </option><option value="ja" >
                             日本語
-                        </option>
-                        
-                        <option value="km" >
+                        </option><option value="km" >
                             Khmer
-                        </option>
-                        
-                        <option value="ko" >
+                        </option><option value="ko" >
                             한국어
-                        </option>
-                        
-                        <option value="nb" >
+                        </option><option value="nb" >
                             Norsk
-                        </option>
-                        
-                        <option value="nl" >
+                        </option><option value="nl" >
                             Nederlands
-                        </option>
-                        
-                        <option value="pl" >
+                        </option><option value="pl" >
                             Polski
-                        </option>
-                        
-                        <option value="pt" >
+                        </option><option value="pt" >
                             Português
-                        </option>
-                        
-                        <option value="ro" >
+                        </option><option value="ro" >
                             Română
-                        </option>
-                        
-                        <option value="ru" >
+                        </option><option value="ru" >
                             Русский
-                        </option>
-                        
-                        <option value="sv" >
+                        </option><option value="sv" >
                             Svenska
-                        </option>
-                        
-                        <option value="tr" >
+                        </option><option value="tr" >
                             Türkçe
-                        </option>
-                        
-                        <option value="uk" >
+                        </option><option value="uk" >
                             Українська
-                        </option>
-                        
-                        <option value="ur" >
+                        </option><option value="ur" >
                             اردو
-                        </option>
-                        
-                        <option value="vi" >
+                        </option><option value="vi" >
                             Tiếng Việt
-                        </option>
-                        
-                        <option value="zh" selected>
+                        </option><option value="zh" selected>
                             中文
-                        </option>
-                        
-                    </select>
-                </div>
-
-                <div class="nav-group-right">
-                    
-
-
-                    
-                    <div class="header-app-buttons">
-                        
-                        
-                        <a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="header-download-btn" target="_blank"
-                            rel="noopener" aria-label="Download on App Store" title="Download on App Store">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-                            </svg>
-                        </a>
-                        
-
-                        
-                        
-                    </div>
-
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-
-                    
-                    <div class="suite-menu-container">
-                        <button class="suite-menu-toggle" id="suite-menu-toggle" aria-label="See other apps"
-                            aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        </option></select></div><div class="nav-group-right"><div class="header-app-buttons"><a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="header-download-btn" target="_blank"
+                            rel="noopener" aria-label="Download on App Store" title="Download on App Store"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor"><path
+                                    d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" /></svg></a></div><div class="suite-menu-container"><button class="suite-menu-toggle" id="suite-menu-toggle" aria-label="See other apps"
+                            aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <rect x="3" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="14" width="7" height="7"></rect>
-                                <rect x="3" y="14" width="7" height="7"></rect>
-                            </svg>
-                        </button>
-                        <div class="suite-dropdown hidden" id="suite-dropdown">
-                            <div class="suite-dropdown-header">Other AnalyticsZone Apps</div>
-                            <div class="suite-apps-grid">
-                                
-                                <a href="https://analyticszone.app" class="suite-app-link">AnalyticsZone</a>
-                                
-                                <a href="https://run.analyticszone.app" class="suite-app-link">Run Analytics</a>
-                                
-                                <a href="https://swim.analyticszone.app" class="suite-app-link">Swim Analytics</a>
-                                
-                                <a href="https://bike.analyticszone.app" class="suite-app-link">Bike Analytics</a>
-                                
-                                <a href="https://walk.analyticszone.app" class="suite-app-link">Walk Analytics</a>
-                                
-                                <a href="https://cardio.analyticszone.app" class="suite-app-link">Cardio Analytics</a>
-                                
-                                <a href="https://health.analyticszone.app" class="suite-app-link">Health Analytics</a>
-                                
-                                <a href="https://swimtrainer.analyticszone.app" class="suite-app-link">Swim Trainer</a>
-                                
-                                <a href="https://hike.analyticszone.app" class="suite-app-link">Hike Analytics</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </nav>
-
-            
-            <button class="menu-toggle" id="menu-toggle" aria-label="切换菜单"
-                aria-expanded="false" aria-controls="nav-primary">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </div>
-</header>
-
-  
-  
-
-
-  
-  <main id="main-content" class="main-content">
-    
-    <section class="page-hero">
-    <div class="container">
-        <h1>解读你的睡眠分数：每一个数字背后的含义</h1>
-        <p class="lead">关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。</p>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container container-narrow">
-
-        <p class="lead">你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？</p>
-
-        <p>本指南将用通俗易懂的语言解释 SleepAnalytics 睡眠分数的所有 8 个组件，并为每个组件提供临床背景参考。</p>
-
-        <h2 class="mt-xl">为什么要打分？</h2>
-        <p>单一的数字对于跟踪趋势非常有用——例如你的睡眠在过去一个月里是变好了还是变差了？——但它永远不应取代对背后驱动因素的理解。这就是为什么 SleepAnalytics 向你展示完整的明细，而不只是一个数字。</p>
-
-        <h2 class="mt-xl">8 个组成部分</h2>
-
-        <h3 class="mt-lg">1. 睡眠时长 (25分)</h3>
-        <p>这是分量最重的一个组件，根据 NSF（美国国家睡眠基金会）针对不同年龄段的建议进行校准。18-64 岁的成年人需要 7-9 小时的睡眠。如果你恰好睡了 8 小时且处于建议范围内，你将获得满分 25 分。当你需要 7-9
-            小时却只睡了 5.5 小时，会导致分数大幅下降。</p>
-        <div class="callout callout-info mt-md">这是唯一根据你的年龄段校准的组件。请在“设置 → 个人资料”中设置相关信息，以获得准确评分。</div>
-
-        <h3 class="mt-lg">2. 睡眠效率 (20分)</h3>
-        <p>睡眠效率 (SE) = 总睡眠时间 ÷ 在床时间 × 100。如果你在床上待了 8 小时但只睡了 6.5 小时，你的 SE 则是 81%——低于 NSF 设定的 85% 阈值。分数会根据从 75%（0分）到
-            95%（20分）的比例线性评分。</p>
-
-        <h3 class="mt-lg">3. 入睡潜伏期 (10分)</h3>
-        <p>指你上床后花了多长时间才睡着。少于 10 分钟可获得满分；超过 30 分钟则不得分。在临床上，超过 30 分钟的入睡潜伏期是诊断失眠的标准之一（Ohayon 等人，2017）。</p>
-
-        <h3 class="mt-lg">4. WASO —— 入睡后觉醒时长 (10分)</h3>
-        <p>指从第一次睡着到最后一次醒来之间处于清醒状态的总分钟数。少于 10 分钟表现优异。超过 40 分钟则临床表现较差。WASO 会随年龄、饮酒和压力自然增加。</p>
-
-        <h3 class="mt-lg">5. 深睡比例 % (10分)</h3>
-        <p>你的总睡眠时间中处于 N3（慢波睡眠）阶段的百分比。理想范围是总时长的 15-20%。低于 10% 或高于 25% 都会降低你的得分。深层睡眠支持身体恢复、生长激素释放和免疫功能。</p>
-
-        <h3 class="mt-lg">6. REM 比例 % (10分)</h3>
-        <p>REM（快速眼动）睡眠支持记忆巩固、情绪调节和创造力。理想范围：占总时长的 20-25%。酒精、某些药物和睡眠不足会不成比例地抑制 REM。</p>
-
-        <h3 class="mt-lg">7. HRV 趋势 (10分)</h3>
-        <p>该组件将你夜间的 HRV（心率变异性）与你个人的 30 天滚动基准值进行对比。比基准值高出 10% 可获满分；比基准值低 30% 会显著降低 HRV 得分。这就是为什么一个低 HRV
-            的夜晚（常见于生病或训练强度过大的一周）会拉低你的分数——因为它捕捉到了生理信号。</p>
-        <div class="callout callout-tip mt-md">HRV 会在你主观感到生病或过度训练之前下降。这个组件通常能给你最早的预警。</div>
-
-        <h3 class="mt-lg">8. 睡眠规律性 (5分)</h3>
-        <p>基于睡眠规律指数 (SRI)。目标是 75 分以上的 SRI。周末比工作日晚睡 3 小时将显著降低该组件的分数。</p>
-
-        <h2 class="mt-xl">常见分数的解读</h2>
-        <ul>
-            <li><strong>85–100：</strong> 卓越。所有组件表现良好。虽不常见但可以实现。</li>
-            <li><strong>70–84：</strong> 良好。一到两个组件表现欠佳。</li>
-            <li><strong>55–69：</strong> 一般。时长、效率或 WASO 可能是拖累分数的主要因素。</li>
-            <li><strong>低于 55：</strong> 较差。检查哪个组件的影响最大——那就是你需要改善的目标。</li>
-        </ul>
-
-        <h2 class="mt-xl">最重要的事情</h2>
-        <p>看 7 天和 30 天的趋势，而不是任何单一的夜晚。在长途飞行或压力巨大的工作日之后出现一个糟糕的分数是正常的。但持续下降的趋势则需要引起注意。</p>
-
-        <div class="callout callout-warning mt-xl">SleepAnalytics 不是医疗设备。如果你连续数周得分低于 55，请咨询医疗专业人士——可能建议进行睡眠研究。</div>
-
-        <div class="text-center mt-xl">
-            <a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="btn btn-primary btn-large">今晚开始跟踪你的睡眠分数</a>
-        </div>
-    </div>
-</section>
-
-<section class="page-hero">
-    <div class="container">
-        <a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="btn btn-primary">下载 SleepAnalytics</a>
-        <a href="/zh/blog/" class="btn btn-text" style="margin-left:1rem;">← 返回博客</a>
-    </div>
-</section>
-    
-
-    
-    
-<section class="eeat-author bg-light divider-top-lg divider-bottom-lg" aria-label="Author and Reviewer Information">
-  <div class="container container-narrow">
-    <div class="eeat-card" style="display: flex; gap: 1.5rem; align-items: center; padding: 1.5rem; background: var(--color-bg-alt, #f8f9fa); border-radius: 8px; border: 1px solid var(--color-border, #e9ecef); margin-top: 3rem; margin-bottom: 2rem;">
-      <div class="eeat-avatar" style="font-size: 2.5rem; line-height: 1; flex-shrink: 0;" aria-hidden="true">👨‍🔬</div>
-      <div class="eeat-details">
-        
-        
-        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.125rem; font-weight: 600;">
+                                stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></button><div class="suite-dropdown hidden" id="suite-dropdown"><div class="suite-dropdown-header">Other AnalyticsZone Apps</div><div class="suite-apps-grid"><a href="https://analyticszone.app" class="suite-app-link">AnalyticsZone</a><a href="https://run.analyticszone.app" class="suite-app-link">Run Analytics</a><a href="https://swim.analyticszone.app" class="suite-app-link">Swim Analytics</a><a href="https://bike.analyticszone.app" class="suite-app-link">Bike Analytics</a><a href="https://walk.analyticszone.app" class="suite-app-link">Walk Analytics</a><a href="https://cardio.analyticszone.app" class="suite-app-link">Cardio Analytics</a><a href="https://health.analyticszone.app" class="suite-app-link">Health Analytics</a><a href="https://swimtrainer.analyticszone.app" class="suite-app-link">Swim Trainer</a><a href="https://hike.analyticszone.app" class="suite-app-link">Hike Analytics</a></div></div></div></div></nav><button class="menu-toggle" id="menu-toggle" aria-label="切换菜单"
+                aria-expanded="false" aria-controls="nav-primary"><span></span><span></span><span></span></button></div></div></header><main id="main-content" class="main-content"><section class="page-hero"><div class="container"><h1>解读你的睡眠分数：每一个数字背后的含义</h1><p class="lead">关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。</p></div></section><section class="section"><div class="container container-narrow"><p class="lead">你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？</p><p>本指南将用通俗易懂的语言解释 SleepAnalytics 睡眠分数的所有 8 个组件，并为每个组件提供临床背景参考。</p><h2 class="mt-xl">为什么要打分？</h2><p>单一的数字对于跟踪趋势非常有用——例如你的睡眠在过去一个月里是变好了还是变差了？——但它永远不应取代对背后驱动因素的理解。这就是为什么 SleepAnalytics 向你展示完整的明细，而不只是一个数字。</p><h2 class="mt-xl">8 个组成部分</h2><h3 class="mt-lg">1. 睡眠时长 (25分)</h3><p>这是分量最重的一个组件，根据 NSF（美国国家睡眠基金会）针对不同年龄段的建议进行校准。18-64 岁的成年人需要 7-9 小时的睡眠。如果你恰好睡了 8 小时且处于建议范围内，你将获得满分 25 分。当你需要 7-9
+            小时却只睡了 5.5 小时，会导致分数大幅下降。</p><div class="callout callout-info mt-md">这是唯一根据你的年龄段校准的组件。请在“设置 → 个人资料”中设置相关信息，以获得准确评分。</div><h3 class="mt-lg">2. 睡眠效率 (20分)</h3><p>睡眠效率 (SE) = 总睡眠时间 ÷ 在床时间 × 100。如果你在床上待了 8 小时但只睡了 6.5 小时，你的 SE 则是 81%——低于 NSF 设定的 85% 阈值。分数会根据从 75%（0分）到
+            95%（20分）的比例线性评分。</p><h3 class="mt-lg">3. 入睡潜伏期 (10分)</h3><p>指你上床后花了多长时间才睡着。少于 10 分钟可获得满分；超过 30 分钟则不得分。在临床上，超过 30 分钟的入睡潜伏期是诊断失眠的标准之一（Ohayon 等人，2017）。</p><h3 class="mt-lg">4. WASO —— 入睡后觉醒时长 (10分)</h3><p>指从第一次睡着到最后一次醒来之间处于清醒状态的总分钟数。少于 10 分钟表现优异。超过 40 分钟则临床表现较差。WASO 会随年龄、饮酒和压力自然增加。</p><h3 class="mt-lg">5. 深睡比例 % (10分)</h3><p>你的总睡眠时间中处于 N3（慢波睡眠）阶段的百分比。理想范围是总时长的 15-20%。低于 10% 或高于 25% 都会降低你的得分。深层睡眠支持身体恢复、生长激素释放和免疫功能。</p><h3 class="mt-lg">6. REM 比例 % (10分)</h3><p>REM（快速眼动）睡眠支持记忆巩固、情绪调节和创造力。理想范围：占总时长的 20-25%。酒精、某些药物和睡眠不足会不成比例地抑制 REM。</p><h3 class="mt-lg">7. HRV 趋势 (10分)</h3><p>该组件将你夜间的 HRV（心率变异性）与你个人的 30 天滚动基准值进行对比。比基准值高出 10% 可获满分；比基准值低 30% 会显著降低 HRV 得分。这就是为什么一个低 HRV
+            的夜晚（常见于生病或训练强度过大的一周）会拉低你的分数——因为它捕捉到了生理信号。</p><div class="callout callout-tip mt-md">HRV 会在你主观感到生病或过度训练之前下降。这个组件通常能给你最早的预警。</div><h3 class="mt-lg">8. 睡眠规律性 (5分)</h3><p>基于睡眠规律指数 (SRI)。目标是 75 分以上的 SRI。周末比工作日晚睡 3 小时将显著降低该组件的分数。</p><h2 class="mt-xl">常见分数的解读</h2><ul><li><strong>85–100：</strong> 卓越。所有组件表现良好。虽不常见但可以实现。</li><li><strong>70–84：</strong> 良好。一到两个组件表现欠佳。</li><li><strong>55–69：</strong> 一般。时长、效率或 WASO 可能是拖累分数的主要因素。</li><li><strong>低于 55：</strong> 较差。检查哪个组件的影响最大——那就是你需要改善的目标。</li></ul><h2 class="mt-xl">最重要的事情</h2><p>看 7 天和 30 天的趋势，而不是任何单一的夜晚。在长途飞行或压力巨大的工作日之后出现一个糟糕的分数是正常的。但持续下降的趋势则需要引起注意。</p><div class="callout callout-warning mt-xl">SleepAnalytics 不是医疗设备。如果你连续数周得分低于 55，请咨询医疗专业人士——可能建议进行睡眠研究。</div><div class="text-center mt-xl"><a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="btn btn-primary btn-large">今晚开始跟踪你的睡眠分数</a></div></div></section><section class="page-hero"><div class="container"><a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="btn btn-primary">下载 SleepAnalytics</a><a href="/zh/blog/" class="btn btn-text" style="margin-left:1rem;">← 返回博客</a></div></section><section class="eeat-author bg-light divider-top-lg divider-bottom-lg" aria-label="Author and Reviewer Information"><div class="container container-narrow"><div class="eeat-card" style="display: flex; gap: 1.5rem; align-items: center; padding: 1.5rem; background: var(--color-bg-alt, #f8f9fa); border-radius: 8px; border: 1px solid var(--color-border, #e9ecef); margin-top: 3rem; margin-bottom: 2rem;"><div class="eeat-avatar" style="font-size: 2.5rem; line-height: 1; flex-shrink: 0;" aria-hidden="true">👨‍🔬</div><div class="eeat-details"><h3 style="margin: 0 0 0.5rem 0; font-size: 1.125rem; font-weight: 600;">
           Expertly Reviewed by 
-          <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-            <span itemprop="name">Arno Health</span>
-          </span>
-          
-        </h3>
-        <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; color: var(--color-body-text, #4a5568); line-height: 1.5;">
+          <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Arno Health</span></span></h3><p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; color: var(--color-body-text, #4a5568); line-height: 1.5;">
           This content has been written and reviewed by a sports data metrics expert to ensure technical accuracy and adherence to the latest sports science methodologies.
-        </p>
-        
-      </div>
-    </div>
-  </div>
-</section>
-
-
-    
-    
-
-<section class="ai-citation-block divider-top-xl" data-ai-ready="true" data-ai-page="blog/sleep-score-explained">
-  <div class="container ai-citation-shell">
-    <h2 class="ai-citation-title">解读你的睡眠分数：每一个数字背后的含义 - SleepAnalytics - Train Hard. Recover</h2>
-    <p class="ai-citation-answer">关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。 你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？</p>
-
-    <ul class="ai-citation-facts" role="list">
-      
-      <li class="ai-citation-fact">
-        <span class="ai-citation-icon" aria-hidden="true">📅</span>
-        <span>2026-03-11</span>
-      </li>
-      
-
-      
-      <li class="ai-citation-fact ai-citation-keywords">
-        <span class="ai-citation-icon" aria-hidden="true">🏷️</span>
-        <span>理解 · 你的 · 睡觉 · 分数 · 什么</span>
-      </li>
-      
-
-      
-      <li class="ai-citation-fact">
-        <span class="ai-citation-icon" aria-hidden="true">🔬</span>
-        <a href="../../../zh/bibliography/">
+        </p></div></div></div></section><section class="ai-citation-block divider-top-xl" data-ai-ready="true" data-ai-page="blog/sleep-score-explained"><div class="container ai-citation-shell"><h2 class="ai-citation-title">解读你的睡眠分数：每一个数字背后的含义 - SleepAnalytics - Train Hard. Recover</h2><p class="ai-citation-answer">关于构成 SleepAnalytics 分数的8个组件及其揭示的信息的完整指南。 你的睡眠分数是一个介于 0 到 100 之间的数字。但它究竟意味着什么——为什么尽管你觉得睡得还行，分数却会在一夜之间从 84 降到 71？</p><ul class="ai-citation-facts" role="list"><li class="ai-citation-fact"><span class="ai-citation-icon" aria-hidden="true">📅</span><span>2026-03-11</span></li><li class="ai-citation-fact ai-citation-keywords"><span class="ai-citation-icon" aria-hidden="true">🏷️</span><span>理解 · 你的 · 睡觉 · 分数 · 什么</span></li><li class="ai-citation-fact"><span class="ai-citation-icon" aria-hidden="true">🔬</span><a href="../../../zh/bibliography/">
           
           参考书目
           
-        </a>
-      </li>
-      
-    </ul>
-
-    
-  </div>
-</section>
-
-  </main>
-
-  
-  <footer class="site-footer">
-    <div class="container">
-        
-        <div class="footer-top">
-            <div class="footer-brand-section">
-                
-                <h2>SleepAnalytics</h2>
-                <p>The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.</p>
-                
-            </div>
-
-            
-            <div class="footer-download">
-                <h3 class="footer-heading">Download</h3>
-                <div class="footer-badges">
-                    
-                    <a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" target="_blank" rel="noopener"
-                        aria-label="Download on the App Store">
-                        <img src="../../../assets/images/badge-app-store.svg"
+        </a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand-section"><h2>SleepAnalytics</h2><p>The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.</p></div><div class="footer-download"><h3 class="footer-heading">Download</h3><div class="footer-badges"><a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" target="_blank" rel="noopener"
+                        aria-label="Download on the App Store"><img src="../../../assets/images/badge-app-store.svg"
                             alt="Download on the App Store" width="135"
-                            height="40" loading="lazy">
-                    </a>
-                    
-                    
-                </div>
-            </div>
-            
-        </div>
-
-        
-        <div class="footer-languages">
-            <h3 class="footer-heading">Available in</h3>
-            <div class="lang-grid">
-                
-                <a href="/af/" class="lang-link"
+                            height="40" loading="lazy"></a></div></div></div><div class="footer-languages"><h3 class="footer-heading">Available in</h3><div class="lang-grid"><a href="/af/" class="lang-link"
                     hreflang="af" >
                     Afrikaans
-                </a>
-                
-                <a href="/ar/" class="lang-link"
+                </a><a href="/ar/" class="lang-link"
                     hreflang="ar" dir="rtl" >
                     العربية
-                </a>
-                
-                <a href="/bn/" class="lang-link"
+                </a><a href="/bn/" class="lang-link"
                     hreflang="bn" >
                     বাংলা
-                </a>
-                
-                <a href="/ca/" class="lang-link"
+                </a><a href="/ca/" class="lang-link"
                     hreflang="ca" >
                     Català
-                </a>
-                
-                <a href="/cs/" class="lang-link"
+                </a><a href="/cs/" class="lang-link"
                     hreflang="cs" >
                     Čeština
-                </a>
-                
-                <a href="/da/" class="lang-link"
+                </a><a href="/da/" class="lang-link"
                     hreflang="da" >
                     Dansk
-                </a>
-                
-                <a href="/de/" class="lang-link"
+                </a><a href="/de/" class="lang-link"
                     hreflang="de" >
                     Deutsch
-                </a>
-                
-                <a href="/el/" class="lang-link"
+                </a><a href="/el/" class="lang-link"
                     hreflang="el" >
                     Ελληνικά
-                </a>
-                
-                <a href="/en/" class="lang-link"
+                </a><a href="/en/" class="lang-link"
                     hreflang="en" >
                     English
-                </a>
-                
-                <a href="/es/" class="lang-link"
+                </a><a href="/es/" class="lang-link"
                     hreflang="es" >
                     Español
-                </a>
-                
-                <a href="/et/" class="lang-link"
+                </a><a href="/et/" class="lang-link"
                     hreflang="et" >
                     Eesti
-                </a>
-                
-                <a href="/fi/" class="lang-link"
+                </a><a href="/fi/" class="lang-link"
                     hreflang="fi" >
                     Suomi
-                </a>
-                
-                <a href="/fr/" class="lang-link"
+                </a><a href="/fr/" class="lang-link"
                     hreflang="fr" >
                     Français
-                </a>
-                
-                <a href="/hi/" class="lang-link"
+                </a><a href="/hi/" class="lang-link"
                     hreflang="hi" >
                     हिन्दी
-                </a>
-                
-                <a href="/hu/" class="lang-link"
+                </a><a href="/hu/" class="lang-link"
                     hreflang="hu" >
                     Magyar
-                </a>
-                
-                <a href="/id/" class="lang-link"
+                </a><a href="/id/" class="lang-link"
                     hreflang="id" >
                     Bahasa Indonesia
-                </a>
-                
-                <a href="/it/" class="lang-link"
+                </a><a href="/it/" class="lang-link"
                     hreflang="it" >
                     Italiano
-                </a>
-                
-                <a href="/ja/" class="lang-link"
+                </a><a href="/ja/" class="lang-link"
                     hreflang="ja" >
                     日本語
-                </a>
-                
-                <a href="/km/" class="lang-link"
+                </a><a href="/km/" class="lang-link"
                     hreflang="km" >
                     Khmer
-                </a>
-                
-                <a href="/ko/" class="lang-link"
+                </a><a href="/ko/" class="lang-link"
                     hreflang="ko" >
                     한국어
-                </a>
-                
-                <a href="/nb/" class="lang-link"
+                </a><a href="/nb/" class="lang-link"
                     hreflang="nb" >
                     Norsk
-                </a>
-                
-                <a href="/nl/" class="lang-link"
+                </a><a href="/nl/" class="lang-link"
                     hreflang="nl" >
                     Nederlands
-                </a>
-                
-                <a href="/pl/" class="lang-link"
+                </a><a href="/pl/" class="lang-link"
                     hreflang="pl" >
                     Polski
-                </a>
-                
-                <a href="/pt/" class="lang-link"
+                </a><a href="/pt/" class="lang-link"
                     hreflang="pt" >
                     Português
-                </a>
-                
-                <a href="/ru/" class="lang-link"
+                </a><a href="/ru/" class="lang-link"
                     hreflang="ru" >
                     Русский
-                </a>
-                
-                <a href="/ro/" class="lang-link"
+                </a><a href="/ro/" class="lang-link"
                     hreflang="ro" >
                     Română
-                </a>
-                
-                <a href="/sv/" class="lang-link"
+                </a><a href="/sv/" class="lang-link"
                     hreflang="sv" >
                     Svenska
-                </a>
-                
-                <a href="/tr/" class="lang-link"
+                </a><a href="/tr/" class="lang-link"
                     hreflang="tr" >
                     Türkçe
-                </a>
-                
-                <a href="/uk/" class="lang-link"
+                </a><a href="/uk/" class="lang-link"
                     hreflang="uk" >
                     Українська
-                </a>
-                
-                <a href="/ur/" class="lang-link"
+                </a><a href="/ur/" class="lang-link"
                     hreflang="ur" dir="rtl" >
                     اردو
-                </a>
-                
-                <a href="/vi/" class="lang-link"
+                </a><a href="/vi/" class="lang-link"
                     hreflang="vi" >
                     Tiếng Việt
-                </a>
-                
-                <a href="/zh/" class="lang-link active"
+                </a><a href="/zh/" class="lang-link active"
                     hreflang="zh" >
                     中文
-                </a>
-                
-            </div>
-        </div>
-
-        <div class="footer-divider"></div>
-
-        
-        <div class="footer-bottom">
-            <p class="copyright">
+                </a></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="copyright">
                 &copy; 2026 SleepAnalytics. 版权所有
-            </p>
-            <ul class="footer-legal">
-                <li><a href="/zh/privacy/">隐私</a></li>
-                <li><a href="/zh/terms/">条款</a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
-
-  
-  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
-    <div class="cookie-banner-content">
-        <div>
-            <p>本网站使用 cookie 以改善您的体验。</p>
-            <a href="/zh/privacy/" class="text-sm">了解更多</a>
-        </div>
-        <div class="cookie-banner-actions">
-            <button id="cookie-decline" class="btn btn-secondary btn-small">拒绝</button>
-            <button id="cookie-accept" class="btn btn-primary btn-small">接受</button>
-        </div>
-    </div>
-</div>
-
-  
-  <script src="../../../assets/js/core.min.js?v=63baa90b9f45" defer></script>
-  <script src="../../../assets/js/search.min.js?v=63baa90b9f45" defer></script>
-  
-
-  
-  
-  <script src="../../../assets/js/analytics.min.js" data-ga-id="G-B48SMJ6J33" defer></script>
-  
-
-  
-  <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../../../sw.js') }</script>
-</body>
-
-</html>
+            </p><ul class="footer-legal"><li><a href="/zh/privacy/">隐私</a></li><li><a href="/zh/terms/">条款</a></li></ul></div></div></footer><div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite"><div class="cookie-banner-content"><div><p>本网站使用 cookie 以改善您的体验。</p><a href="/zh/privacy/" class="text-sm">了解更多</a></div><div class="cookie-banner-actions"><button id="cookie-decline" class="btn btn-secondary btn-small">拒绝</button><button id="cookie-accept" class="btn btn-primary btn-small">接受</button></div></div></div><script src="../../../assets/js/core.min.js?v=aa8b7978" defer></script><script src="../../../assets/js/search.min.js?v=aa8b7978" defer></script><script src="../../../assets/js/analytics.min.js" data-ga-id="G-B48SMJ6J33" defer></script><script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../../../sw.js') }</script></body></html>

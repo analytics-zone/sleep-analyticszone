@@ -1,316 +1,38 @@
-<!DOCTYPE html>
-<html lang="km" dir="ltr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
-    rel="stylesheet">
-
-  
-  <title>បំណុលដំណេក: របៀបដែលវាបង្កើតឡើង និងរបៀបសងវាវិញ -</title>
-  <meta name="description" content="វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។ បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ...">
-  <meta name="author" content="Arno Health">
-
-  
-  
-  <meta name="keywords" content="បំណុលដំណេក, ការខ្វះដំណេក, ការស្តារឡើងវិញ, វា។, សាងសង់, អ្វី, ការចំណាយ, និង, ទៅ, បង់">
-  
-
-  
-  <link rel="canonical" href="https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/">
-
-  
-  
-  <meta property="article:published_time" content="2025-01-15T10:00:00Z">
-  <meta property="article:modified_time" content="2026-03-11T14:30:00Z">
-  <meta property="article:author" content="Arno Health">
-  
-
-  
-  
-
-  
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/">
-  <meta property="og:title" content="បំណុលដំណេក: របៀបដែលវាបង្កើតឡើង និងរបៀបសងវាវិញ -">
-  <meta property="og:description" content="វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។ បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ...">
-  <meta property="og:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
-  <meta property="og:locale" content="km_KH">
-  <meta property="og:site_name" content="SleepAnalytics">
-
-  
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/">
-  <meta name="twitter:title" content="បំណុលដំណេក: របៀបដែលវាបង្កើតឡើង និងរបៀបសងវាវិញ -">
-  <meta name="twitter:description" content="វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។ បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ...">
-  <meta name="twitter:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
-  
-  <meta name="twitter:site" content="@HealthAnalytics">
-  <meta name="twitter:creator" content="@HealthAnalytics">
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <link rel="alternate" hreflang="af"
-    href="https://sleep.analyticszone.app/af/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="ar"
-    href="https://sleep.analyticszone.app/ar/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="bn"
-    href="https://sleep.analyticszone.app/bn/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="ca"
-    href="https://sleep.analyticszone.app/ca/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="cs"
-    href="https://sleep.analyticszone.app/cs/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="da"
-    href="https://sleep.analyticszone.app/da/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="de"
-    href="https://sleep.analyticszone.app/de/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="el"
-    href="https://sleep.analyticszone.app/el/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="en"
-    href="https://sleep.analyticszone.app/en/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="es"
-    href="https://sleep.analyticszone.app/es/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="et"
-    href="https://sleep.analyticszone.app/et/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="fi"
-    href="https://sleep.analyticszone.app/fi/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="fr"
-    href="https://sleep.analyticszone.app/fr/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="hi"
-    href="https://sleep.analyticszone.app/hi/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="hu"
-    href="https://sleep.analyticszone.app/hu/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="id"
-    href="https://sleep.analyticszone.app/id/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="it"
-    href="https://sleep.analyticszone.app/it/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="ja"
-    href="https://sleep.analyticszone.app/ja/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="km"
-    href="https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="ko"
-    href="https://sleep.analyticszone.app/ko/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="nb"
-    href="https://sleep.analyticszone.app/nb/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="nl"
-    href="https://sleep.analyticszone.app/nl/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="pl"
-    href="https://sleep.analyticszone.app/pl/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="pt"
-    href="https://sleep.analyticszone.app/pt/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="ru"
-    href="https://sleep.analyticszone.app/ru/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="ro"
-    href="https://sleep.analyticszone.app/ro/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="sv"
-    href="https://sleep.analyticszone.app/sv/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="tr"
-    href="https://sleep.analyticszone.app/tr/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="uk"
-    href="https://sleep.analyticszone.app/uk/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="ur"
-    href="https://sleep.analyticszone.app/ur/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="vi"
-    href="https://sleep.analyticszone.app/vi/blog/sleep-debt-calculator/">
-  
-  <link rel="alternate" hreflang="zh"
-    href="https://sleep.analyticszone.app/zh/blog/sleep-debt-calculator/">
-  
-  
-  <link rel="alternate" hreflang="x-default"
-    href="https://sleep.analyticszone.app/en/blog/sleep-debt-calculator/">
-  
-
-  
-  <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/images/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/images/icons/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/images/icons/apple-touch-icon.png">
-  <link rel="manifest" href="../../../manifest.json">
-  <meta name="theme-color" content="#2563EB">
-  
-  
-  <meta name="robots" content="index, follow">
-  
-
-  
-  
-  
-  <meta name="apple-itunes-app" content="app-id=6760132777">
-  
-
-  
-  <style>
+<!DOCTYPE html><html lang="km" dir="ltr"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+    rel="stylesheet"><title>បំណុលដំណេក: របៀបដែលវាបង្កើតឡើង និងរបៀបសងវាវិញ -</title><meta name="description" content="វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។ បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ..."><meta name="author" content="Arno Health"><meta name="keywords" content="បំណុលដំណេក, ការខ្វះដំណេក, ការស្តារឡើងវិញ, វា។, សាងសង់, អ្វី, ការចំណាយ, និង, ទៅ, បង់"><link rel="canonical" href="https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/"><meta property="article:published_time" content="2025-01-15T10:00:00Z"><meta property="article:modified_time" content="2026-03-11T14:30:00Z"><meta property="article:author" content="Arno Health"><meta property="og:type" content="article"><meta property="og:url" content="https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/"><meta property="og:title" content="បំណុលដំណេក: របៀបដែលវាបង្កើតឡើង និងរបៀបសងវាវិញ -"><meta property="og:description" content="វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។ បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ..."><meta property="og:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg"><meta property="og:locale" content="km_KH"><meta property="og:site_name" content="SleepAnalytics"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:url" content="https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/"><meta name="twitter:title" content="បំណុលដំណេក: របៀបដែលវាបង្កើតឡើង និងរបៀបសងវាវិញ -"><meta name="twitter:description" content="វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។ បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ..."><meta name="twitter:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg"><meta name="twitter:site" content="@HealthAnalytics"><meta name="twitter:creator" content="@HealthAnalytics"><link rel="alternate" hreflang="af"
+    href="https://sleep.analyticszone.app/af/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="ar"
+    href="https://sleep.analyticszone.app/ar/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="bn"
+    href="https://sleep.analyticszone.app/bn/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="ca"
+    href="https://sleep.analyticszone.app/ca/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="cs"
+    href="https://sleep.analyticszone.app/cs/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="da"
+    href="https://sleep.analyticszone.app/da/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="de"
+    href="https://sleep.analyticszone.app/de/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="el"
+    href="https://sleep.analyticszone.app/el/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="en"
+    href="https://sleep.analyticszone.app/en/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="es"
+    href="https://sleep.analyticszone.app/es/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="et"
+    href="https://sleep.analyticszone.app/et/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="fi"
+    href="https://sleep.analyticszone.app/fi/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="fr"
+    href="https://sleep.analyticszone.app/fr/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="hi"
+    href="https://sleep.analyticszone.app/hi/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="hu"
+    href="https://sleep.analyticszone.app/hu/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="id"
+    href="https://sleep.analyticszone.app/id/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="it"
+    href="https://sleep.analyticszone.app/it/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="ja"
+    href="https://sleep.analyticszone.app/ja/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="km"
+    href="https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="ko"
+    href="https://sleep.analyticszone.app/ko/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="nb"
+    href="https://sleep.analyticszone.app/nb/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="nl"
+    href="https://sleep.analyticszone.app/nl/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="pl"
+    href="https://sleep.analyticszone.app/pl/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="pt"
+    href="https://sleep.analyticszone.app/pt/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="ru"
+    href="https://sleep.analyticszone.app/ru/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="ro"
+    href="https://sleep.analyticszone.app/ro/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="sv"
+    href="https://sleep.analyticszone.app/sv/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="tr"
+    href="https://sleep.analyticszone.app/tr/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="uk"
+    href="https://sleep.analyticszone.app/uk/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="ur"
+    href="https://sleep.analyticszone.app/ur/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="vi"
+    href="https://sleep.analyticszone.app/vi/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="zh"
+    href="https://sleep.analyticszone.app/zh/blog/sleep-debt-calculator/"><link rel="alternate" hreflang="x-default"
+    href="https://sleep.analyticszone.app/en/blog/sleep-debt-calculator/"><link rel="icon" type="image/png" sizes="32x32" href="../../../assets/images/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="../../../assets/images/icons/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="../../../assets/images/icons/apple-touch-icon.png"><link rel="manifest" href="../../../manifest.json"><meta name="theme-color" content="#2563EB"><meta name="robots" content="index, follow"><meta name="apple-itunes-app" content="app-id=6760132777"><style>
 /* Critical CSS - Above the fold styles for fast LCP */
 :root {
   --color-primary: #0066CC;
@@ -569,20 +291,7 @@ img[width][height] {
     transition-duration: 0.01ms !important;
   }
 }
-</style>
-
-  
-  <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-
-  
-  <link rel="stylesheet" href="../../../assets/css/main.min.css?v=63baa90b9f45">
-
-  
-  
-
-
-<script type="application/ld+json">
+</style><link rel="preconnect" href="https://www.googletagmanager.com"><link rel="dns-prefetch" href="https://www.googletagmanager.com"><link rel="stylesheet" href="../../../assets/css/main.min.css?v=aa8b7978"><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -613,10 +322,7 @@ img[width][height] {
     
   ]
 }
-</script>
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -625,11 +331,7 @@ img[width][height] {
   "description": "The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.",
   "inLanguage": "km"
 }
-</script>
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -644,14 +346,7 @@ img[width][height] {
   },
   "downloadUrl": "https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777"
 }
-</script>
-
-
-
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -709,14 +404,7 @@ img[width][height] {
     }
   ]
 }
-</script>
-
-
-
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -741,12 +429,7 @@ img[width][height] {
     "@id": "https://sleep.analyticszone.app/km/blog/sleep-debt-calculator/"
   }
 }
-</script>
-
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
@@ -761,14 +444,7 @@ img[width][height] {
     "priceCurrency": "USD"
   }
 }
-</script>
-
-
-  
-  
-
-  
-  <script>
+</script><script>
     (function () {
       let theme = localStorage.getItem('theme');
       // Older builds could persist a per-subdomain `theme=light` value without a UI
@@ -782,697 +458,203 @@ img[width][height] {
         document.documentElement.classList.add('dark-mode');
       }
     })();
-  </script>
-</head>
-
-<body>
-  
-  <a href="#main-content" class="skip-link">រំលងទៅមាតិកា</a>
-
-  
-  <header class="site-header">
-    <div class="container">
-        <div class="header-inner">
-            
-            <a href="/km/" class="site-logo">
-                <picture>
-                    <source srcset="../../../assets/images/logo-dark.png" type="image/png"
-                        media="(prefers-color-scheme: dark)">
-                    <img src="../../../assets/images/logo.png" alt="SleepAnalytics - Train Hard. Recover Smarter." width="56" height="56">
-                </picture>
-                <span class="logo-text">SleepAnalytics</span>
-            </a>
-
-            
-            <nav class="nav-primary" id="nav-primary" role="navigation" aria-label="Main navigation">
-                <div class="nav-group-left">
-                    <ul>
-                        
-                        <li>
-                            
-                            <a href="/km/features/" 
+  </script></head><body><a href="#main-content" class="skip-link">រំលងទៅមាតិកា</a><header class="site-header"><div class="container"><div class="header-inner"><a href="/km/" class="site-logo"><picture><source srcset="../../../assets/images/logo-dark.png" type="image/png"
+                        media="(prefers-color-scheme: dark)"><img src="../../../assets/images/logo.png" alt="SleepAnalytics - Train Hard. Recover Smarter." width="56" height="56"></picture><span class="logo-text">SleepAnalytics</span></a><nav class="nav-primary" id="nav-primary" role="navigation" aria-label="Main navigation"><div class="nav-group-left"><ul><li><a href="/km/features/" 
                                 aria-current="">
                                 លក្ខណៈពិសេស
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/km/science/" 
+                            </a></li><li><a href="/km/science/" 
                                 aria-current="">
                                 បណ្ណាល័យរង្វាស់
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/km/blog/" 
+                            </a></li><li><a href="/km/blog/" 
                                 aria-current="">
                                 ប្លុក
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/km/faq/" 
+                            </a></li><li><a href="/km/faq/" 
                                 aria-current="">
                                 សំណួរគេសួរញឹកញាប់
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/km/about/" 
+                            </a></li><li><a href="/km/about/" 
                                 aria-current="">
                                 អំពីយើង
-                            </a>
-                            
-                            </li>
-                            
-                    </ul>
-
-                    
-                    <div class="search-container">
-                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                            </a></li></ul><div class="search-container"><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <path d="m21 21-4.35-4.35"></path>
-                        </svg>
-                        <input type="search" id="site-search" class="search-input" aria-expanded="false"
-                            aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" spellcheck="false" />
-                        <div id="search-results" class="search-results hidden" role="region" aria-live="polite"></div>
-                    </div>
-
-                    
-                    <select class="language-selector" id="language-select" aria-label="ជ្រើសរើសភាសា">
-                        
-                        <option value="af" >
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg><input type="search" id="site-search" class="search-input" aria-expanded="false"
+                            aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" spellcheck="false" /><div id="search-results" class="search-results hidden" role="region" aria-live="polite"></div></div><select class="language-selector" id="language-select" aria-label="ជ្រើសរើសភាសា"><option value="af" >
                             Afrikaans
-                        </option>
-                        
-                        <option value="ar" >
+                        </option><option value="ar" >
                             العربية
-                        </option>
-                        
-                        <option value="bn" >
+                        </option><option value="bn" >
                             বাংলা
-                        </option>
-                        
-                        <option value="ca" >
+                        </option><option value="ca" >
                             Català
-                        </option>
-                        
-                        <option value="cs" >
+                        </option><option value="cs" >
                             Čeština
-                        </option>
-                        
-                        <option value="da" >
+                        </option><option value="da" >
                             Dansk
-                        </option>
-                        
-                        <option value="de" >
+                        </option><option value="de" >
                             Deutsch
-                        </option>
-                        
-                        <option value="el" >
+                        </option><option value="el" >
                             Ελληνικά
-                        </option>
-                        
-                        <option value="en" >
+                        </option><option value="en" >
                             English
-                        </option>
-                        
-                        <option value="es" >
+                        </option><option value="es" >
                             Español
-                        </option>
-                        
-                        <option value="et" >
+                        </option><option value="et" >
                             Eesti
-                        </option>
-                        
-                        <option value="fi" >
+                        </option><option value="fi" >
                             Suomi
-                        </option>
-                        
-                        <option value="fr" >
+                        </option><option value="fr" >
                             Français
-                        </option>
-                        
-                        <option value="hi" >
+                        </option><option value="hi" >
                             हिन्दी
-                        </option>
-                        
-                        <option value="hu" >
+                        </option><option value="hu" >
                             Magyar
-                        </option>
-                        
-                        <option value="id" >
+                        </option><option value="id" >
                             Bahasa Indonesia
-                        </option>
-                        
-                        <option value="it" >
+                        </option><option value="it" >
                             Italiano
-                        </option>
-                        
-                        <option value="ja" >
+                        </option><option value="ja" >
                             日本語
-                        </option>
-                        
-                        <option value="km" selected>
+                        </option><option value="km" selected>
                             Khmer
-                        </option>
-                        
-                        <option value="ko" >
+                        </option><option value="ko" >
                             한국어
-                        </option>
-                        
-                        <option value="nb" >
+                        </option><option value="nb" >
                             Norsk
-                        </option>
-                        
-                        <option value="nl" >
+                        </option><option value="nl" >
                             Nederlands
-                        </option>
-                        
-                        <option value="pl" >
+                        </option><option value="pl" >
                             Polski
-                        </option>
-                        
-                        <option value="pt" >
+                        </option><option value="pt" >
                             Português
-                        </option>
-                        
-                        <option value="ro" >
+                        </option><option value="ro" >
                             Română
-                        </option>
-                        
-                        <option value="ru" >
+                        </option><option value="ru" >
                             Русский
-                        </option>
-                        
-                        <option value="sv" >
+                        </option><option value="sv" >
                             Svenska
-                        </option>
-                        
-                        <option value="tr" >
+                        </option><option value="tr" >
                             Türkçe
-                        </option>
-                        
-                        <option value="uk" >
+                        </option><option value="uk" >
                             Українська
-                        </option>
-                        
-                        <option value="ur" >
+                        </option><option value="ur" >
                             اردو
-                        </option>
-                        
-                        <option value="vi" >
+                        </option><option value="vi" >
                             Tiếng Việt
-                        </option>
-                        
-                        <option value="zh" >
+                        </option><option value="zh" >
                             中文
-                        </option>
-                        
-                    </select>
-                </div>
-
-                <div class="nav-group-right">
-                    
-
-
-                    
-                    <div class="header-app-buttons">
-                        
-                        
-                        <a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="header-download-btn" target="_blank"
-                            rel="noopener" aria-label="Download on App Store" title="Download on App Store">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-                            </svg>
-                        </a>
-                        
-
-                        
-                        
-                    </div>
-
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-
-                    
-                    <div class="suite-menu-container">
-                        <button class="suite-menu-toggle" id="suite-menu-toggle" aria-label="See other apps"
-                            aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        </option></select></div><div class="nav-group-right"><div class="header-app-buttons"><a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="header-download-btn" target="_blank"
+                            rel="noopener" aria-label="Download on App Store" title="Download on App Store"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor"><path
+                                    d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" /></svg></a></div><div class="suite-menu-container"><button class="suite-menu-toggle" id="suite-menu-toggle" aria-label="See other apps"
+                            aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <rect x="3" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="14" width="7" height="7"></rect>
-                                <rect x="3" y="14" width="7" height="7"></rect>
-                            </svg>
-                        </button>
-                        <div class="suite-dropdown hidden" id="suite-dropdown">
-                            <div class="suite-dropdown-header">Other AnalyticsZone Apps</div>
-                            <div class="suite-apps-grid">
-                                
-                                <a href="https://analyticszone.app" class="suite-app-link">AnalyticsZone</a>
-                                
-                                <a href="https://run.analyticszone.app" class="suite-app-link">Run Analytics</a>
-                                
-                                <a href="https://swim.analyticszone.app" class="suite-app-link">Swim Analytics</a>
-                                
-                                <a href="https://bike.analyticszone.app" class="suite-app-link">Bike Analytics</a>
-                                
-                                <a href="https://walk.analyticszone.app" class="suite-app-link">Walk Analytics</a>
-                                
-                                <a href="https://cardio.analyticszone.app" class="suite-app-link">Cardio Analytics</a>
-                                
-                                <a href="https://health.analyticszone.app" class="suite-app-link">Health Analytics</a>
-                                
-                                <a href="https://swimtrainer.analyticszone.app" class="suite-app-link">Swim Trainer</a>
-                                
-                                <a href="https://hike.analyticszone.app" class="suite-app-link">Hike Analytics</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </nav>
-
-            
-            <button class="menu-toggle" id="menu-toggle" aria-label="បើក/បិទមឺនុយ"
-                aria-expanded="false" aria-controls="nav-primary">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </div>
-</header>
-
-  
-  
-
-
-  
-  <main id="main-content" class="main-content">
-    
-    <section class="page-hero">
-<div class="container">
-<h1>បំណុលដេក៖ តើវាបង្កើតដោយរបៀបណា ចំណាយអ្វីខ្លះ និងរបៀបសងវាវិញ</h1>
-<p class="lead">វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។</p>
-</div>
-</section>
-<section class="section">
-<div class="container container-narrow">
-<p class="lead">បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ និងការគេងដែលអ្នកទទួលបាន។ មិនដូចបំណុលហិរញ្ញវត្ថុទេ វាមិនលេចឡើងភ្លាមៗនៅលើតារាងតុល្យការទេ ប៉ុន្តែការចំណាយលើការយល់ដឹង និងសរីរវិទ្យារួមបញ្ចូលគ្នាតាមរបៀបដែលអាចវាស់វែងបាន និងសំខាន់។</p>
-<h2 class="mt-xl">របៀបបង្កើតបំណុលគេង</h2>
-<p>Van Dongen et al ។ (Sleep, 2003) បានធ្វើការសិក្សាមួយក្នុងចំណោមការសិក្សាអំពីការគេងមិនលក់ដ៏សំខាន់បំផុតនៅលើកំណត់ត្រា។ អ្នកចូលរួមត្រូវបានដាក់កម្រិតត្រឹម 6 ម៉ោង/យប់ រយៈពេល 14 ថ្ងៃ។ នៅ​ថ្ងៃ​ទី 14 សមត្ថភាព​យល់ដឹង​របស់​ពួកគេ​គឺ​ស្មើ​នឹង​ការ​ភ្ញាក់​ពី​ដំណេក​រយៈពេល 48 ម៉ោង​ជាប់​គ្នា។ រិះគន់៖<strong>អ្នក​ចូលរួម​មិន​មាន​អារម្មណ៍​ថា​អន់​ថយ​ដូច​ពួក​គេ</strong>. ការដាស់តឿនតាមប្រធានបទមានស្ថេរភាព ប៉ុន្តែការអនុវត្តគោលបំណងបានបន្តធ្លាក់ចុះ។</p>
-<h2 class="mt-xl">Acute vs Chronic Sleep Debt</h2>
-<p>បទ SleepAnalytics<strong>បំណុលគេងស្រួចស្រាវ</strong>- ការគណនារយៈពេល 14 ថ្ងៃវិលជុំដែលប្រៀបធៀបការគេងពិតប្រាកដរបស់អ្នកទៅនឹងការណែនាំដែលបានកែតម្រូវតាមអាយុ NSF របស់អ្នក។ បង្អួចរយៈពេល 14 ថ្ងៃនេះឆ្លុះបញ្ចាំងពីបង្អួចស្រាវជ្រាវដែលការចុះខ្សោយនៃការយល់ដឹងដែលអាចវាស់វែងបានប្រមូលផ្តុំ និងស្តារឡើងវិញ។</p>
-<p>បំណុលនៃការគេងរ៉ាំរ៉ៃ (ឆ្នាំនៃការគេងខ្លីជាទម្លាប់) មានយន្តការផ្សេងៗគ្នា ហើយមិនអាចត្រឡប់វិញបានជាមួយនឹងការងើបឡើងវិញពីរបីយប់ - ប៉ុន្តែបំណុលស្រួចស្រាវអាចត្រូវបានដោះស្រាយយ៉ាងមានអត្ថន័យក្នុងរយៈពេលប៉ុន្មានថ្ងៃ។</p>
-<h2 class="mt-xl">The Weekend Catch-Up Myth</h2>
-<p>ជំនឿទូទៅមួយគឺថាអ្នកអាច "សងវិញ" ក្នុងមួយសប្តាហ៍នៃការគេងមិនបានល្អដោយគេងបន្ថែមនៅចុងសប្តាហ៍។ ការងើបឡើងវិញដោយផ្នែកគឺពិតប្រាកដ — ការសម្តែង និងអារម្មណ៍ប្រសើរឡើង។ ប៉ុន្តែ Kitamura et al ។ (Sleep, 2016) បានរកឃើញថាការងើបឡើងវិញពេញលេញពីបំណុលគេងមួយម៉ោងត្រូវចំណាយពេលប្រហែល<strong>4 ថ្ងៃនៃការគេងឱ្យបានគ្រប់គ្រាន់</strong>. ពីរ​ម៉ោង​បន្ថែម​នៅ​ព្រឹក​ថ្ងៃ​សៅរ៍​មិន​ធ្វើ​វិញ​ប្រាំ​ថ្ងៃ 6 យប់។</p>
-<div class="callout callout-warning mt-md">លើសពីនេះ ការដេកនៅចុងសប្តាហ៍បង្កើនភាពយឺតយ៉ាវក្នុងសង្គម និងរំខានដល់ចង្វាក់ circadian របស់អ្នក បង្កើតបញ្ហាថ្មីមួយ ខណៈពេលដែលកំពុងដោះស្រាយផ្នែកចាស់។</div>
-<h2 class="mt-xl">វិធីស្តារយ៉ាងមានប្រសិទ្ធភាព</h2>
-<ol>
-<li><strong>ផ្តល់អាទិភាពដល់ការគេងឱ្យបានគ្រប់គ្រាន់ជាប្រចាំ។</strong>ការការពារមានប្រសិទ្ធភាពជាងការចាប់។ ការបន្ថែម 30-45 នាទីក្នុងមួយយប់គឺជាការស្តារឡើងវិញច្រើនជាងពេលយប់ 12 ម៉ោង។</li>
-<li><strong>ប្រើការគេងបែបយុទ្ធសាស្ត្រ។</strong>ការគេងរយៈពេល 20 នាទីជួយកាត់បន្ថយការចុះខ្សោយនៃការយល់ដឹងស្រួចស្រាវពីបំណុលនៃការគេងដោយមិនរំខានដល់ការគេងពេលយប់។</li>
-<li><strong>ទទួលយកតារាងពេលវេលា 4 ថ្ងៃ។</strong>ប្រសិនបើអ្នកជំពាក់បំណុលរយៈពេល 2 ម៉ោង កំណត់ថវិកា 8 ថ្ងៃនៃការគេងឱ្យបានគ្រប់គ្រាន់ មុនពេលសន្មតថាអ្នកបានជាសះស្បើយពេញលេញ។</li>
-<li><strong>ដោះស្រាយមូលហេតុដើម។</strong>បំណុលដេកជាធម្មតាកើតឡើងវិញដោយគ្មានការផ្លាស់ប្តូរកាលវិភាគ។ ប្រើទិន្នន័យ SleepAnalytics ដើម្បីកំណត់ថាយប់ណាដែលជាធម្មតាខ្លី និងមូលហេតុ។</li>
-</ol>
-<h2 class="mt-xl">របៀបដែល SleepAnalytics តាមដានបំណុលគេង</h2>
-<p>SleepAnalytics គណនាបំណុលការគេងស្រួចស្រាវរយៈពេល 14 ថ្ងៃរបស់អ្នកដោយបូកសរុបការខ្វះខាតរវាង TST ពិតប្រាកដរបស់អ្នករាល់យប់ និងការណែនាំដែលកែតម្រូវអាយុ NSF របស់អ្នក។ អេក្រង់ Sleep Debt បង្ហាញឱនភាពបច្ចុប្បន្នរបស់អ្នកគិតជាម៉ោង និងប៉ាន់ស្មានថាតើត្រូវសម្រាកប៉ុន្មានយប់នៃការគេងគ្រប់គ្រាន់ ដើម្បីត្រឡប់ទៅរកកម្រិតមូលដ្ឋានវិញ។</p>
-<div class="text-center mt-xl">
-<a class="btn btn-primary btn-large" href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777">តាមដានបំណុលគេងរបស់អ្នកក្នុងពេលវេលាជាក់ស្តែង</a>
-</div>
-</div>
-</section>
-<section class="page-hero">
-<div class="container">
-<a class="btn btn-primary" href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777">Download SleepAnalytics</a>
-<a class="btn btn-text" href="/km/blog/" style="margin-left:1rem;">← ត្រឡប់ទៅប្លុក</a>
-</div>
-</section>
-    
-
-    
-    
-<section class="eeat-author bg-light divider-top-lg divider-bottom-lg" aria-label="Author and Reviewer Information">
-  <div class="container container-narrow">
-    <div class="eeat-card" style="display: flex; gap: 1.5rem; align-items: center; padding: 1.5rem; background: var(--color-bg-alt, #f8f9fa); border-radius: 8px; border: 1px solid var(--color-border, #e9ecef); margin-top: 3rem; margin-bottom: 2rem;">
-      <div class="eeat-avatar" style="font-size: 2.5rem; line-height: 1; flex-shrink: 0;" aria-hidden="true">👨‍🔬</div>
-      <div class="eeat-details">
-        
-        
-        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.125rem; font-weight: 600;">
+                                stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></button><div class="suite-dropdown hidden" id="suite-dropdown"><div class="suite-dropdown-header">Other AnalyticsZone Apps</div><div class="suite-apps-grid"><a href="https://analyticszone.app" class="suite-app-link">AnalyticsZone</a><a href="https://run.analyticszone.app" class="suite-app-link">Run Analytics</a><a href="https://swim.analyticszone.app" class="suite-app-link">Swim Analytics</a><a href="https://bike.analyticszone.app" class="suite-app-link">Bike Analytics</a><a href="https://walk.analyticszone.app" class="suite-app-link">Walk Analytics</a><a href="https://cardio.analyticszone.app" class="suite-app-link">Cardio Analytics</a><a href="https://health.analyticszone.app" class="suite-app-link">Health Analytics</a><a href="https://swimtrainer.analyticszone.app" class="suite-app-link">Swim Trainer</a><a href="https://hike.analyticszone.app" class="suite-app-link">Hike Analytics</a></div></div></div></div></nav><button class="menu-toggle" id="menu-toggle" aria-label="បើក/បិទមឺនុយ"
+                aria-expanded="false" aria-controls="nav-primary"><span></span><span></span><span></span></button></div></div></header><main id="main-content" class="main-content"><section class="page-hero"><div class="container"><h1>បំណុលដេក៖ តើវាបង្កើតដោយរបៀបណា ចំណាយអ្វីខ្លះ និងរបៀបសងវាវិញ</h1><p class="lead">វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។</p></div></section><section class="section"><div class="container container-narrow"><p class="lead">បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ និងការគេងដែលអ្នកទទួលបាន។ មិនដូចបំណុលហិរញ្ញវត្ថុទេ វាមិនលេចឡើងភ្លាមៗនៅលើតារាងតុល្យការទេ ប៉ុន្តែការចំណាយលើការយល់ដឹង និងសរីរវិទ្យារួមបញ្ចូលគ្នាតាមរបៀបដែលអាចវាស់វែងបាន និងសំខាន់។</p><h2 class="mt-xl">របៀបបង្កើតបំណុលគេង</h2><p>Van Dongen et al ។ (Sleep, 2003) បានធ្វើការសិក្សាមួយក្នុងចំណោមការសិក្សាអំពីការគេងមិនលក់ដ៏សំខាន់បំផុតនៅលើកំណត់ត្រា។ អ្នកចូលរួមត្រូវបានដាក់កម្រិតត្រឹម 6 ម៉ោង/យប់ រយៈពេល 14 ថ្ងៃ។ នៅ​ថ្ងៃ​ទី 14 សមត្ថភាព​យល់ដឹង​របស់​ពួកគេ​គឺ​ស្មើ​នឹង​ការ​ភ្ញាក់​ពី​ដំណេក​រយៈពេល 48 ម៉ោង​ជាប់​គ្នា។ រិះគន់៖<strong>អ្នក​ចូលរួម​មិន​មាន​អារម្មណ៍​ថា​អន់​ថយ​ដូច​ពួក​គេ</strong>. ការដាស់តឿនតាមប្រធានបទមានស្ថេរភាព ប៉ុន្តែការអនុវត្តគោលបំណងបានបន្តធ្លាក់ចុះ។</p><h2 class="mt-xl">Acute vs Chronic Sleep Debt</h2><p>បទ SleepAnalytics<strong>បំណុលគេងស្រួចស្រាវ</strong>- ការគណនារយៈពេល 14 ថ្ងៃវិលជុំដែលប្រៀបធៀបការគេងពិតប្រាកដរបស់អ្នកទៅនឹងការណែនាំដែលបានកែតម្រូវតាមអាយុ NSF របស់អ្នក។ បង្អួចរយៈពេល 14 ថ្ងៃនេះឆ្លុះបញ្ចាំងពីបង្អួចស្រាវជ្រាវដែលការចុះខ្សោយនៃការយល់ដឹងដែលអាចវាស់វែងបានប្រមូលផ្តុំ និងស្តារឡើងវិញ។</p><p>បំណុលនៃការគេងរ៉ាំរ៉ៃ (ឆ្នាំនៃការគេងខ្លីជាទម្លាប់) មានយន្តការផ្សេងៗគ្នា ហើយមិនអាចត្រឡប់វិញបានជាមួយនឹងការងើបឡើងវិញពីរបីយប់ - ប៉ុន្តែបំណុលស្រួចស្រាវអាចត្រូវបានដោះស្រាយយ៉ាងមានអត្ថន័យក្នុងរយៈពេលប៉ុន្មានថ្ងៃ។</p><h2 class="mt-xl">The Weekend Catch-Up Myth</h2><p>ជំនឿទូទៅមួយគឺថាអ្នកអាច "សងវិញ" ក្នុងមួយសប្តាហ៍នៃការគេងមិនបានល្អដោយគេងបន្ថែមនៅចុងសប្តាហ៍។ ការងើបឡើងវិញដោយផ្នែកគឺពិតប្រាកដ — ការសម្តែង និងអារម្មណ៍ប្រសើរឡើង។ ប៉ុន្តែ Kitamura et al ។ (Sleep, 2016) បានរកឃើញថាការងើបឡើងវិញពេញលេញពីបំណុលគេងមួយម៉ោងត្រូវចំណាយពេលប្រហែល<strong>4 ថ្ងៃនៃការគេងឱ្យបានគ្រប់គ្រាន់</strong>. ពីរ​ម៉ោង​បន្ថែម​នៅ​ព្រឹក​ថ្ងៃ​សៅរ៍​មិន​ធ្វើ​វិញ​ប្រាំ​ថ្ងៃ 6 យប់។</p><div class="callout callout-warning mt-md">លើសពីនេះ ការដេកនៅចុងសប្តាហ៍បង្កើនភាពយឺតយ៉ាវក្នុងសង្គម និងរំខានដល់ចង្វាក់ circadian របស់អ្នក បង្កើតបញ្ហាថ្មីមួយ ខណៈពេលដែលកំពុងដោះស្រាយផ្នែកចាស់។</div><h2 class="mt-xl">វិធីស្តារយ៉ាងមានប្រសិទ្ធភាព</h2><ol><li><strong>ផ្តល់អាទិភាពដល់ការគេងឱ្យបានគ្រប់គ្រាន់ជាប្រចាំ។</strong>ការការពារមានប្រសិទ្ធភាពជាងការចាប់។ ការបន្ថែម 30-45 នាទីក្នុងមួយយប់គឺជាការស្តារឡើងវិញច្រើនជាងពេលយប់ 12 ម៉ោង។</li><li><strong>ប្រើការគេងបែបយុទ្ធសាស្ត្រ។</strong>ការគេងរយៈពេល 20 នាទីជួយកាត់បន្ថយការចុះខ្សោយនៃការយល់ដឹងស្រួចស្រាវពីបំណុលនៃការគេងដោយមិនរំខានដល់ការគេងពេលយប់។</li><li><strong>ទទួលយកតារាងពេលវេលា 4 ថ្ងៃ។</strong>ប្រសិនបើអ្នកជំពាក់បំណុលរយៈពេល 2 ម៉ោង កំណត់ថវិកា 8 ថ្ងៃនៃការគេងឱ្យបានគ្រប់គ្រាន់ មុនពេលសន្មតថាអ្នកបានជាសះស្បើយពេញលេញ។</li><li><strong>ដោះស្រាយមូលហេតុដើម។</strong>បំណុលដេកជាធម្មតាកើតឡើងវិញដោយគ្មានការផ្លាស់ប្តូរកាលវិភាគ។ ប្រើទិន្នន័យ SleepAnalytics ដើម្បីកំណត់ថាយប់ណាដែលជាធម្មតាខ្លី និងមូលហេតុ។</li></ol><h2 class="mt-xl">របៀបដែល SleepAnalytics តាមដានបំណុលគេង</h2><p>SleepAnalytics គណនាបំណុលការគេងស្រួចស្រាវរយៈពេល 14 ថ្ងៃរបស់អ្នកដោយបូកសរុបការខ្វះខាតរវាង TST ពិតប្រាកដរបស់អ្នករាល់យប់ និងការណែនាំដែលកែតម្រូវអាយុ NSF របស់អ្នក។ អេក្រង់ Sleep Debt បង្ហាញឱនភាពបច្ចុប្បន្នរបស់អ្នកគិតជាម៉ោង និងប៉ាន់ស្មានថាតើត្រូវសម្រាកប៉ុន្មានយប់នៃការគេងគ្រប់គ្រាន់ ដើម្បីត្រឡប់ទៅរកកម្រិតមូលដ្ឋានវិញ។</p><div class="text-center mt-xl"><a class="btn btn-primary btn-large" href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777">តាមដានបំណុលគេងរបស់អ្នកក្នុងពេលវេលាជាក់ស្តែង</a></div></div></section><section class="page-hero"><div class="container"><a class="btn btn-primary" href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777">Download SleepAnalytics</a><a class="btn btn-text" href="/km/blog/" style="margin-left:1rem;">← ត្រឡប់ទៅប្លុក</a></div></section><section class="eeat-author bg-light divider-top-lg divider-bottom-lg" aria-label="Author and Reviewer Information"><div class="container container-narrow"><div class="eeat-card" style="display: flex; gap: 1.5rem; align-items: center; padding: 1.5rem; background: var(--color-bg-alt, #f8f9fa); border-radius: 8px; border: 1px solid var(--color-border, #e9ecef); margin-top: 3rem; margin-bottom: 2rem;"><div class="eeat-avatar" style="font-size: 2.5rem; line-height: 1; flex-shrink: 0;" aria-hidden="true">👨‍🔬</div><div class="eeat-details"><h3 style="margin: 0 0 0.5rem 0; font-size: 1.125rem; font-weight: 600;">
           Expertly Reviewed by 
-          <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-            <span itemprop="name">Arno Health</span>
-          </span>
-          
-        </h3>
-        <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; color: var(--color-body-text, #4a5568); line-height: 1.5;">
+          <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Arno Health</span></span></h3><p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; color: var(--color-body-text, #4a5568); line-height: 1.5;">
           This content has been written and reviewed by a sports data metrics expert to ensure technical accuracy and adherence to the latest sports science methodologies.
-        </p>
-        
-      </div>
-    </div>
-  </div>
-</section>
-
-
-    
-    
-
-<section class="ai-citation-block divider-top-xl" data-ai-ready="true" data-ai-page="blog/sleep-debt-calculator">
-  <div class="container ai-citation-shell">
-    <h2 class="ai-citation-title">បំណុលដំណេក: របៀបដែលវាបង្កើតឡើង និងរបៀបសងវាវិញ -</h2>
-    <p class="ai-citation-answer">វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។ បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ...</p>
-
-    <ul class="ai-citation-facts" role="list">
-      
-      <li class="ai-citation-fact">
-        <span class="ai-citation-icon" aria-hidden="true">📅</span>
-        <span>2026-03-11</span>
-      </li>
-      
-
-      
-      <li class="ai-citation-fact ai-citation-keywords">
-        <span class="ai-citation-icon" aria-hidden="true">🏷️</span>
-        <span>បំណុលដំណេក · ការខ្វះដំណេក · ការស្តារឡើងវិញ · វា។ · សាងសង់</span>
-      </li>
-      
-
-      
-      <li class="ai-citation-fact">
-        <span class="ai-citation-icon" aria-hidden="true">🔬</span>
-        <a href="../../../km/bibliography/">
+        </p></div></div></div></section><section class="ai-citation-block divider-top-xl" data-ai-ready="true" data-ai-page="blog/sleep-debt-calculator"><div class="container ai-citation-shell"><h2 class="ai-citation-title">បំណុលដំណេក: របៀបដែលវាបង្កើតឡើង និងរបៀបសងវាវិញ -</h2><p class="ai-citation-answer">វិទ្យាសាស្រ្តនៃការប្រមូលផ្តុំការគេងមិនលក់ និងយុទ្ធសាស្រ្តស្តារឡើងវិញដោយផ្អែកលើភស្តុតាង។ បំណុលនៃការគេងគឺជាការខ្វះខាតបង្គររវាងការគេងដែលអ្នកត្រូវការ...</p><ul class="ai-citation-facts" role="list"><li class="ai-citation-fact"><span class="ai-citation-icon" aria-hidden="true">📅</span><span>2026-03-11</span></li><li class="ai-citation-fact ai-citation-keywords"><span class="ai-citation-icon" aria-hidden="true">🏷️</span><span>បំណុលដំណេក · ការខ្វះដំណេក · ការស្តារឡើងវិញ · វា។ · សាងសង់</span></li><li class="ai-citation-fact"><span class="ai-citation-icon" aria-hidden="true">🔬</span><a href="../../../km/bibliography/">
           
           ឯកសារយោង
           
-        </a>
-      </li>
-      
-    </ul>
-
-    
-  </div>
-</section>
-
-  </main>
-
-  
-  <footer class="site-footer">
-    <div class="container">
-        
-        <div class="footer-top">
-            <div class="footer-brand-section">
-                
-                <h2>SleepAnalytics</h2>
-                <p>The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.</p>
-                
-            </div>
-
-            
-            <div class="footer-download">
-                <h3 class="footer-heading">Download</h3>
-                <div class="footer-badges">
-                    
-                    <a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" target="_blank" rel="noopener"
-                        aria-label="Download on the App Store">
-                        <img src="../../../assets/images/badge-app-store.svg"
+        </a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand-section"><h2>SleepAnalytics</h2><p>The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.</p></div><div class="footer-download"><h3 class="footer-heading">Download</h3><div class="footer-badges"><a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" target="_blank" rel="noopener"
+                        aria-label="Download on the App Store"><img src="../../../assets/images/badge-app-store.svg"
                             alt="Download on the App Store" width="135"
-                            height="40" loading="lazy">
-                    </a>
-                    
-                    
-                </div>
-            </div>
-            
-        </div>
-
-        
-        <div class="footer-languages">
-            <h3 class="footer-heading">Available in</h3>
-            <div class="lang-grid">
-                
-                <a href="/af/" class="lang-link"
+                            height="40" loading="lazy"></a></div></div></div><div class="footer-languages"><h3 class="footer-heading">Available in</h3><div class="lang-grid"><a href="/af/" class="lang-link"
                     hreflang="af" >
                     Afrikaans
-                </a>
-                
-                <a href="/ar/" class="lang-link"
+                </a><a href="/ar/" class="lang-link"
                     hreflang="ar" dir="rtl" >
                     العربية
-                </a>
-                
-                <a href="/bn/" class="lang-link"
+                </a><a href="/bn/" class="lang-link"
                     hreflang="bn" >
                     বাংলা
-                </a>
-                
-                <a href="/ca/" class="lang-link"
+                </a><a href="/ca/" class="lang-link"
                     hreflang="ca" >
                     Català
-                </a>
-                
-                <a href="/cs/" class="lang-link"
+                </a><a href="/cs/" class="lang-link"
                     hreflang="cs" >
                     Čeština
-                </a>
-                
-                <a href="/da/" class="lang-link"
+                </a><a href="/da/" class="lang-link"
                     hreflang="da" >
                     Dansk
-                </a>
-                
-                <a href="/de/" class="lang-link"
+                </a><a href="/de/" class="lang-link"
                     hreflang="de" >
                     Deutsch
-                </a>
-                
-                <a href="/el/" class="lang-link"
+                </a><a href="/el/" class="lang-link"
                     hreflang="el" >
                     Ελληνικά
-                </a>
-                
-                <a href="/en/" class="lang-link"
+                </a><a href="/en/" class="lang-link"
                     hreflang="en" >
                     English
-                </a>
-                
-                <a href="/es/" class="lang-link"
+                </a><a href="/es/" class="lang-link"
                     hreflang="es" >
                     Español
-                </a>
-                
-                <a href="/et/" class="lang-link"
+                </a><a href="/et/" class="lang-link"
                     hreflang="et" >
                     Eesti
-                </a>
-                
-                <a href="/fi/" class="lang-link"
+                </a><a href="/fi/" class="lang-link"
                     hreflang="fi" >
                     Suomi
-                </a>
-                
-                <a href="/fr/" class="lang-link"
+                </a><a href="/fr/" class="lang-link"
                     hreflang="fr" >
                     Français
-                </a>
-                
-                <a href="/hi/" class="lang-link"
+                </a><a href="/hi/" class="lang-link"
                     hreflang="hi" >
                     हिन्दी
-                </a>
-                
-                <a href="/hu/" class="lang-link"
+                </a><a href="/hu/" class="lang-link"
                     hreflang="hu" >
                     Magyar
-                </a>
-                
-                <a href="/id/" class="lang-link"
+                </a><a href="/id/" class="lang-link"
                     hreflang="id" >
                     Bahasa Indonesia
-                </a>
-                
-                <a href="/it/" class="lang-link"
+                </a><a href="/it/" class="lang-link"
                     hreflang="it" >
                     Italiano
-                </a>
-                
-                <a href="/ja/" class="lang-link"
+                </a><a href="/ja/" class="lang-link"
                     hreflang="ja" >
                     日本語
-                </a>
-                
-                <a href="/km/" class="lang-link active"
+                </a><a href="/km/" class="lang-link active"
                     hreflang="km" >
                     Khmer
-                </a>
-                
-                <a href="/ko/" class="lang-link"
+                </a><a href="/ko/" class="lang-link"
                     hreflang="ko" >
                     한국어
-                </a>
-                
-                <a href="/nb/" class="lang-link"
+                </a><a href="/nb/" class="lang-link"
                     hreflang="nb" >
                     Norsk
-                </a>
-                
-                <a href="/nl/" class="lang-link"
+                </a><a href="/nl/" class="lang-link"
                     hreflang="nl" >
                     Nederlands
-                </a>
-                
-                <a href="/pl/" class="lang-link"
+                </a><a href="/pl/" class="lang-link"
                     hreflang="pl" >
                     Polski
-                </a>
-                
-                <a href="/pt/" class="lang-link"
+                </a><a href="/pt/" class="lang-link"
                     hreflang="pt" >
                     Português
-                </a>
-                
-                <a href="/ru/" class="lang-link"
+                </a><a href="/ru/" class="lang-link"
                     hreflang="ru" >
                     Русский
-                </a>
-                
-                <a href="/ro/" class="lang-link"
+                </a><a href="/ro/" class="lang-link"
                     hreflang="ro" >
                     Română
-                </a>
-                
-                <a href="/sv/" class="lang-link"
+                </a><a href="/sv/" class="lang-link"
                     hreflang="sv" >
                     Svenska
-                </a>
-                
-                <a href="/tr/" class="lang-link"
+                </a><a href="/tr/" class="lang-link"
                     hreflang="tr" >
                     Türkçe
-                </a>
-                
-                <a href="/uk/" class="lang-link"
+                </a><a href="/uk/" class="lang-link"
                     hreflang="uk" >
                     Українська
-                </a>
-                
-                <a href="/ur/" class="lang-link"
+                </a><a href="/ur/" class="lang-link"
                     hreflang="ur" dir="rtl" >
                     اردو
-                </a>
-                
-                <a href="/vi/" class="lang-link"
+                </a><a href="/vi/" class="lang-link"
                     hreflang="vi" >
                     Tiếng Việt
-                </a>
-                
-                <a href="/zh/" class="lang-link"
+                </a><a href="/zh/" class="lang-link"
                     hreflang="zh" >
                     中文
-                </a>
-                
-            </div>
-        </div>
-
-        <div class="footer-divider"></div>
-
-        
-        <div class="footer-bottom">
-            <p class="copyright">
+                </a></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="copyright">
                 &copy; 2026 SleepAnalytics. រក្សាសិទ្ធិគ្រប់យ៉ាង
-            </p>
-            <ul class="footer-legal">
-                <li><a href="/km/privacy/">ឯកជនភាព</a></li>
-                <li><a href="/km/terms/">លក្ខខណ្ឌ</a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
-
-  
-  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
-    <div class="cookie-banner-content">
-        <div>
-            <p>គេហទំព័រនេះប្រើប្រាស់ឃុកឃី (cookies) ដើម្បីកែលម្អបទពិសោធន៍របស់អ្នក។</p>
-            <a href="/km/privacy/" class="text-sm">ស្វែងយល់បន្ថែម</a>
-        </div>
-        <div class="cookie-banner-actions">
-            <button id="cookie-decline" class="btn btn-secondary btn-small">បដិសេធ</button>
-            <button id="cookie-accept" class="btn btn-primary btn-small">យល់ព្រម</button>
-        </div>
-    </div>
-</div>
-
-  
-  <script src="../../../assets/js/core.min.js?v=63baa90b9f45" defer></script>
-  <script src="../../../assets/js/search.min.js?v=63baa90b9f45" defer></script>
-  
-
-  
-  
-  <script src="../../../assets/js/analytics.min.js" data-ga-id="G-B48SMJ6J33" defer></script>
-  
-
-  
-  <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../../../sw.js') }</script>
-</body>
-
-</html>
+            </p><ul class="footer-legal"><li><a href="/km/privacy/">ឯកជនភាព</a></li><li><a href="/km/terms/">លក្ខខណ្ឌ</a></li></ul></div></div></footer><div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite"><div class="cookie-banner-content"><div><p>គេហទំព័រនេះប្រើប្រាស់ឃុកឃី (cookies) ដើម្បីកែលម្អបទពិសោធន៍របស់អ្នក។</p><a href="/km/privacy/" class="text-sm">ស្វែងយល់បន្ថែម</a></div><div class="cookie-banner-actions"><button id="cookie-decline" class="btn btn-secondary btn-small">បដិសេធ</button><button id="cookie-accept" class="btn btn-primary btn-small">យល់ព្រម</button></div></div></div><script src="../../../assets/js/core.min.js?v=aa8b7978" defer></script><script src="../../../assets/js/search.min.js?v=aa8b7978" defer></script><script src="../../../assets/js/analytics.min.js" data-ga-id="G-B48SMJ6J33" defer></script><script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../../../sw.js') }</script></body></html>

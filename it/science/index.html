@@ -1,316 +1,38 @@
-<!DOCTYPE html>
-<html lang="it" dir="ltr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
-    rel="stylesheet">
-
-  
-  <title>La scienza dietro SleepAnalytics - SleepAnalytics - Train</title>
-  <meta name="description" content="La scienza del sonno dietro SleepAnalytics. Come Apple Watch rileva le fasi del sonno, cosa significano gli standard AASM e come viene calcolato il nostro.">
-  <meta name="author" content="Arno Health">
-
-  
-  
-  <meta name="keywords" content="come funziona il monitoraggio del sonno di Apple Watch, Spiegazione delle fasi del sonno AASM, formula del punteggio del sonno">
-  
-
-  
-  <link rel="canonical" href="https://sleep.analyticszone.app/it/science/">
-
-  
-  
-  <meta property="article:published_time" content="2025-01-15T10:00:00Z">
-  <meta property="article:modified_time" content="2026-03-06T14:30:00Z">
-  <meta property="article:author" content="Arno Health">
-  
-
-  
-  
-
-  
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://sleep.analyticszone.app/it/science/">
-  <meta property="og:title" content="La scienza dietro SleepAnalytics - SleepAnalytics - Train">
-  <meta property="og:description" content="La scienza del sonno dietro SleepAnalytics. Come Apple Watch rileva le fasi del sonno, cosa significano gli standard AASM e come viene calcolato il nostro.">
-  <meta property="og:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
-  <meta property="og:locale" content="it_IT">
-  <meta property="og:site_name" content="SleepAnalytics">
-
-  
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://sleep.analyticszone.app/it/science/">
-  <meta name="twitter:title" content="La scienza dietro SleepAnalytics - SleepAnalytics - Train">
-  <meta name="twitter:description" content="La scienza del sonno dietro SleepAnalytics. Come Apple Watch rileva le fasi del sonno, cosa significano gli standard AASM e come viene calcolato il nostro.">
-  <meta name="twitter:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg">
-  
-  <meta name="twitter:site" content="@HealthAnalytics">
-  <meta name="twitter:creator" content="@HealthAnalytics">
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <link rel="alternate" hreflang="af"
-    href="https://sleep.analyticszone.app/af/science/">
-  
-  <link rel="alternate" hreflang="ar"
-    href="https://sleep.analyticszone.app/ar/science/">
-  
-  <link rel="alternate" hreflang="bn"
-    href="https://sleep.analyticszone.app/bn/science/">
-  
-  <link rel="alternate" hreflang="ca"
-    href="https://sleep.analyticszone.app/ca/science/">
-  
-  <link rel="alternate" hreflang="cs"
-    href="https://sleep.analyticszone.app/cs/science/">
-  
-  <link rel="alternate" hreflang="da"
-    href="https://sleep.analyticszone.app/da/science/">
-  
-  <link rel="alternate" hreflang="de"
-    href="https://sleep.analyticszone.app/de/science/">
-  
-  <link rel="alternate" hreflang="el"
-    href="https://sleep.analyticszone.app/el/science/">
-  
-  <link rel="alternate" hreflang="en"
-    href="https://sleep.analyticszone.app/en/science/">
-  
-  <link rel="alternate" hreflang="es"
-    href="https://sleep.analyticszone.app/es/science/">
-  
-  <link rel="alternate" hreflang="et"
-    href="https://sleep.analyticszone.app/et/science/">
-  
-  <link rel="alternate" hreflang="fi"
-    href="https://sleep.analyticszone.app/fi/science/">
-  
-  <link rel="alternate" hreflang="fr"
-    href="https://sleep.analyticszone.app/fr/science/">
-  
-  <link rel="alternate" hreflang="hi"
-    href="https://sleep.analyticszone.app/hi/science/">
-  
-  <link rel="alternate" hreflang="hu"
-    href="https://sleep.analyticszone.app/hu/science/">
-  
-  <link rel="alternate" hreflang="id"
-    href="https://sleep.analyticszone.app/id/science/">
-  
-  <link rel="alternate" hreflang="it"
-    href="https://sleep.analyticszone.app/it/science/">
-  
-  <link rel="alternate" hreflang="ja"
-    href="https://sleep.analyticszone.app/ja/science/">
-  
-  <link rel="alternate" hreflang="km"
-    href="https://sleep.analyticszone.app/km/science/">
-  
-  <link rel="alternate" hreflang="ko"
-    href="https://sleep.analyticszone.app/ko/science/">
-  
-  <link rel="alternate" hreflang="nb"
-    href="https://sleep.analyticszone.app/nb/science/">
-  
-  <link rel="alternate" hreflang="nl"
-    href="https://sleep.analyticszone.app/nl/science/">
-  
-  <link rel="alternate" hreflang="pl"
-    href="https://sleep.analyticszone.app/pl/science/">
-  
-  <link rel="alternate" hreflang="pt"
-    href="https://sleep.analyticszone.app/pt/science/">
-  
-  <link rel="alternate" hreflang="ru"
-    href="https://sleep.analyticszone.app/ru/science/">
-  
-  <link rel="alternate" hreflang="ro"
-    href="https://sleep.analyticszone.app/ro/science/">
-  
-  <link rel="alternate" hreflang="sv"
-    href="https://sleep.analyticszone.app/sv/science/">
-  
-  <link rel="alternate" hreflang="tr"
-    href="https://sleep.analyticszone.app/tr/science/">
-  
-  <link rel="alternate" hreflang="uk"
-    href="https://sleep.analyticszone.app/uk/science/">
-  
-  <link rel="alternate" hreflang="ur"
-    href="https://sleep.analyticszone.app/ur/science/">
-  
-  <link rel="alternate" hreflang="vi"
-    href="https://sleep.analyticszone.app/vi/science/">
-  
-  <link rel="alternate" hreflang="zh"
-    href="https://sleep.analyticszone.app/zh/science/">
-  
-  
-  <link rel="alternate" hreflang="x-default"
-    href="https://sleep.analyticszone.app/en/science/">
-  
-
-  
-  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/icons/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/icons/apple-touch-icon.png">
-  <link rel="manifest" href="../../manifest.json">
-  <meta name="theme-color" content="#2563EB">
-  
-  
-  <meta name="robots" content="index, follow">
-  
-
-  
-  
-  
-  <meta name="apple-itunes-app" content="app-id=6760132777">
-  
-
-  
-  <style>
+<!DOCTYPE html><html lang="it" dir="ltr"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+    rel="stylesheet"><title>La scienza dietro SleepAnalytics - SleepAnalytics - Train</title><meta name="description" content="La scienza del sonno dietro SleepAnalytics. Come Apple Watch rileva le fasi del sonno, cosa significano gli standard AASM e come viene calcolato il nostro."><meta name="author" content="Arno Health"><meta name="keywords" content="come funziona il monitoraggio del sonno di Apple Watch, Spiegazione delle fasi del sonno AASM, formula del punteggio del sonno"><link rel="canonical" href="https://sleep.analyticszone.app/it/science/"><meta property="article:published_time" content="2025-01-15T10:00:00Z"><meta property="article:modified_time" content="2026-03-06T14:30:00Z"><meta property="article:author" content="Arno Health"><meta property="og:type" content="article"><meta property="og:url" content="https://sleep.analyticszone.app/it/science/"><meta property="og:title" content="La scienza dietro SleepAnalytics - SleepAnalytics - Train"><meta property="og:description" content="La scienza del sonno dietro SleepAnalytics. Come Apple Watch rileva le fasi del sonno, cosa significano gli standard AASM e come viene calcolato il nostro."><meta property="og:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg"><meta property="og:locale" content="it_IT"><meta property="og:site_name" content="SleepAnalytics"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:url" content="https://sleep.analyticszone.app/it/science/"><meta name="twitter:title" content="La scienza dietro SleepAnalytics - SleepAnalytics - Train"><meta name="twitter:description" content="La scienza del sonno dietro SleepAnalytics. Come Apple Watch rileva le fasi del sonno, cosa significano gli standard AASM e come viene calcolato il nostro."><meta name="twitter:image" content="https://sleep.analyticszone.app/assets/images/og-image.svg"><meta name="twitter:site" content="@HealthAnalytics"><meta name="twitter:creator" content="@HealthAnalytics"><link rel="alternate" hreflang="af"
+    href="https://sleep.analyticszone.app/af/science/"><link rel="alternate" hreflang="ar"
+    href="https://sleep.analyticszone.app/ar/science/"><link rel="alternate" hreflang="bn"
+    href="https://sleep.analyticszone.app/bn/science/"><link rel="alternate" hreflang="ca"
+    href="https://sleep.analyticszone.app/ca/science/"><link rel="alternate" hreflang="cs"
+    href="https://sleep.analyticszone.app/cs/science/"><link rel="alternate" hreflang="da"
+    href="https://sleep.analyticszone.app/da/science/"><link rel="alternate" hreflang="de"
+    href="https://sleep.analyticszone.app/de/science/"><link rel="alternate" hreflang="el"
+    href="https://sleep.analyticszone.app/el/science/"><link rel="alternate" hreflang="en"
+    href="https://sleep.analyticszone.app/en/science/"><link rel="alternate" hreflang="es"
+    href="https://sleep.analyticszone.app/es/science/"><link rel="alternate" hreflang="et"
+    href="https://sleep.analyticszone.app/et/science/"><link rel="alternate" hreflang="fi"
+    href="https://sleep.analyticszone.app/fi/science/"><link rel="alternate" hreflang="fr"
+    href="https://sleep.analyticszone.app/fr/science/"><link rel="alternate" hreflang="hi"
+    href="https://sleep.analyticszone.app/hi/science/"><link rel="alternate" hreflang="hu"
+    href="https://sleep.analyticszone.app/hu/science/"><link rel="alternate" hreflang="id"
+    href="https://sleep.analyticszone.app/id/science/"><link rel="alternate" hreflang="it"
+    href="https://sleep.analyticszone.app/it/science/"><link rel="alternate" hreflang="ja"
+    href="https://sleep.analyticszone.app/ja/science/"><link rel="alternate" hreflang="km"
+    href="https://sleep.analyticszone.app/km/science/"><link rel="alternate" hreflang="ko"
+    href="https://sleep.analyticszone.app/ko/science/"><link rel="alternate" hreflang="nb"
+    href="https://sleep.analyticszone.app/nb/science/"><link rel="alternate" hreflang="nl"
+    href="https://sleep.analyticszone.app/nl/science/"><link rel="alternate" hreflang="pl"
+    href="https://sleep.analyticszone.app/pl/science/"><link rel="alternate" hreflang="pt"
+    href="https://sleep.analyticszone.app/pt/science/"><link rel="alternate" hreflang="ru"
+    href="https://sleep.analyticszone.app/ru/science/"><link rel="alternate" hreflang="ro"
+    href="https://sleep.analyticszone.app/ro/science/"><link rel="alternate" hreflang="sv"
+    href="https://sleep.analyticszone.app/sv/science/"><link rel="alternate" hreflang="tr"
+    href="https://sleep.analyticszone.app/tr/science/"><link rel="alternate" hreflang="uk"
+    href="https://sleep.analyticszone.app/uk/science/"><link rel="alternate" hreflang="ur"
+    href="https://sleep.analyticszone.app/ur/science/"><link rel="alternate" hreflang="vi"
+    href="https://sleep.analyticszone.app/vi/science/"><link rel="alternate" hreflang="zh"
+    href="https://sleep.analyticszone.app/zh/science/"><link rel="alternate" hreflang="x-default"
+    href="https://sleep.analyticszone.app/en/science/"><link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/icons/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/icons/apple-touch-icon.png"><link rel="manifest" href="../../manifest.json"><meta name="theme-color" content="#2563EB"><meta name="robots" content="index, follow"><meta name="apple-itunes-app" content="app-id=6760132777"><style>
 /* Critical CSS - Above the fold styles for fast LCP */
 :root {
   --color-primary: #0066CC;
@@ -569,20 +291,7 @@ img[width][height] {
     transition-duration: 0.01ms !important;
   }
 }
-</style>
-
-  
-  <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-
-  
-  <link rel="stylesheet" href="../../assets/css/main.min.css?v=63baa90b9f45">
-
-  
-  
-
-
-<script type="application/ld+json">
+</style><link rel="preconnect" href="https://www.googletagmanager.com"><link rel="dns-prefetch" href="https://www.googletagmanager.com"><link rel="stylesheet" href="../../assets/css/main.min.css?v=aa8b7978"><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -613,10 +322,7 @@ img[width][height] {
     
   ]
 }
-</script>
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -625,11 +331,7 @@ img[width][height] {
   "description": "The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.",
   "inLanguage": "it"
 }
-</script>
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -644,12 +346,7 @@ img[width][height] {
   },
   "downloadUrl": "https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777"
 }
-</script>
-
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -671,11 +368,7 @@ img[width][height] {
     
   ]
 }
-</script>
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -708,14 +401,7 @@ img[width][height] {
     }
   ]
 }
-</script>
-
-
-
-
-
-
-<script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -740,17 +426,7 @@ img[width][height] {
     "@id": "https://sleep.analyticszone.app/it/science/"
   }
 }
-</script>
-
-
-
-
-
-  
-  
-
-  
-  <script>
+</script><script>
     (function () {
       let theme = localStorage.getItem('theme');
       // Older builds could persist a per-subdomain `theme=light` value without a UI
@@ -764,971 +440,255 @@ img[width][height] {
         document.documentElement.classList.add('dark-mode');
       }
     })();
-  </script>
-</head>
-
-<body>
-  
-  <a href="#main-content" class="skip-link">Passa al contenuto</a>
-
-  
-  <header class="site-header">
-    <div class="container">
-        <div class="header-inner">
-            
-            <a href="/it/" class="site-logo">
-                <picture>
-                    <source srcset="../../assets/images/logo-dark.png" type="image/png"
-                        media="(prefers-color-scheme: dark)">
-                    <img src="../../assets/images/logo.png" alt="SleepAnalytics - Train Hard. Recover Smarter." width="56" height="56">
-                </picture>
-                <span class="logo-text">SleepAnalytics</span>
-            </a>
-
-            
-            <nav class="nav-primary" id="nav-primary" role="navigation" aria-label="Main navigation">
-                <div class="nav-group-left">
-                    <ul>
-                        
-                        <li>
-                            
-                            <a href="/it/features/" 
+  </script></head><body><a href="#main-content" class="skip-link">Passa al contenuto</a><header class="site-header"><div class="container"><div class="header-inner"><a href="/it/" class="site-logo"><picture><source srcset="../../assets/images/logo-dark.png" type="image/png"
+                        media="(prefers-color-scheme: dark)"><img src="../../assets/images/logo.png" alt="SleepAnalytics - Train Hard. Recover Smarter." width="56" height="56"></picture><span class="logo-text">SleepAnalytics</span></a><nav class="nav-primary" id="nav-primary" role="navigation" aria-label="Main navigation"><div class="nav-group-left"><ul><li><a href="/it/features/" 
                                 aria-current="">
                                 Caratteristiche
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/it/science/" class="active" 
+                            </a></li><li><a href="/it/science/" class="active" 
                                 aria-current="page">
                                 Libreria Metriche
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/it/blog/" 
+                            </a></li><li><a href="/it/blog/" 
                                 aria-current="">
                                 Blog
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/it/faq/" 
+                            </a></li><li><a href="/it/faq/" 
                                 aria-current="">
                                 Domande frequenti
-                            </a>
-                            
-                            </li>
-                            
-                        <li>
-                            
-                            <a href="/it/about/" 
+                            </a></li><li><a href="/it/about/" 
                                 aria-current="">
                                 Chi Siamo
-                            </a>
-                            
-                            </li>
-                            
-                    </ul>
-
-                    
-                    <div class="search-container">
-                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                            </a></li></ul><div class="search-container"><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <path d="m21 21-4.35-4.35"></path>
-                        </svg>
-                        <input type="search" id="site-search" class="search-input" aria-expanded="false"
-                            aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" spellcheck="false" />
-                        <div id="search-results" class="search-results hidden" role="region" aria-live="polite"></div>
-                    </div>
-
-                    
-                    <select class="language-selector" id="language-select" aria-label="Seleziona lingua">
-                        
-                        <option value="af" >
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg><input type="search" id="site-search" class="search-input" aria-expanded="false"
+                            aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" spellcheck="false" /><div id="search-results" class="search-results hidden" role="region" aria-live="polite"></div></div><select class="language-selector" id="language-select" aria-label="Seleziona lingua"><option value="af" >
                             Afrikaans
-                        </option>
-                        
-                        <option value="ar" >
+                        </option><option value="ar" >
                             العربية
-                        </option>
-                        
-                        <option value="bn" >
+                        </option><option value="bn" >
                             বাংলা
-                        </option>
-                        
-                        <option value="ca" >
+                        </option><option value="ca" >
                             Català
-                        </option>
-                        
-                        <option value="cs" >
+                        </option><option value="cs" >
                             Čeština
-                        </option>
-                        
-                        <option value="da" >
+                        </option><option value="da" >
                             Dansk
-                        </option>
-                        
-                        <option value="de" >
+                        </option><option value="de" >
                             Deutsch
-                        </option>
-                        
-                        <option value="el" >
+                        </option><option value="el" >
                             Ελληνικά
-                        </option>
-                        
-                        <option value="en" >
+                        </option><option value="en" >
                             English
-                        </option>
-                        
-                        <option value="es" >
+                        </option><option value="es" >
                             Español
-                        </option>
-                        
-                        <option value="et" >
+                        </option><option value="et" >
                             Eesti
-                        </option>
-                        
-                        <option value="fi" >
+                        </option><option value="fi" >
                             Suomi
-                        </option>
-                        
-                        <option value="fr" >
+                        </option><option value="fr" >
                             Français
-                        </option>
-                        
-                        <option value="hi" >
+                        </option><option value="hi" >
                             हिन्दी
-                        </option>
-                        
-                        <option value="hu" >
+                        </option><option value="hu" >
                             Magyar
-                        </option>
-                        
-                        <option value="id" >
+                        </option><option value="id" >
                             Bahasa Indonesia
-                        </option>
-                        
-                        <option value="it" selected>
+                        </option><option value="it" selected>
                             Italiano
-                        </option>
-                        
-                        <option value="ja" >
+                        </option><option value="ja" >
                             日本語
-                        </option>
-                        
-                        <option value="km" >
+                        </option><option value="km" >
                             Khmer
-                        </option>
-                        
-                        <option value="ko" >
+                        </option><option value="ko" >
                             한국어
-                        </option>
-                        
-                        <option value="nb" >
+                        </option><option value="nb" >
                             Norsk
-                        </option>
-                        
-                        <option value="nl" >
+                        </option><option value="nl" >
                             Nederlands
-                        </option>
-                        
-                        <option value="pl" >
+                        </option><option value="pl" >
                             Polski
-                        </option>
-                        
-                        <option value="pt" >
+                        </option><option value="pt" >
                             Português
-                        </option>
-                        
-                        <option value="ro" >
+                        </option><option value="ro" >
                             Română
-                        </option>
-                        
-                        <option value="ru" >
+                        </option><option value="ru" >
                             Русский
-                        </option>
-                        
-                        <option value="sv" >
+                        </option><option value="sv" >
                             Svenska
-                        </option>
-                        
-                        <option value="tr" >
+                        </option><option value="tr" >
                             Türkçe
-                        </option>
-                        
-                        <option value="uk" >
+                        </option><option value="uk" >
                             Українська
-                        </option>
-                        
-                        <option value="ur" >
+                        </option><option value="ur" >
                             اردو
-                        </option>
-                        
-                        <option value="vi" >
+                        </option><option value="vi" >
                             Tiếng Việt
-                        </option>
-                        
-                        <option value="zh" >
+                        </option><option value="zh" >
                             中文
-                        </option>
-                        
-                    </select>
-                </div>
-
-                <div class="nav-group-right">
-                    
-
-
-                    
-                    <div class="header-app-buttons">
-                        
-                        
-                        <a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="header-download-btn" target="_blank"
-                            rel="noopener" aria-label="Download on App Store" title="Download on App Store">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-                            </svg>
-                        </a>
-                        
-
-                        
-                        
-                    </div>
-
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-
-                    
-                    <div class="suite-menu-container">
-                        <button class="suite-menu-toggle" id="suite-menu-toggle" aria-label="See other apps"
-                            aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        </option></select></div><div class="nav-group-right"><div class="header-app-buttons"><a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" class="header-download-btn" target="_blank"
+                            rel="noopener" aria-label="Download on App Store" title="Download on App Store"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor"><path
+                                    d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" /></svg></a></div><div class="suite-menu-container"><button class="suite-menu-toggle" id="suite-menu-toggle" aria-label="See other apps"
+                            aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <rect x="3" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="14" width="7" height="7"></rect>
-                                <rect x="3" y="14" width="7" height="7"></rect>
-                            </svg>
-                        </button>
-                        <div class="suite-dropdown hidden" id="suite-dropdown">
-                            <div class="suite-dropdown-header">Other AnalyticsZone Apps</div>
-                            <div class="suite-apps-grid">
-                                
-                                <a href="https://analyticszone.app" class="suite-app-link">AnalyticsZone</a>
-                                
-                                <a href="https://run.analyticszone.app" class="suite-app-link">Run Analytics</a>
-                                
-                                <a href="https://swim.analyticszone.app" class="suite-app-link">Swim Analytics</a>
-                                
-                                <a href="https://bike.analyticszone.app" class="suite-app-link">Bike Analytics</a>
-                                
-                                <a href="https://walk.analyticszone.app" class="suite-app-link">Walk Analytics</a>
-                                
-                                <a href="https://cardio.analyticszone.app" class="suite-app-link">Cardio Analytics</a>
-                                
-                                <a href="https://health.analyticszone.app" class="suite-app-link">Health Analytics</a>
-                                
-                                <a href="https://swimtrainer.analyticszone.app" class="suite-app-link">Swim Trainer</a>
-                                
-                                <a href="https://hike.analyticszone.app" class="suite-app-link">Hike Analytics</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </nav>
-
-            
-            <button class="menu-toggle" id="menu-toggle" aria-label="Attiva menu"
-                aria-expanded="false" aria-controls="nav-primary">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </div>
-</header>
-
-  
-  
-
-<nav class="breadcrumbs" aria-label="Breadcrumb">
-    <div class="container">
-        <ol>
-            
-            <li>
-                
-                <a href="/it/">Casa</a>
-                
-            </li>
-            
-            <li>
-                
-                <span aria-current="page">Libreria Metriche</span>
-                
-            </li>
-            
-        </ol>
-    </div>
-</nav>
-
-
-  
-  <main id="main-content" class="main-content">
-    
-    <section class="page-hero">
-    <div class="container">
-        <h1>La scienza dietro SleepAnalytics</h1>
-        <p class="lead">Ogni metrica che presentiamo deriva da ricerche sul sonno sottoposte a revisione paritaria.
+                                stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></button><div class="suite-dropdown hidden" id="suite-dropdown"><div class="suite-dropdown-header">Other AnalyticsZone Apps</div><div class="suite-apps-grid"><a href="https://analyticszone.app" class="suite-app-link">AnalyticsZone</a><a href="https://run.analyticszone.app" class="suite-app-link">Run Analytics</a><a href="https://swim.analyticszone.app" class="suite-app-link">Swim Analytics</a><a href="https://bike.analyticszone.app" class="suite-app-link">Bike Analytics</a><a href="https://walk.analyticszone.app" class="suite-app-link">Walk Analytics</a><a href="https://cardio.analyticszone.app" class="suite-app-link">Cardio Analytics</a><a href="https://health.analyticszone.app" class="suite-app-link">Health Analytics</a><a href="https://swimtrainer.analyticszone.app" class="suite-app-link">Swim Trainer</a><a href="https://hike.analyticszone.app" class="suite-app-link">Hike Analytics</a></div></div></div></div></nav><button class="menu-toggle" id="menu-toggle" aria-label="Attiva menu"
+                aria-expanded="false" aria-controls="nav-primary"><span></span><span></span><span></span></button></div></div></header><nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><ol><li><a href="/it/">Casa</a></li><li><span aria-current="page">Libreria Metriche</span></li></ol></div></nav><main id="main-content" class="main-content"><section class="page-hero"><div class="container"><h1>La scienza dietro SleepAnalytics</h1><p class="lead">Ogni metrica che presentiamo deriva da ricerche sul sonno sottoposte a revisione paritaria.
             Questa
-            pagina spiega la scienza, le formule e i limiti — in modo trasparente.</p>
-    </div>
-</section>
-
-<section class="section section-light">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>Perché la qualità del sonno conta oltre la durata</h2>
-        </div>
-        <div class="card">
-            <div class="card-content">
-                <p><strong>7 ore di sonno frammentato non equivalgono a 7 ore di sonno ristoratore.</strong></p>
-                <p class="mt-md">L'American Academy of Sleep Medicine (AASM) definisce la qualità del sonno attraverso
+            pagina spiega la scienza, le formule e i limiti — in modo trasparente.</p></div></section><section class="section section-light"><div class="container"><div class="text-center mb-xl"><h2>Perché la qualità del sonno conta oltre la durata</h2></div><div class="card"><div class="card-content"><p><strong>7 ore di sonno frammentato non equivalgono a 7 ore di sonno ristoratore.</strong></p><p class="mt-md">L'American Academy of Sleep Medicine (AASM) definisce la qualità del sonno attraverso
                     molteplici dimensioni: Efficienza del Sonno, Latenza (tempo per addormentarsi), Veglia dopo l'Inizio
                     del Sonno
                     (WASO) e distribuzione delle fasi — non solo la durata. Le linee guida del 2015 della National Sleep
                     Foundation hanno stabilito raccomandazioni sulla durata basate sull'età, ma hanno esplicitamente
                     notato che
-                    le metriche di qualità sono altrettanto importanti.</p>
-                <div class="callout callout-info mt-md">
-                    <strong>Intuizione chiave:</strong> La durata spiega solo circa il 30% della varianza nel livello di
+                    le metriche di qualità sono altrettanto importanti.</p><div class="callout callout-info mt-md"><strong>Intuizione chiave:</strong> La durata spiega solo circa il 30% della varianza nel livello di
                     riposo percepito dalle persone. Il restante 70% deriva da efficienza, continuità e distribuzione
                     delle fasi
                     (Ohayon et al. 2017).
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>Come Apple Watch rileva le fasi del sonno</h2>
-        </div>
-        <div class="grid grid-2">
-            <div class="card">
-                <h3 class="card-title">Fusione dei Sensori</h3>
-                <div class="card-content">
-                    <p>Apple Watch utilizza tre flussi di dati simultaneamente:</p>
-                    <ul>
-                        <li><strong>Accelerometro:</strong> Rileva i micro-movimenti e il movimento associato alla
+                </div></div></div></div></section><section class="section"><div class="container"><div class="text-center mb-xl"><h2>Come Apple Watch rileva le fasi del sonno</h2></div><div class="grid grid-2"><div class="card"><h3 class="card-title">Fusione dei Sensori</h3><div class="card-content"><p>Apple Watch utilizza tre flussi di dati simultaneamente:</p><ul><li><strong>Accelerometro:</strong> Rileva i micro-movimenti e il movimento associato alla
                             respirazione
-                        </li>
-                        <li><strong>PPG ottico:</strong> Frequenza cardiaca e variabilità della frequenza cardiaca
+                        </li><li><strong>PPG ottico:</strong> Frequenza cardiaca e variabilità della frequenza cardiaca
                             durante la
-                            notte</li>
-                        <li><strong>Machine Learning:</strong> Una rete neurale addestrata su dati di validazione di
-                            polisonnografia (PSG)</li>
-                    </ul>
-                    <p class="mt-md">Il risultato è una classificazione in 4 fasi: Core (N1+N2), Deep (N3), REM e
-                        Veglia.</p>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="card-title">Accuratezza</h3>
-                <div class="card-content">
-                    <p>La determinazione delle fasi del sonno di Apple Watch è stata convalidata indipendentemente.
+                            notte</li><li><strong>Machine Learning:</strong> Una rete neurale addestrata su dati di validazione di
+                            polisonnografia (PSG)</li></ul><p class="mt-md">Il risultato è una classificazione in 4 fasi: Core (N1+N2), Deep (N3), REM e
+                        Veglia.</p></div></div><div class="card"><h3 class="card-title">Accuratezza</h3><div class="card-content"><p>La determinazione delle fasi del sonno di Apple Watch è stata convalidata indipendentemente.
                         Cifre
-                        chiave dal dataset di Apple:</p>
-                    <ul>
-                        <li>Kappa medio: 0.63 (accordo da discreto a moderato con la PSG)</li>
-                        <li>Sensibilità al sonno: 97.9% (identifica correttamente il sonno)</li>
-                        <li>Specificità della veglia: ~75%</li>
-                    </ul>
-                    <div class="callout callout-warning mt-md">
-                        <strong>Importante:</strong> Le fasi del sonno sono disponibili solo su Apple Watch Series 4 e
+                        chiave dal dataset di Apple:</p><ul><li>Kappa medio: 0.63 (accordo da discreto a moderato con la PSG)</li><li>Sensibilità al sonno: 97.9% (identifica correttamente il sonno)</li><li>Specificità della veglia: ~75%</li></ul><div class="callout callout-warning mt-md"><strong>Importante:</strong> Le fasi del sonno sono disponibili solo su Apple Watch Series 4 e
                         successivi. L'app indica chiaramente quali metriche richiedono hardware specifico.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-xl">
-            <h3>Mappatura delle fasi AASM</h3>
-            <div style="overflow-x:auto; margin-top:1rem;">
-                <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
-                    <thead>
-                        <tr style="border-bottom:2px solid #ddd;">
-                            <th style="text-align:left; padding:10px;">Fase clinica</th>
-                            <th style="text-align:center; padding:10px;">% del TST</th>
-                            <th style="text-align:center; padding:10px;">Etichetta Apple Watch</th>
-                            <th style="text-align:left; padding:10px;">Perché è importante</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="border-bottom:1px solid #eee;">
-                            <td style="padding:10px;">N1 (transizione leggera)</td>
-                            <td style="text-align:center;">2–5%</td>
-                            <td style="text-align:center;">Core</td>
-                            <td style="padding:10px;">Facilmente disturbato; stato di transizione breve</td>
-                        </tr>
-                        <tr style="border-bottom:1px solid #eee;">
-                            <td style="padding:10px;">N2 (leggero stabile)</td>
-                            <td style="text-align:center;">45–55%</td>
-                            <td style="text-align:center;">Core</td>
-                            <td style="padding:10px;">Complessi K e fusi del sonno; consolidamento della memoria</td>
-                        </tr>
-                        <tr style="border-bottom:1px solid #eee;">
-                            <td style="padding:10px;">N3 (profondo / onde lente)</td>
-                            <td style="text-align:center;">10–20%</td>
-                            <td style="text-align:center;">Deep</td>
-                            <td style="padding:10px;">Rilascio dell'ormone della crescita, recupero fisico, pulizia
+                    </div></div></div></div><div class="mt-xl"><h3>Mappatura delle fasi AASM</h3><div style="overflow-x:auto; margin-top:1rem;"><table style="width:100%; border-collapse:collapse; font-size:0.9em;"><thead><tr style="border-bottom:2px solid #ddd;"><th style="text-align:left; padding:10px;">Fase clinica</th><th style="text-align:center; padding:10px;">% del TST</th><th style="text-align:center; padding:10px;">Etichetta Apple Watch</th><th style="text-align:left; padding:10px;">Perché è importante</th></tr></thead><tbody><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">N1 (transizione leggera)</td><td style="text-align:center;">2–5%</td><td style="text-align:center;">Core</td><td style="padding:10px;">Facilmente disturbato; stato di transizione breve</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">N2 (leggero stabile)</td><td style="text-align:center;">45–55%</td><td style="text-align:center;">Core</td><td style="padding:10px;">Complessi K e fusi del sonno; consolidamento della memoria</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">N3 (profondo / onde lente)</td><td style="text-align:center;">10–20%</td><td style="text-align:center;">Deep</td><td style="padding:10px;">Rilascio dell'ormone della crescita, recupero fisico, pulizia
                                 glinfatica
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding:10px;">REM</td>
-                            <td style="text-align:center;">20–25%</td>
-                            <td style="text-align:center;">REM</td>
-                            <td style="padding:10px;">Consolidamento della memoria, regolazione emotiva, creatività</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section section-light">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>Il nostro Punteggio del sonno — Formula completa</h2>
-            <p class="lead">Crediamo che dovresti capire esattamente come viene calcolato il tuo punteggio del sonno.
-            </p>
-        </div>
-        <div class="card">
-            <div class="card-content">
-                <p>Gli 8 componenti descritti di seguito sommano un massimo di 100. Ogni componente utilizza soglie
-                    cliniche pubblicate — non pesi proprietari.</p>
-                <div style="overflow-x:auto; margin-top:1rem;">
-                    <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
-                        <thead>
-                            <tr style="border-bottom:2px solid #ddd;">
-                                <th style="text-align:left; padding:10px;">Componente</th>
-                                <th style="text-align:center; padding:10px;">Punti max</th>
-                                <th style="text-align:left; padding:10px;">Soglia / Formula</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Durata</td>
-                                <td style="text-align:center;">25</td>
-                                <td style="padding:10px;">Raccomandazione NSF adattata all'età (±30 min ottiene
+                            </td></tr><tr><td style="padding:10px;">REM</td><td style="text-align:center;">20–25%</td><td style="text-align:center;">REM</td><td style="padding:10px;">Consolidamento della memoria, regolazione emotiva, creatività</td></tr></tbody></table></div></div></div></section><section class="section section-light"><div class="container"><div class="text-center mb-xl"><h2>Il nostro Punteggio del sonno — Formula completa</h2><p class="lead">Crediamo che dovresti capire esattamente come viene calcolato il tuo punteggio del sonno.
+            </p></div><div class="card"><div class="card-content"><p>Gli 8 componenti descritti di seguito sommano un massimo di 100. Ogni componente utilizza soglie
+                    cliniche pubblicate — non pesi proprietari.</p><div style="overflow-x:auto; margin-top:1rem;"><table style="width:100%; border-collapse:collapse; font-size:0.9em;"><thead><tr style="border-bottom:2px solid #ddd;"><th style="text-align:left; padding:10px;">Componente</th><th style="text-align:center; padding:10px;">Punti max</th><th style="text-align:left; padding:10px;">Soglia / Formula</th></tr></thead><tbody><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">Durata</td><td style="text-align:center;">25</td><td style="padding:10px;">Raccomandazione NSF adattata all'età (±30 min ottiene
                                     punteggio parziale)
-                                </td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Efficienza del sonno</td>
-                                <td style="text-align:center;">20</td>
-                                <td style="padding:10px;">Lineare: 75%→0 pti, 95%→20 pti</td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Latenza del sonno</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–30→4, &gt;30→0</td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">WASO</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–40→4, &gt;40→0</td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">% Sonno profondo</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">15–20% ottimale; al di sotto o al di sopra riduce il punteggio
+                                </td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">Efficienza del sonno</td><td style="text-align:center;">20</td><td style="padding:10px;">Lineare: 75%→0 pti, 95%→20 pti</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">Latenza del sonno</td><td style="text-align:center;">10</td><td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–30→4, &gt;30→0</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">WASO</td><td style="text-align:center;">10</td><td style="padding:10px;">&lt;10 min→10, 10–20→7, 20–40→4, &gt;40→0</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">% Sonno profondo</td><td style="text-align:center;">10</td><td style="padding:10px;">15–20% ottimale; al di sotto o al di sopra riduce il punteggio
                                     proporzionalmente
-                                </td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">% REM</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">20–25% ottimale; al di sotto o al di sopra riduce il punteggio
+                                </td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">% REM</td><td style="text-align:center;">10</td><td style="padding:10px;">20–25% ottimale; al di sotto o al di sopra riduce il punteggio
                                     proporzionalmente
-                                </td>
-                            </tr>
-                            <tr style="border-bottom:1px solid #eee;">
-                                <td style="padding:10px;">Trend HRV</td>
-                                <td style="text-align:center;">10</td>
-                                <td style="padding:10px;">rispetto alla base mobile personale di 30 giorni (±10% ottiene
-                                    punteggio parziale)</td>
-                            </tr>
-                            <tr>
-                                <td style="padding:10px;">Regolarità del sonno</td>
-                                <td style="text-align:center;">5</td>
-                                <td style="padding:10px;">Deviazione SRI da un obiettivo di 75 punti</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <p class="text-sm text-secondary mt-md"><strong>Ispirato da:</strong> Pittsburgh Sleep Quality Index
-                    (Buysse et al. 1989) e soglie cliniche NSF (Ohayon et al. 2017).</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>Raccomandazioni sul sonno NSF in base all'età</h2>
-        </div>
-        <div style="overflow-x:auto;">
-            <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
-                <thead>
-                    <tr style="border-bottom:2px solid #ddd;">
-                        <th style="text-align:left; padding:10px;">Fascia d'età</th>
-                        <th style="text-align:center; padding:10px;">Ore raccomandate</th>
-                        <th style="text-align:left; padding:10px;">Note</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="border-bottom:1px solid #eee;">
-                        <td style="padding:10px;">Adolescenti (14–17)</td>
-                        <td style="text-align:center;">8–10 h</td>
-                        <td style="padding:10px;"></td>
-                    </tr>
-                    <tr style="border-bottom:1px solid #eee;">
-                        <td style="padding:10px;">Giovani adulti (18–25)</td>
-                        <td style="text-align:center;">7–9 h</td>
-                        <td style="padding:10px;"></td>
-                    </tr>
-                    <tr style="border-bottom:1px solid #eee;">
-                        <td style="padding:10px;">Adulti (26–64)</td>
-                        <td style="text-align:center;">7–9 h</td>
-                        <td style="padding:10px;">La maggior parte degli utenti si trova qui</td>
-                    </tr>
-                    <tr>
-                        <td style="padding:10px;">Adulti anziani (65+)</td>
-                        <td style="text-align:center;">7–8 h</td>
-                        <td style="padding:10px;">L'architettura cambia con l'età; meno sonno profondo è normale</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <p class="text-sm text-secondary mt-md">SleepAnalytics utilizza la fascia d'età configurata per calibrare il
-            punteggio della durata. Impostalo in Impostazioni → Profilo.</p>
-    </div>
-</section>
-
-<section class="section section-light">
-    <div class="container">
-        <div class="text-center mb-xl">
-            <h2>L'Indice di Regolarità del Sonno (SRI)</h2>
-        </div>
-        <div class="grid grid-2">
-            <div class="card">
-                <div class="card-content">
-                    <p>L'SRI, sviluppato da Phillips et al. (2017), misura quanto sono costanti gli orari sonno-veglia
+                                </td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">Trend HRV</td><td style="text-align:center;">10</td><td style="padding:10px;">rispetto alla base mobile personale di 30 giorni (±10% ottiene
+                                    punteggio parziale)</td></tr><tr><td style="padding:10px;">Regolarità del sonno</td><td style="text-align:center;">5</td><td style="padding:10px;">Deviazione SRI da un obiettivo di 75 punti</td></tr></tbody></table></div><p class="text-sm text-secondary mt-md"><strong>Ispirato da:</strong> Pittsburgh Sleep Quality Index
+                    (Buysse et al. 1989) e soglie cliniche NSF (Ohayon et al. 2017).</p></div></div></div></section><section class="section"><div class="container"><div class="text-center mb-xl"><h2>Raccomandazioni sul sonno NSF in base all'età</h2></div><div style="overflow-x:auto;"><table style="width:100%; border-collapse:collapse; font-size:0.9em;"><thead><tr style="border-bottom:2px solid #ddd;"><th style="text-align:left; padding:10px;">Fascia d'età</th><th style="text-align:center; padding:10px;">Ore raccomandate</th><th style="text-align:left; padding:10px;">Note</th></tr></thead><tbody><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">Adolescenti (14–17)</td><td style="text-align:center;">8–10 h</td><td style="padding:10px;"></td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">Giovani adulti (18–25)</td><td style="text-align:center;">7–9 h</td><td style="padding:10px;"></td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:10px;">Adulti (26–64)</td><td style="text-align:center;">7–9 h</td><td style="padding:10px;">La maggior parte degli utenti si trova qui</td></tr><tr><td style="padding:10px;">Adulti anziani (65+)</td><td style="text-align:center;">7–8 h</td><td style="padding:10px;">L'architettura cambia con l'età; meno sonno profondo è normale</td></tr></tbody></table></div><p class="text-sm text-secondary mt-md">SleepAnalytics utilizza la fascia d'età configurata per calibrare il
+            punteggio della durata. Impostalo in Impostazioni → Profilo.</p></div></section><section class="section section-light"><div class="container"><div class="text-center mb-xl"><h2>L'Indice di Regolarità del Sonno (SRI)</h2></div><div class="grid grid-2"><div class="card"><div class="card-content"><p>L'SRI, sviluppato da Phillips et al. (2017), misura quanto sono costanti gli orari sonno-veglia
                         giorno per giorno. Per ogni coppia di giorni consecutivi, calcola la probabilità di essere nello
-                        stesso stato di sonno (addormentato o sveglio) in ogni minuto della giornata.</p>
-                    <p class="mt-md">Un SRI di 100 significa schemi di sonno completamente identici ogni giorno. Un SRI
+                        stesso stato di sonno (addormentato o sveglio) in ogni minuto della giornata.</p><p class="mt-md">Un SRI di 100 significa schemi di sonno completamente identici ogni giorno. Un SRI
                         di 0
-                        significa schemi completamente casuali.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <div class="callout callout-warning">
-                        <strong>Windred et al. (eLife, 2024)</strong> — Uno studio su 88.975 partecipanti della UK
+                        significa schemi completamente casuali.</p></div></div><div class="card"><div class="card-content"><div class="callout callout-warning"><strong>Windred et al. (eLife, 2024)</strong> — Uno studio su 88.975 partecipanti della UK
                         Biobank ha
                         scoperto che chi aveva un SRI inferiore a 41 presentava un <strong>rischio di mortalità per
                             tutte le
                             cause superiore del 53%</strong> rispetto a chi aveva un SRI ≥75, indipendentemente dalla
                         durata del sonno.
-                    </div>
-                    <p class="mt-md">Mediana SRI della popolazione: ~60. Gli atleti con programmi di allenamento
+                    </div><p class="mt-md">Mediana SRI della popolazione: ~60. Gli atleti con programmi di allenamento
                         costanti di
-                        solito ottengono punteggi tra 65 e 80.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="callout callout-warning">
-            <strong>Disclaimer medico:</strong> SleepAnalytics non è un dispositivo medico e non è destinato a
+                        solito ottengono punteggi tra 65 e 80.</p></div></div></div></div></section><section class="section"><div class="container"><div class="callout callout-warning"><strong>Disclaimer medico:</strong> SleepAnalytics non è un dispositivo medico e non è destinato a
             diagnosticare,
             trattare, curare o prevenire alcuna malattia. Le metriche e gli approfondimenti forniti hanno solo scopo
             informativo e di benessere. Consulta un operatore sanitario per qualsiasi problema del sonno o sospetto
             disturbo del sonno.
-        </div>
-    </div>
-</section>
-    
-
-    
-    
-<section class="eeat-author bg-light divider-top-lg divider-bottom-lg" aria-label="Author and Reviewer Information">
-  <div class="container container-narrow">
-    <div class="eeat-card" style="display: flex; gap: 1.5rem; align-items: center; padding: 1.5rem; background: var(--color-bg-alt, #f8f9fa); border-radius: 8px; border: 1px solid var(--color-border, #e9ecef); margin-top: 3rem; margin-bottom: 2rem;">
-      <div class="eeat-avatar" style="font-size: 2.5rem; line-height: 1; flex-shrink: 0;" aria-hidden="true">👨‍🔬</div>
-      <div class="eeat-details">
-        
-        
-        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.125rem; font-weight: 600;">
+        </div></div></section><section class="eeat-author bg-light divider-top-lg divider-bottom-lg" aria-label="Author and Reviewer Information"><div class="container container-narrow"><div class="eeat-card" style="display: flex; gap: 1.5rem; align-items: center; padding: 1.5rem; background: var(--color-bg-alt, #f8f9fa); border-radius: 8px; border: 1px solid var(--color-border, #e9ecef); margin-top: 3rem; margin-bottom: 2rem;"><div class="eeat-avatar" style="font-size: 2.5rem; line-height: 1; flex-shrink: 0;" aria-hidden="true">👨‍🔬</div><div class="eeat-details"><h3 style="margin: 0 0 0.5rem 0; font-size: 1.125rem; font-weight: 600;">
           Expertly Reviewed by 
-          <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-            <span itemprop="name">Arno Health</span>
-          </span>
-          
-        </h3>
-        <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; color: var(--color-body-text, #4a5568); line-height: 1.5;">
+          <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Arno Health</span></span></h3><p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; color: var(--color-body-text, #4a5568); line-height: 1.5;">
           This content has been written and reviewed by a sports data metrics expert to ensure technical accuracy and adherence to the latest sports science methodologies.
-        </p>
-        
-      </div>
-    </div>
-  </div>
-</section>
-
-
-    
-    
-
-<section class="ai-citation-block divider-top-xl" data-ai-ready="true" data-ai-page="science">
-  <div class="container ai-citation-shell">
-    <h2 class="ai-citation-title">La scienza dietro SleepAnalytics - SleepAnalytics - Train</h2>
-    <p class="ai-citation-answer">La scienza del sonno dietro SleepAnalytics. Come Apple Watch rileva le fasi del sonno, cosa significano gli standard AASM e come viene calcolato il nostro.</p>
-
-    <ul class="ai-citation-facts" role="list">
-      
-      <li class="ai-citation-fact">
-        <span class="ai-citation-icon" aria-hidden="true">📅</span>
-        <span>2026-03-06</span>
-      </li>
-      
-
-      
-      <li class="ai-citation-fact ai-citation-keywords">
-        <span class="ai-citation-icon" aria-hidden="true">🏷️</span>
-        <span>come funziona il monitoraggio del sonno di Apple Watch · Spiegazione delle fasi del sonno AASM · formula del punteggio del sonno</span>
-      </li>
-      
-
-      
-      <li class="ai-citation-fact">
-        <span class="ai-citation-icon" aria-hidden="true">🔬</span>
-        <a href="../../it/bibliography/">
+        </p></div></div></div></section><section class="ai-citation-block divider-top-xl" data-ai-ready="true" data-ai-page="science"><div class="container ai-citation-shell"><h2 class="ai-citation-title">La scienza dietro SleepAnalytics - SleepAnalytics - Train</h2><p class="ai-citation-answer">La scienza del sonno dietro SleepAnalytics. Come Apple Watch rileva le fasi del sonno, cosa significano gli standard AASM e come viene calcolato il nostro.</p><ul class="ai-citation-facts" role="list"><li class="ai-citation-fact"><span class="ai-citation-icon" aria-hidden="true">📅</span><span>2026-03-06</span></li><li class="ai-citation-fact ai-citation-keywords"><span class="ai-citation-icon" aria-hidden="true">🏷️</span><span>come funziona il monitoraggio del sonno di Apple Watch · Spiegazione delle fasi del sonno AASM · formula del punteggio del sonno</span></li><li class="ai-citation-fact"><span class="ai-citation-icon" aria-hidden="true">🔬</span><a href="../../it/bibliography/">
           
           Bibliografia
           
-        </a>
-      </li>
-      
-    </ul>
-
-    
-  </div>
-</section>
-
-  </main>
-
-  
-  <footer class="site-footer">
-    <div class="container">
-        
-        <div class="footer-top">
-            <div class="footer-brand-section">
-                
-                <h2>SleepAnalytics</h2>
-                <p>The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.</p>
-                
-            </div>
-
-            
-            <div class="footer-download">
-                <h3 class="footer-heading">Download</h3>
-                <div class="footer-badges">
-                    
-                    <a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" target="_blank" rel="noopener"
-                        aria-label="Download on the App Store">
-                        <img src="../../assets/images/badge-app-store.svg"
+        </a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand-section"><h2>SleepAnalytics</h2><p>The only app that automatically connects your workouts to your recovery. Apple Watch + Garmin. Clinical sleep science. Transparent scores. Privacy-first.</p></div><div class="footer-download"><h3 class="footer-heading">Download</h3><div class="footer-badges"><a href="https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777" target="_blank" rel="noopener"
+                        aria-label="Download on the App Store"><img src="../../assets/images/badge-app-store.svg"
                             alt="Download on the App Store" width="135"
-                            height="40" loading="lazy">
-                    </a>
-                    
-                    
-                </div>
-            </div>
-            
-        </div>
-
-        
-        <div class="footer-languages">
-            <h3 class="footer-heading">Available in</h3>
-            <div class="lang-grid">
-                
-                <a href="/af/" class="lang-link"
+                            height="40" loading="lazy"></a></div></div></div><div class="footer-languages"><h3 class="footer-heading">Available in</h3><div class="lang-grid"><a href="/af/" class="lang-link"
                     hreflang="af" >
                     Afrikaans
-                </a>
-                
-                <a href="/ar/" class="lang-link"
+                </a><a href="/ar/" class="lang-link"
                     hreflang="ar" dir="rtl" >
                     العربية
-                </a>
-                
-                <a href="/bn/" class="lang-link"
+                </a><a href="/bn/" class="lang-link"
                     hreflang="bn" >
                     বাংলা
-                </a>
-                
-                <a href="/ca/" class="lang-link"
+                </a><a href="/ca/" class="lang-link"
                     hreflang="ca" >
                     Català
-                </a>
-                
-                <a href="/cs/" class="lang-link"
+                </a><a href="/cs/" class="lang-link"
                     hreflang="cs" >
                     Čeština
-                </a>
-                
-                <a href="/da/" class="lang-link"
+                </a><a href="/da/" class="lang-link"
                     hreflang="da" >
                     Dansk
-                </a>
-                
-                <a href="/de/" class="lang-link"
+                </a><a href="/de/" class="lang-link"
                     hreflang="de" >
                     Deutsch
-                </a>
-                
-                <a href="/el/" class="lang-link"
+                </a><a href="/el/" class="lang-link"
                     hreflang="el" >
                     Ελληνικά
-                </a>
-                
-                <a href="/en/" class="lang-link"
+                </a><a href="/en/" class="lang-link"
                     hreflang="en" >
                     English
-                </a>
-                
-                <a href="/es/" class="lang-link"
+                </a><a href="/es/" class="lang-link"
                     hreflang="es" >
                     Español
-                </a>
-                
-                <a href="/et/" class="lang-link"
+                </a><a href="/et/" class="lang-link"
                     hreflang="et" >
                     Eesti
-                </a>
-                
-                <a href="/fi/" class="lang-link"
+                </a><a href="/fi/" class="lang-link"
                     hreflang="fi" >
                     Suomi
-                </a>
-                
-                <a href="/fr/" class="lang-link"
+                </a><a href="/fr/" class="lang-link"
                     hreflang="fr" >
                     Français
-                </a>
-                
-                <a href="/hi/" class="lang-link"
+                </a><a href="/hi/" class="lang-link"
                     hreflang="hi" >
                     हिन्दी
-                </a>
-                
-                <a href="/hu/" class="lang-link"
+                </a><a href="/hu/" class="lang-link"
                     hreflang="hu" >
                     Magyar
-                </a>
-                
-                <a href="/id/" class="lang-link"
+                </a><a href="/id/" class="lang-link"
                     hreflang="id" >
                     Bahasa Indonesia
-                </a>
-                
-                <a href="/it/" class="lang-link active"
+                </a><a href="/it/" class="lang-link active"
                     hreflang="it" >
                     Italiano
-                </a>
-                
-                <a href="/ja/" class="lang-link"
+                </a><a href="/ja/" class="lang-link"
                     hreflang="ja" >
                     日本語
-                </a>
-                
-                <a href="/km/" class="lang-link"
+                </a><a href="/km/" class="lang-link"
                     hreflang="km" >
                     Khmer
-                </a>
-                
-                <a href="/ko/" class="lang-link"
+                </a><a href="/ko/" class="lang-link"
                     hreflang="ko" >
                     한국어
-                </a>
-                
-                <a href="/nb/" class="lang-link"
+                </a><a href="/nb/" class="lang-link"
                     hreflang="nb" >
                     Norsk
-                </a>
-                
-                <a href="/nl/" class="lang-link"
+                </a><a href="/nl/" class="lang-link"
                     hreflang="nl" >
                     Nederlands
-                </a>
-                
-                <a href="/pl/" class="lang-link"
+                </a><a href="/pl/" class="lang-link"
                     hreflang="pl" >
                     Polski
-                </a>
-                
-                <a href="/pt/" class="lang-link"
+                </a><a href="/pt/" class="lang-link"
                     hreflang="pt" >
                     Português
-                </a>
-                
-                <a href="/ru/" class="lang-link"
+                </a><a href="/ru/" class="lang-link"
                     hreflang="ru" >
                     Русский
-                </a>
-                
-                <a href="/ro/" class="lang-link"
+                </a><a href="/ro/" class="lang-link"
                     hreflang="ro" >
                     Română
-                </a>
-                
-                <a href="/sv/" class="lang-link"
+                </a><a href="/sv/" class="lang-link"
                     hreflang="sv" >
                     Svenska
-                </a>
-                
-                <a href="/tr/" class="lang-link"
+                </a><a href="/tr/" class="lang-link"
                     hreflang="tr" >
                     Türkçe
-                </a>
-                
-                <a href="/uk/" class="lang-link"
+                </a><a href="/uk/" class="lang-link"
                     hreflang="uk" >
                     Українська
-                </a>
-                
-                <a href="/ur/" class="lang-link"
+                </a><a href="/ur/" class="lang-link"
                     hreflang="ur" dir="rtl" >
                     اردو
-                </a>
-                
-                <a href="/vi/" class="lang-link"
+                </a><a href="/vi/" class="lang-link"
                     hreflang="vi" >
                     Tiếng Việt
-                </a>
-                
-                <a href="/zh/" class="lang-link"
+                </a><a href="/zh/" class="lang-link"
                     hreflang="zh" >
                     中文
-                </a>
-                
-            </div>
-        </div>
-
-        <div class="footer-divider"></div>
-
-        
-        <div class="footer-bottom">
-            <p class="copyright">
+                </a></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="copyright">
                 &copy; 2026 SleepAnalytics. Tutti i diritti riservati
-            </p>
-            <ul class="footer-legal">
-                <li><a href="/it/privacy/">Privacy</a></li>
-                <li><a href="/it/terms/">Termini</a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
-
-  
-  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
-    <div class="cookie-banner-content">
-        <div>
-            <p>Questo sito web utilizza i cookie per migliorare la tua esperienza.</p>
-            <a href="/it/privacy/" class="text-sm">Scopri di più</a>
-        </div>
-        <div class="cookie-banner-actions">
-            <button id="cookie-decline" class="btn btn-secondary btn-small">Rifiuta</button>
-            <button id="cookie-accept" class="btn btn-primary btn-small">Accetta</button>
-        </div>
-    </div>
-</div>
-
-  
-  <script src="../../assets/js/core.min.js?v=63baa90b9f45" defer></script>
-  <script src="../../assets/js/search.min.js?v=63baa90b9f45" defer></script>
-  
-
-  
-  
-  <script src="../../assets/js/analytics.min.js" data-ga-id="G-B48SMJ6J33" defer></script>
-  
-
-  
-  <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../../sw.js') }</script>
-</body>
-
-</html>
+            </p><ul class="footer-legal"><li><a href="/it/privacy/">Privacy</a></li><li><a href="/it/terms/">Termini</a></li></ul></div></div></footer><div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite"><div class="cookie-banner-content"><div><p>Questo sito web utilizza i cookie per migliorare la tua esperienza.</p><a href="/it/privacy/" class="text-sm">Scopri di più</a></div><div class="cookie-banner-actions"><button id="cookie-decline" class="btn btn-secondary btn-small">Rifiuta</button><button id="cookie-accept" class="btn btn-primary btn-small">Accetta</button></div></div></div><script src="../../assets/js/core.min.js?v=aa8b7978" defer></script><script src="../../assets/js/search.min.js?v=aa8b7978" defer></script><script src="../../assets/js/analytics.min.js" data-ga-id="G-B48SMJ6J33" defer></script><script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../../sw.js') }</script></body></html>
