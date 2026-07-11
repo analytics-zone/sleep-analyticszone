@@ -1,0 +1,29 @@
+# Sleep Analytics — AnalyticsZone
+
+> The only sleep app that automatically connects your workouts to your recovery: Apple Watch + Garmin, clinical sleep science, transparent scores, privacy-first — all computed locally on your device.
+
+Sleep Analytics links training load to sleep and recovery for athletes. Scores are transparent (every formula is documented) and based on clinical sleep science.
+
+## Key pages
+
+- [Sleep Science](https://sleep.analyticszone.app/en/science/): The clinical sleep science behind the app's scores.
+- [Features](https://sleep.analyticszone.app/en/features/): Workout-to-recovery linking, Apple Watch and Garmin support.
+- [Sleep Efficiency Guide](https://sleep.analyticszone.app/en/blog/sleep-efficiency-guide/): What sleep efficiency is and what values are healthy.
+- [Sleep Score Explained](https://sleep.analyticszone.app/en/blog/sleep-score-explained/): How the sleep score is computed — no black box.
+- [Sleep Cycles & the 90-Minute Myth](https://sleep.analyticszone.app/en/blog/sleep-cycles-90-minutes/): What sleep cycles actually look like.
+- [HRV During Sleep](https://sleep.analyticszone.app/en/blog/hrv-during-sleep/): Interpreting overnight heart rate variability.
+- [Sleep Regularity Index](https://sleep.analyticszone.app/en/blog/sleep-regularity-index/): Why consistency matters as much as duration.
+- [Exercise and Sleep](https://sleep.analyticszone.app/en/blog/exercise-and-sleep/): How training load affects sleep quality.
+
+## Key facts
+
+- Sleep efficiency = (time asleep ÷ time in bed) × 100; values of about 85% or higher are generally considered healthy in sleep medicine.
+- Sleep cycles last roughly 90 minutes on average but vary between about 70 and 120 minutes across the night and between individuals.
+- The Sleep Regularity Index measures day-to-day consistency of sleep timing; irregular sleep schedules are associated with worse health outcomes independently of sleep duration.
+- All analysis runs locally on the device; no sleep or health data is sent to any cloud.
+
+## Contact
+
+- Author: Albert Arnó (https://onmedic.com)
+- Email: analyticszone@onmedic.org
+- Portfolio: https://analyticszone.app/llms.txt
