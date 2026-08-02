@@ -24,6 +24,7 @@ Sleep Analytics links training load to sleep and recovery for athletes. Scores a
 
 ## Contact
 
-- Author: Albert Arnó (https://onmedic.com)
+- Publisher: AnalyticsZone (https://analyticszone.app)
+- Download: https://apps.apple.com/us/app/sleepanalytics-sleep-tracker/id6760132777
 - Email: analyticszone@onmedic.org
 - Portfolio: https://analyticszone.app/llms.txt
